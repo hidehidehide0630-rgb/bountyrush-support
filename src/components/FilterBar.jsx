@@ -16,7 +16,7 @@ const STYLE_OPTIONS = [
     { value: 'ゲッター', label: 'ゲッター', icon: <img src="./getter.png" alt="ゲッター" className="w-3.5 h-3.5 object-contain" /> },
 ];
 
-export default function FilterBar({ filter, setFilter, totalCount, filteredCount, ownedCount, onSetAllPermanent, onShareUrl }) {
+export default function FilterBar({ filter, setFilter, totalCount, filteredCount, ownedCount, onShareUrl }) {
     const [copied, setCopied] = useState(false);
 
     const handleShare = () => {
@@ -52,12 +52,6 @@ export default function FilterBar({ filter, setFilter, totalCount, filteredCount
 
                 <div className="flex items-center gap-2 self-end sm:self-auto">
                     <button
-                        onClick={onSetAllPermanent}
-                        className="px-3 py-1.5 text-[11px] sm:text-xs font-semibold rounded-lg bg-amber-500/20 text-amber-400 hover:bg-amber-500/30 transition-colors"
-                    >
-                        ★恒常を一括追加
-                    </button>
-                    <button
                         onClick={handleShare}
                         className="px-3 py-1.5 text-[11px] sm:text-xs font-semibold rounded-lg bg-indigo-500/20 text-indigo-400 hover:bg-indigo-500/30 transition-colors"
                     >
@@ -85,20 +79,39 @@ export default function FilterBar({ filter, setFilter, totalCount, filteredCount
             <div className="space-y-2">
                 <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">属性</label>
                 <div className="flex flex-wrap gap-2">
-                    {ATTR_OPTIONS.map(opt => (
-                        <button
-                            key={opt.value}
-                            id={`filter-attr-${opt.value}`}
-                            onClick={() => setFilter(prev => ({ ...prev, attr: opt.value }))}
-                            className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200
-                ${filter.attr === opt.value
-                                    ? `${opt.color} text-white shadow-lg scale-105`
-                                    : 'bg-slate-700/60 text-slate-300 hover:bg-slate-600/80'
-                                }`}
-                        >
-                            {opt.label}
-                        </button>
-                    ))}
+                    {ATTR_OPTIONS.map(opt => {
+                        const isActive = filter.attr.includes(opt.value);
+                        return (
+                            <button
+                                key={opt.value}
+                                id={`filter-attr-${opt.value}`}
+                                onClick={() => {
+                                    setFilter(prev => {
+                                        let next = [...prev.attr];
+                                        if (opt.value === '全て') {
+                                            next = ['全て'];
+                                        } else {
+                                            if (next.includes(opt.value)) {
+                                                next = next.filter(v => v !== opt.value);
+                                                if (next.length === 0) next = ['全て'];
+                                            } else {
+                                                next = next.filter(v => v !== '全て');
+                                                next.push(opt.value);
+                                            }
+                                        }
+                                        return { ...prev, attr: next };
+                                    });
+                                }}
+                                className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200
+                                    ${isActive
+                                        ? `${opt.color} text-white shadow-lg scale-105`
+                                        : 'bg-slate-700/60 text-slate-300 hover:bg-slate-600/80'
+                                    }`}
+                            >
+                                {opt.label}
+                            </button>
+                        );
+                    })}
                 </div>
             </div>
 
@@ -106,21 +119,40 @@ export default function FilterBar({ filter, setFilter, totalCount, filteredCount
             <div className="space-y-2">
                 <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">スタイル</label>
                 <div className="flex flex-wrap gap-2">
-                    {STYLE_OPTIONS.map(opt => (
-                        <button
-                            key={opt.value}
-                            id={`filter-style-${opt.value}`}
-                            onClick={() => setFilter(prev => ({ ...prev, style: opt.value }))}
-                            className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 flex items-center gap-1.5
-                ${filter.style === opt.value
-                                    ? 'bg-indigo-500 text-white shadow-lg scale-105'
-                                    : 'bg-slate-700/60 text-slate-300 hover:bg-slate-600/80'
-                                }`}
-                        >
-                            <span>{opt.icon}</span>
-                            <span>{opt.label}</span>
-                        </button>
-                    ))}
+                    {STYLE_OPTIONS.map(opt => {
+                        const isActive = filter.style.includes(opt.value);
+                        return (
+                            <button
+                                key={opt.value}
+                                id={`filter-style-${opt.value}`}
+                                onClick={() => {
+                                    setFilter(prev => {
+                                        let next = [...prev.style];
+                                        if (opt.value === '全て') {
+                                            next = ['全て'];
+                                        } else {
+                                            if (next.includes(opt.value)) {
+                                                next = next.filter(v => v !== opt.value);
+                                                if (next.length === 0) next = ['全て'];
+                                            } else {
+                                                next = next.filter(v => v !== '全て');
+                                                next.push(opt.value);
+                                            }
+                                        }
+                                        return { ...prev, style: next };
+                                    });
+                                }}
+                                className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 flex items-center gap-1.5
+                                    ${isActive
+                                        ? 'bg-indigo-500 text-white shadow-lg scale-105'
+                                        : 'bg-slate-700/60 text-slate-300 hover:bg-slate-600/80'
+                                    }`}
+                            >
+                                <span>{opt.icon}</span>
+                                <span>{opt.label}</span>
+                            </button>
+                        );
+                    })}
                 </div>
             </div>
 
@@ -128,20 +160,39 @@ export default function FilterBar({ filter, setFilter, totalCount, filteredCount
             <div className="space-y-2">
                 <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">初期レア</label>
                 <div className="flex flex-wrap gap-2">
-                    {[{ value: '全て', label: '全て' }, { value: '★4', label: '★4' }, { value: '★3', label: '★3' }, { value: '★2', label: '★2' }].map(opt => (
-                        <button
-                            key={opt.value}
-                            id={`filter-rarity-${opt.value}`}
-                            onClick={() => setFilter(prev => ({ ...prev, rarity: opt.value }))}
-                            className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200
-                ${filter.rarity === opt.value
-                                    ? 'bg-amber-500 text-white shadow-lg scale-105'
-                                    : 'bg-slate-700/60 text-slate-300 hover:bg-slate-600/80'
-                                }`}
-                        >
-                            {opt.label}
-                        </button>
-                    ))}
+                    {[{ value: '全て', label: '全て' }, { value: '★4', label: '★4' }, { value: '★3', label: '★3' }, { value: '★2', label: '★2' }].map(opt => {
+                        const isActive = filter.rarity.includes(opt.value);
+                        return (
+                            <button
+                                key={opt.value}
+                                id={`filter-rarity-${opt.value}`}
+                                onClick={() => {
+                                    setFilter(prev => {
+                                        let next = [...prev.rarity];
+                                        if (opt.value === '全て') {
+                                            next = ['全て'];
+                                        } else {
+                                            if (next.includes(opt.value)) {
+                                                next = next.filter(v => v !== opt.value);
+                                                if (next.length === 0) next = ['全て'];
+                                            } else {
+                                                next = next.filter(v => v !== '全て');
+                                                next.push(opt.value);
+                                            }
+                                        }
+                                        return { ...prev, rarity: next };
+                                    });
+                                }}
+                                className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200
+                                    ${isActive
+                                        ? 'bg-amber-500 text-white shadow-lg scale-105'
+                                        : 'bg-slate-700/60 text-slate-300 hover:bg-slate-600/80'
+                                    }`}
+                            >
+                                {opt.label}
+                            </button>
+                        );
+                    })}
                 </div>
             </div>
         </div>
