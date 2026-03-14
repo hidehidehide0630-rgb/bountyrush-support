@@ -28,6 +28,8 @@ export function useCharacters(selectedTags = []) {
 
     // Load owned status from localStorage or URL
     useEffect(() => {
+        if (characters.length === 0) return;
+
         try {
             const urlParams = new URLSearchParams(window.location.search);
             const sharedOwned = urlParams.get('owned');
@@ -37,8 +39,6 @@ export function useCharacters(selectedTags = []) {
                     const idsStr = atob(sharedOwned);
                     const idsArray = JSON.parse(idsStr);
                     setOwnedIds(new Set(idsArray));
-
-                    // clean up the URL
                     window.history.replaceState({}, document.title, window.location.pathname);
                 } catch (e) {
                     console.warn('URLパラメータの解析に失敗:', e);
@@ -48,12 +48,18 @@ export function useCharacters(selectedTags = []) {
                 if (saved) {
                     const ids = JSON.parse(saved);
                     setOwnedIds(new Set(ids));
+                } else {
+                    // Default: All characters owned if no saved data
+                    const allIds = new Set(characters.map(c => c.id));
+                    setOwnedIds(allIds);
+                    // Explicitly save the default state
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify([...allIds]));
                 }
             }
         } catch (e) {
             console.warn('所持データの読み込みに失敗:', e);
         }
-    }, []);
+    }, [characters]);
 
     // Save owned status to localStorage
     const saveOwned = useCallback((newOwnedIds) => {
