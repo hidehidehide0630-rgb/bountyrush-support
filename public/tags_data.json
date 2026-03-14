@@ -896,5 +896,23 @@
         "description": "敵をK.O.したとき、体力が15%回復する"
       }
     ]
+  },
+  {
+    "id": 38,
+    "name": "遠距離通常攻撃",
+    "category": "攻撃特性",
+    "effects": []
+  },
+  {
+    "id": 39,
+    "name": "巨人族",
+    "category": "勢力",
+    "effects": []
+  },
+  {
+    "id": 40,
+    "name": "巨兵海賊団",
+    "category": "勢力",
+    "effects": []
   }
 ]
