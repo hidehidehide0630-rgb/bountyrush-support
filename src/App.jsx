@@ -174,7 +174,6 @@ export default function App() {
               totalCount={characters.length}
               filteredCount={filteredCharacters.length}
               ownedCount={ownedCount}
-              onSetAllPermanent={setAllPermanentOwned}
               onShareUrl={generateShareUrl}
             />
 
