@@ -7,7 +7,12 @@ export function useCharacters(selectedTags = []) {
     const [ownedIds, setOwnedIds] = useState(new Set());
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [filter, setFilter] = useState({ attr: '全て', style: '全て', rarity: '全て', keyword: '' });
+    const [filter, setFilter] = useState({ 
+        attr: ['全て'], 
+        style: ['全て'], 
+        rarity: ['全て'], 
+        keyword: '' 
+    });
 
     // Load characters data
     useEffect(() => {
@@ -98,18 +103,6 @@ export function useCharacters(selectedTags = []) {
         saveOwned(empty);
     }, [saveOwned]);
 
-    // Bulk set all permanent characters as owned
-    const setAllPermanentOwned = useCallback(() => {
-        const allPermanentIds = characters
-            .filter(c => c.obtain_type === '恒常')
-            .map(c => c.id);
-
-        setOwnedIds(prev => {
-            const next = new Set([...prev, ...allPermanentIds]);
-            saveOwned(next);
-            return next;
-        });
-    }, [characters, saveOwned]);
 
     // Generate Share URL
     const generateShareUrl = useCallback(() => {
@@ -130,12 +123,23 @@ export function useCharacters(selectedTags = []) {
         // Keyword filter
         if (filter.keyword && !c.name.includes(filter.keyword)) return false;
 
-        // Attribute, Style, and Rarity filters
-        if (filter.attr !== '全て' && c.attr !== filter.attr) return false;
-        if (filter.style !== '全て' && c.style !== filter.style) return false;
-        if (filter.rarity !== '全て') {
-            const filterRarityNum = parseInt(filter.rarity.replace('★', ''), 10);
-            if (c.rarity !== filterRarityNum) return false;
+        // Attribute filter (Multi-select)
+        if (!filter.attr.includes('全て')) {
+            if (!filter.attr.includes(c.attr)) return false;
+        }
+
+        // Style filter (Multi-select)
+        if (!filter.style.includes('全て')) {
+            if (!filter.style.includes(c.style)) return false;
+        }
+
+        // Rarity filter (Multi-select)
+        if (!filter.rarity.includes('全て')) {
+            const hasMatch = filter.rarity.some(r => {
+                const filterRarityNum = parseInt(r.replace('★', ''), 10);
+                return c.rarity === filterRarityNum;
+            });
+            if (!hasMatch) return false;
         }
 
         // Tag filter (OR search)
@@ -167,7 +171,6 @@ export function useCharacters(selectedTags = []) {
         toggleOwned,
         setAllOwned,
         clearAllOwned,
-        setAllPermanentOwned,
         generateShareUrl,
         allTags,
         allAttrs,
