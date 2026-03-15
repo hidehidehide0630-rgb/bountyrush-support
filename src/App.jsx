@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useCharacters } from './hooks/useCharacters';
 import { useTeamBuilder } from './hooks/useTeamBuilder';
 import { useTagsData } from './hooks/useTagsData';
@@ -17,6 +17,14 @@ export default function App() {
   const [activeSlotIndex, setActiveSlotIndex] = useState(null);
 
   const { tagsData } = useTagsData();
+
+  // URL Normalization: Remove auth params (code, state, etc.) after redirect
+  useEffect(() => {
+    if (window.location.search.includes('code=') || window.location.search.includes('state=') || window.location.hash.includes('access_token=')) {
+      const newUrl = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, newUrl);
+    }
+  }, []);
 
   const toggleTag = (tag) => {
     setSelectedTags(prev => {
