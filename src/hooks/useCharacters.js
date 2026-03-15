@@ -28,6 +28,17 @@ export function useCharacters(selectedTags = []) {
 
     // Load characters and handle auth session
     useEffect(() => {
+        // 【鉄壁】セーフティ・タイムアウト（10秒で強制解除）
+        const safetyTimer = setTimeout(() => {
+            setLoading(current => {
+                if (current) {
+                    console.warn('⚠️ 初期化タイムアウト: 強制的に画面を表示します');
+                    return false;
+                }
+                return false;
+            });
+        }, 10000);
+
         // 1. キャラクターデータのロード
         fetch('./characters_data.json')
             .then(res => {
@@ -36,38 +47,42 @@ export function useCharacters(selectedTags = []) {
             })
             .then(data => {
                 setCharacters(data);
-                // データロード完了
             })
             .catch(err => {
                 setError(err.message);
+                setLoading(false); // 失敗時もロック解除
             });
 
         // 2. 認証状態の鉄壁チェック
         const initSession = async () => {
-            setLoading(true);
-            const { data: { session } } = await supabase.auth.getSession();
-            const newUser = session?.user ?? null;
-            setUser(newUser);
+            try {
+                setLoading(true);
+                const { data: { session } } = await supabase.auth.getSession();
+                const newUser = session?.user ?? null;
+                setUser(newUser);
 
-            // 【重要】認証情報を読み取った「後」でURLを清掃する
-            const hasAuthParams = window.location.hash.includes('access_token=') || 
-                                 window.location.hash.includes('type=recovery') ||
-                                 window.location.search.includes('code=');
-            
-            if (hasAuthParams) {
-                window.location.hash = '';
-                const cleanUrl = window.location.origin + window.location.pathname;
-                window.history.replaceState(null, null, cleanUrl);
-                // PC版誤認解除を確実にするため、セッション確立直後にリロードが必要な場合がある
-                // window.location.reload(); 
-            }
+                // 【重要】認証情報を読み取った「後」でURLを清掃する
+                const hasAuthParams = window.location.hash.includes('access_token=') || 
+                                     window.location.hash.includes('type=recovery') ||
+                                     window.location.search.includes('code=');
+                
+                if (hasAuthParams) {
+                    window.location.hash = '';
+                    const cleanUrl = window.location.origin + window.location.pathname;
+                    window.history.replaceState(null, null, cleanUrl);
+                }
 
-            if (newUser) {
-                localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
-                // ログイン済みならDBから強制取得（LocalStorageは無視）
-                await fetchFromCloud(newUser.id);
-            } else {
-                setLoading(false); // ゲストなら解除
+                if (newUser) {
+                    localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
+                    await fetchFromCloud(newUser.id);
+                }
+            } catch (err) {
+                console.error('Auth initialization error:', err);
+            } finally {
+                // セッション取得が終わったら（成否問わず）ロード解除
+                // ただし、fetchFromCloudの中で再設定される場合も考慮
+                setLoading(false);
+                clearTimeout(safetyTimer);
             }
         };
 
@@ -82,11 +97,14 @@ export function useCharacters(selectedTags = []) {
             } else if (event === 'SIGNED_OUT') {
                 localStorage.removeItem(USER_ID_STORAGE_KEY);
                 setOwnedIds(new Set()); // ログアウト時はクリア
-                setLoading(false);
+                setSyncStatus('未ログイン');
             }
         });
 
-        return () => subscription.unsubscribe();
+        return () => {
+            subscription.unsubscribe();
+            clearTimeout(safetyTimer);
+        };
     }, []);
 
     // 【鉄壁】クラウドからデータを取得（DBを絶対的正解とする）
