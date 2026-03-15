@@ -16,30 +16,16 @@ export function useCharacters(selectedTags = []) {
         keyword: '' 
     });
     
-    // Auth status
-    const [user, setUser] = useState(() => {
-        const savedId = localStorage.getItem(USER_ID_STORAGE_KEY);
-        return savedId ? { id: savedId, isFallback: true } : null;
-    });
+    // Auth status - null until confirmed by Supabase
+    const [user, setUser] = useState(null);
     const [syncStatus, setSyncStatus] = useState('未実行');
 
     const isInitialLoad = useRef(true);
     const syncTimeoutRef = useRef(null);
+    const ownedInitialized = useRef(false);
 
-    // Load characters and handle auth session
+    // キャラデータのロードと、ownedIdsの初期セット
     useEffect(() => {
-        // 【鉄壁】セーフティ・タイムアウト（10秒で強制解除）
-        const safetyTimer = setTimeout(() => {
-            setLoading(current => {
-                if (current) {
-                    console.warn('⚠️ 初期化タイムアウト: 強制的に画面を表示します');
-                    return false;
-                }
-                return false;
-            });
-        }, 10000);
-
-        // 1. キャラクターデータのロード
         fetch('./characters_data.json')
             .then(res => {
                 if (!res.ok) throw new Error('データの読み込みに失敗しました');
@@ -47,21 +33,52 @@ export function useCharacters(selectedTags = []) {
             })
             .then(data => {
                 setCharacters(data);
+
+                // ローカルストレージから所持状況を即座に復元（デフォルト＝全所持）
+                if (!ownedInitialized.current) {
+                    ownedInitialized.current = true;
+                    try {
+                        const saved = localStorage.getItem(STORAGE_KEY);
+                        if (saved) {
+                            const parsed = JSON.parse(saved);
+                            if (parsed.length > 0) {
+                                setOwnedIds(new Set(parsed));
+                            } else {
+                                // 空配列は「全解除」を意味するのでそのまま
+                                setOwnedIds(new Set());
+                            }
+                        } else {
+                            // 初回アクセス: デフォルトは全キャラ所持
+                            const allIds = new Set(data.map(c => c.id));
+                            setOwnedIds(allIds);
+                            localStorage.setItem(STORAGE_KEY, JSON.stringify([...allIds]));
+                        }
+                    } catch (e) {
+                        // フォールバック: 全所持
+                        const allIds = new Set(data.map(c => c.id));
+                        setOwnedIds(allIds);
+                    }
+                }
             })
             .catch(err => {
                 setError(err.message);
-                setLoading(false); // 失敗時もロック解除
             });
+    }, []);
 
-        // 2. 認証状態の鉄壁チェック
+    // 認証とDB同期（キャラデータとは独立して実行）
+    useEffect(() => {
+        // セーフティ・タイムアウト（3秒で強制解除）
+        const safetyTimer = setTimeout(() => {
+            setLoading(false);
+        }, 3000);
+
         const initSession = async () => {
             try {
-                setLoading(true);
                 const { data: { session } } = await supabase.auth.getSession();
                 const newUser = session?.user ?? null;
                 setUser(newUser);
 
-                // 【重要】認証情報を読み取った「後」でURLを清掃する
+                // 認証情報を読み取った「後」でURLを清掃する
                 const hasAuthParams = window.location.hash.includes('access_token=') || 
                                      window.location.hash.includes('type=recovery') ||
                                      window.location.search.includes('code=');
@@ -74,13 +91,12 @@ export function useCharacters(selectedTags = []) {
 
                 if (newUser) {
                     localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
+                    // DBからデータを取得してownedIdsを上書き
                     await fetchFromCloud(newUser.id);
                 }
             } catch (err) {
                 console.error('Auth initialization error:', err);
             } finally {
-                // セッション取得が終わったら（成否問わず）ロード解除
-                // ただし、fetchFromCloudの中で再設定される場合も考慮
                 setLoading(false);
                 clearTimeout(safetyTimer);
             }
@@ -175,23 +191,6 @@ export function useCharacters(selectedTags = []) {
         }, 2000); 
     }, []);
 
-    // Load owned status from localStorage (ゲスト用)
-    useEffect(() => {
-        if (characters.length === 0 || user) return; // ログイン済みならDBを待つのでスキップ
-
-        try {
-            const saved = localStorage.getItem(STORAGE_KEY);
-            if (saved) {
-                setOwnedIds(new Set(JSON.parse(saved)));
-            } else {
-                const allIds = new Set(characters.map(c => c.id));
-                setOwnedIds(allIds);
-                localStorage.setItem(STORAGE_KEY, JSON.stringify([...allIds]));
-            }
-        } catch (e) {
-            console.warn('ゲストデータの読み込みに失敗:', e);
-        }
-    }, [characters, user]);
 
     // Save owned status to localStorage
     const saveOwned = useCallback((newOwnedIds) => {
