@@ -21,58 +21,27 @@ export default function App() {
   const { tagsData } = useTagsData();
 
   // ========================================
-  // 【防弾仕様】認証とリロードの制御
+  // 【鉄壁】Viewportと初期化の最終調整
   // ========================================
   useEffect(() => {
-    const initAuth = async () => {
-      try {
-        // ① 直接取得: セッションを即座に確認
-        const { data: { session } } = await supabase.auth.getSession();
-        
-        const hasAuthParams = window.location.hash.includes('access_token=') || 
-                             window.location.hash.includes('type=recovery') ||
-                             window.location.search.includes('code=');
+    // URLハッシュの強制清掃（PC版誤認対策）
+    const hasAuthParams = window.location.hash.includes('access_token=') || 
+                         window.location.hash.includes('type=recovery') ||
+                         window.location.search.includes('code=');
+    
+    if (hasAuthParams) {
+      window.location.hash = '';
+      const cleanUrl = window.location.origin + window.location.pathname;
+      window.history.replaceState(null, null, cleanUrl);
+    }
 
-        if (session) {
-          // ログイン中：IDをLocalStorageに保存（救済用）
-          localStorage.setItem('bounty-rush-user-id', session.user.id);
-
-          // 認証ハッシュがある場合、最速でURLを清掃（PC版誤認対策）
-          if (hasAuthParams) {
-            window.location.hash = ''; // 【強制清掃】
-            const cleanUrl = window.location.origin + window.location.pathname;
-            window.history.replaceState(null, null, cleanUrl);
-            // 本来はリロードが必要な場合もありますが、まずはハッシュ消去を最優先
-          }
-        }
-
-        setAuthInitialized(true);
-        
-        // Viewportの強制リセット（ブラウザに再認識させる）
-        const viewport = document.querySelector('meta[name="viewport"]');
-        if (viewport) {
-          viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
-        }
-      } catch (err) {
-        console.error('Auth initialization error:', err);
-        setAuthInitialized(true);
-      }
-    };
-
-    initAuth();
-
-    // ③ 常時監視: 状態変化を捉える
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-      if (session) {
-        localStorage.setItem('bounty-rush-user-id', session.user.id);
-        setAuthInitialized(true);
-      } else if (event === 'SIGNED_OUT') {
-        localStorage.removeItem('bounty-rush-user-id');
-        setAuthInitialized(true);
-      }
-    });
-
-    return () => subscription.unsubscribe();
+    // Viewportの強制リセット
+    const viewport = document.querySelector('meta[name="viewport"]');
+    if (viewport) {
+      viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+    }
+    
+    setAuthInitialized(true);
   }, []);
 
   const toggleTag = (tag) => {
@@ -118,7 +87,8 @@ export default function App() {
     recommendations,
   } = useTeamBuilder(characters, ownedIds, tagsData, selectedAttr, selectedTags, battleCharacters);
 
-  // 認証チェックとデータの読み込み両方を待つ
+  // 鉄壁のローディングガード
+  // authInitialized (Viewport等) と charactersLoading (Auth/DB同期) 両方を待つ
   if (!authInitialized || charactersLoading) {
     return (
       <div 
@@ -214,7 +184,7 @@ export default function App() {
 
       {/* Main content */}
       <main className="max-w-7xl mx-auto px-4 pt-5 pb-24 md:pb-8 space-y-6">
-        <Auth />
+        <Auth user={user} />
         <div className="flex flex-col md:flex-row gap-5">
           {/* Team Panel (Left / Sidebar) */}
           <aside
@@ -302,25 +272,22 @@ export default function App() {
           setIsSelectModalOpen(false);
         }}
       />
-    </div>
+      </div>
 
-    {/* Debug Dashboard (期間限定) */}
-    <div className="fixed bottom-4 left-4 z-[9999] bg-black/90 text-[10px] p-3 rounded-lg border border-slate-700 shadow-2xl font-mono text-emerald-400 space-y-1 backdrop-blur-md">
-      <div className="flex justify-between gap-4">
-        <span className="text-slate-500">Auth:</span>
-        <span>{user ? (user.isFallback ? 'Fallback' : 'Authenticated') : (authInitialized ? 'Guest' : 'Loading')}</span>
-      </div>
-      <div className="flex justify-between gap-4">
-        <span className="text-slate-500">DB_ID:</span>
-        <span className="truncate max-w-[100px]">{user?.id || 'null'}</span>
-      </div>
-      <div className="flex justify-between gap-4">
-        <span className="text-slate-500">LocalStorage_ID:</span>
-        <span className="truncate max-w-[100px]">{localStorage.getItem('bounty-rush-user-id') || 'null'}</span>
-      </div>
-      <div className="flex justify-between gap-4">
-        <span className="text-slate-500">Last_Sync:</span>
-        <span className={syncStatus && syncStatus.includes('失敗') ? 'text-red-400' : 'text-emerald-400'}>{syncStatus || '未実行'}</span>
+      {/* Debug Dashboard (期間限定) */}
+      <div className="fixed bottom-4 left-4 z-[9999] bg-black/90 text-[10px] p-3 rounded-lg border border-slate-700 shadow-2xl font-mono text-emerald-400 space-y-1 backdrop-blur-md">
+        <div className="flex justify-between gap-4">
+          <span className="text-slate-500">Auth:</span>
+          <span>{user ? (user.isFallback ? 'Recovering...' : 'Authenticated') : (charactersLoading ? 'Syncing...' : 'Guest')}</span>
+        </div>
+        <div className="flex justify-between gap-4">
+          <span className="text-slate-500">DB_ID:</span>
+          <span className="truncate max-w-[100px]">{user?.id || 'null'}</span>
+        </div>
+        <div className="flex justify-between gap-4">
+          <span className="text-slate-500">Last_Sync:</span>
+          <span className={syncStatus && syncStatus.includes('失敗') ? 'text-red-400' : 'text-emerald-400'}>{syncStatus || '未実行'}</span>
+        </div>
       </div>
     </>
   );

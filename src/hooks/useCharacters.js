@@ -28,7 +28,7 @@ export function useCharacters(selectedTags = []) {
 
     // Load characters and handle auth session
     useEffect(() => {
-        // Load characters
+        // 1. キャラクターデータのロード
         fetch('./characters_data.json')
             .then(res => {
                 if (!res.ok) throw new Error('データの読み込みに失敗しました');
@@ -36,41 +36,49 @@ export function useCharacters(selectedTags = []) {
             })
             .then(data => {
                 setCharacters(data);
-                setLoading(false);
+                // データロード完了
             })
             .catch(err => {
                 setError(err.message);
-                setLoading(false);
             });
 
-        // Auth state
-        supabase.auth.getSession().then(({ data: { session } }) => {
+        // 2. 認証状態の鉄壁チェック
+        const initSession = async () => {
+            setLoading(true);
+            const { data: { session } } = await supabase.auth.getSession();
             const newUser = session?.user ?? null;
-            if (newUser) {
-                localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
-                setUser(newUser);
-                fetchFromCloud(newUser.id);
-            }
-        });
+            setUser(newUser);
 
-        const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-            const newUser = session?.user ?? null;
             if (newUser) {
                 localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
-                setUser(newUser);
-                fetchFromCloud(newUser.id);
+                // ログイン済みならDBから強制取得（LocalStorageは無視）
+                await fetchFromCloud(newUser.id);
+            } else {
+                setLoading(false); // ゲストなら解除
+            }
+        };
+
+        initSession();
+
+        const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
+            const newUser = session?.user ?? null;
+            setUser(newUser);
+            if (newUser) {
+                localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
+                await fetchFromCloud(newUser.id);
             } else if (event === 'SIGNED_OUT') {
                 localStorage.removeItem(USER_ID_STORAGE_KEY);
-                setUser(null);
+                setOwnedIds(new Set()); // ログアウト時はクリア
+                setLoading(false);
             }
         });
 
         return () => subscription.unsubscribe();
     }, []);
 
-    // クラウドからデータを取得してローカルとマージ
+    // 【鉄壁】クラウドからデータを取得（DBを絶対的正解とする）
     const fetchFromCloud = async (userId) => {
-        setSyncStatus('取得中...');
+        setSyncStatus('DB取得中...');
         try {
             const { data, error } = await supabase
                 .from('user_characters')
@@ -78,34 +86,42 @@ export function useCharacters(selectedTags = []) {
                 .eq('user_id', userId)
                 .single();
 
+            if (error && error.code !== 'PGRST116') throw error;
+
             if (data && data.character_ids) {
-                const cloudIds = new Set(data.character_ids);
-                setOwnedIds(prev => {
-                    const merged = new Set([...prev, ...cloudIds]);
-                    saveOwned(merged);
-                    return merged;
-                });
-                setSyncStatus('同期済み');
-                console.log('✅ Cloud Fetch Success:', userId);
+                // DBにデータがあれば LocalStorage を上書き
+                const dbIds = new Set(data.character_ids);
+                setOwnedIds(dbIds);
+                saveOwned(dbIds); // Localはミラーとしてのみ利用
+                setSyncStatus('DB同期完了');
+                console.log('✅ DBから復元成功:', userId);
+            } else {
+                setSyncStatus('DB空(初期状態)');
             }
         } catch (err) {
-            if (err.code !== 'PGRST116') {
-                console.error('❌ Cloud fetch error:', err);
-                setSyncStatus('取得失敗');
-            } else {
-                setSyncStatus('データなし');
-            }
+            console.error('❌ DB取得エラー:', err);
+            setSyncStatus('DB取得失敗');
+        } finally {
+            setLoading(false);
         }
     };
 
-    // クラウドへ保存 (Debounced)
-    const syncToCloud = useCallback((userId, ids) => {
+    // 【鉄壁】クラウドへ保存（実行時にセッションを物理確認）
+    const syncToCloud = useCallback((ids) => {
         if (syncTimeoutRef.current) clearTimeout(syncTimeoutRef.current);
         
-        setSyncStatus('待機中...');
+        setSyncStatus('保存待機...');
         syncTimeoutRef.current = setTimeout(async () => {
-            setSyncStatus('保存中...');
+            setSyncStatus('DB保存中...');
             try {
+                // 実行の瞬間にセッションを再確認（絶対条件）
+                const { data: { session } } = await supabase.auth.getSession();
+                if (!session) {
+                    console.warn('保存スキップ: セッションなし');
+                    return;
+                }
+
+                const userId = session.user.id;
                 const { error } = await supabase
                     .from('user_characters')
                     .upsert({ 
@@ -117,48 +133,34 @@ export function useCharacters(selectedTags = []) {
                 if (error) throw error;
                 
                 setSyncStatus('保存成功');
-                console.log('✅ Cloud Sync Success:', userId);
+                console.log('✅ DB保存成功:', userId);
+                // デバッグ用通知（ユーザーの要望）
+                // alert('✅ データがサーバーに保存されました');
             } catch (err) {
-                console.error('❌ Cloud sync error:', err);
+                console.error('❌ DB保存エラー:', err);
                 setSyncStatus('保存失敗');
+                alert('❌ サーバーへの保存に失敗しました');
             }
         }, 2000); 
     }, []);
 
-    // Load owned status from localStorage or URL
+    // Load owned status from localStorage (ゲスト用)
     useEffect(() => {
-        if (characters.length === 0) return;
+        if (characters.length === 0 || user) return; // ログイン済みならDBを待つのでスキップ
 
         try {
-            const urlParams = new URLSearchParams(window.location.search);
-            const sharedOwned = urlParams.get('owned');
-
-            if (sharedOwned) {
-                try {
-                    const idsStr = atob(sharedOwned);
-                    const idsArray = JSON.parse(idsStr);
-                    setOwnedIds(new Set(idsArray));
-                    window.history.replaceState({}, document.title, window.location.pathname);
-                } catch (e) {
-                    console.warn('URLパラメータの解析に失敗:', e);
-                }
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) {
+                setOwnedIds(new Set(JSON.parse(saved)));
             } else {
-                const saved = localStorage.getItem(STORAGE_KEY);
-                if (saved) {
-                    const ids = JSON.parse(saved);
-                    setOwnedIds(new Set(ids));
-                } else {
-                    // Default: All characters owned if no saved data
-                    const allIds = new Set(characters.map(c => c.id));
-                    setOwnedIds(allIds);
-                    // Explicitly save the default state
-                    localStorage.setItem(STORAGE_KEY, JSON.stringify([...allIds]));
-                }
+                const allIds = new Set(characters.map(c => c.id));
+                setOwnedIds(allIds);
+                localStorage.setItem(STORAGE_KEY, JSON.stringify([...allIds]));
             }
         } catch (e) {
-            console.warn('所持データの読み込みに失敗:', e);
+            console.warn('ゲストデータの読み込みに失敗:', e);
         }
-    }, [characters]);
+    }, [characters, user]);
 
     // Save owned status to localStorage
     const saveOwned = useCallback((newOwnedIds) => {
@@ -179,26 +181,26 @@ export function useCharacters(selectedTags = []) {
                 next.add(id);
             }
             saveOwned(next);
-            if (user) syncToCloud(user.id, next);
+            syncToCloud(next);
             return next;
         });
-    }, [saveOwned, user, syncToCloud]);
+    }, [saveOwned, syncToCloud]);
 
     // Bulk set all as owned
     const setAllOwned = useCallback(() => {
         const allIds = new Set(characters.map(c => c.id));
         setOwnedIds(allIds);
         saveOwned(allIds);
-        if (user) syncToCloud(user.id, allIds);
-    }, [characters, saveOwned, user, syncToCloud]);
+        syncToCloud(allIds);
+    }, [characters, saveOwned, syncToCloud]);
 
     // Bulk set all as not owned
     const clearAllOwned = useCallback(() => {
         const empty = new Set();
         setOwnedIds(empty);
         saveOwned(empty);
-        if (user) syncToCloud(user.id, empty);
-    }, [saveOwned, user, syncToCloud]);
+        syncToCloud(empty);
+    }, [saveOwned, syncToCloud]);
 
 
     // Generate Share URL

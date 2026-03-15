@@ -1,25 +1,6 @@
-import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabaseClient'
 
-export default function Auth() {
-  const [user, setUser] = useState(null)
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    // 現在のセッションを確認
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user ?? null)
-      setLoading(false)
-    })
-
-    // 認証状態の変化を監視
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null)
-    })
-
-    return () => subscription.unsubscribe()
-  }, [])
-
+export default function Auth({ user }) {
   const handleLogin = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
@@ -38,8 +19,6 @@ export default function Auth() {
     const { error } = await supabase.auth.signOut()
     if (error) console.error('Logout Error:', error.message)
   }
-
-  if (loading) return null
 
   return (
     <div className="glass-strong rounded-2xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
