@@ -27,7 +27,7 @@ export default function BattleCharacterSelector({ battleCharacters, characters, 
               {character ? (
                 <>
                   <img 
-                    src={character.thumb} 
+                    src={character.icon} 
                     alt={character.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
                   />

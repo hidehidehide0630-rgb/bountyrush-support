@@ -87,7 +87,7 @@ export default function CharacterSelectModal({
                 className="group relative aspect-square rounded-2xl overflow-hidden bg-slate-800 border-2 border-transparent hover:border-indigo-500 transition-all active:scale-95"
               >
                 <img 
-                  src={c.thumb} 
+                  src={c.icon} 
                   alt={c.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
