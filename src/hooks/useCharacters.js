@@ -49,6 +49,19 @@ export function useCharacters(selectedTags = []) {
             const newUser = session?.user ?? null;
             setUser(newUser);
 
+            // 【重要】認証情報を読み取った「後」でURLを清掃する
+            const hasAuthParams = window.location.hash.includes('access_token=') || 
+                                 window.location.hash.includes('type=recovery') ||
+                                 window.location.search.includes('code=');
+            
+            if (hasAuthParams) {
+                window.location.hash = '';
+                const cleanUrl = window.location.origin + window.location.pathname;
+                window.history.replaceState(null, null, cleanUrl);
+                // PC版誤認解除を確実にするため、セッション確立直後にリロードが必要な場合がある
+                // window.location.reload(); 
+            }
+
             if (newUser) {
                 localStorage.setItem(USER_ID_STORAGE_KEY, newUser.id);
                 // ログイン済みならDBから強制取得（LocalStorageは無視）
