@@ -59,7 +59,7 @@ export default function App() {
 
   const {
     recommendations,
-  } = useTeamBuilder(characters, ownedIds, tagsData, selectedAttr, selectedTags);
+  } = useTeamBuilder(characters, ownedIds, tagsData, selectedAttr, selectedTags, battleCharacters);
 
   if (loading) {
     return (
@@ -173,6 +173,13 @@ export default function App() {
               onOpenSelector={(index) => {
                 setActiveSlotIndex(index);
                 setIsSelectModalOpen(true);
+              }}
+              onClearBattleCharacter={(index) => {
+                setBattleCharacters(prev => {
+                  const next = [...prev];
+                  next[index] = null;
+                  return next;
+                });
               }}
               characters={characters}
             />

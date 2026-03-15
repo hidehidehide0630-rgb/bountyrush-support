@@ -304,18 +304,22 @@ function localSearch(initialTeam, ownedCharacters, selectedTags, selectedAttr, s
 // ========================================
 // メインフック
 // ========================================
-export function useTeamBuilder(characters, ownedIds, tagsData, selectedAttr, selectedTags) {
+export function useTeamBuilder(characters, ownedIds, tagsData, selectedAttr, selectedTags, battleCharacters = []) {
     const [recommendations, setRecommendations] = useState([]);
     const abortRef = useRef(null);
 
     const ownedCharacters = useMemo(() => {
-        // _priority と _tagSet をキャッシュ
-        return characters.filter(c => ownedIds.has(c.id)).map(c => {
-            if (!c._priority) c._priority = getCharPriority(c);
-            if (!c._tagSet) c._tagSet = new Set(c.tags);
-            return c;
-        });
-    }, [characters, ownedIds]);
+        const battleIds = new Set(battleCharacters.filter(id => id !== null));
+        
+        // _priority と _tagSet をキャッシュし、かつバトルキャラを除外
+        return characters
+            .filter(c => ownedIds.has(c.id) && !battleIds.has(c.id))
+            .map(c => {
+                if (!c._priority) c._priority = getCharPriority(c);
+                if (!c._tagSet) c._tagSet = new Set(c.tags);
+                return c;
+            });
+    }, [characters, ownedIds, battleCharacters]);
 
     useEffect(() => {
         if (!ownedCharacters.length || selectedTags.length === 0) {

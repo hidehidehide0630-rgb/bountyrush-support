@@ -1,4 +1,4 @@
-export default function BattleCharacterSelector({ battleCharacters, characters, onOpenSelector }) {
+export default function BattleCharacterSelector({ battleCharacters, characters, onOpenSelector, onClear }) {
   return (
     <div className="glass-strong rounded-3xl p-5 space-y-4 border border-indigo-500/20 shadow-xl shadow-indigo-950/20">
       <div className="flex items-center justify-between">
@@ -15,45 +15,59 @@ export default function BattleCharacterSelector({ battleCharacters, characters, 
           const character = characters.find(c => c.id === charId);
 
           return (
-            <button
-              key={index}
-              onClick={() => onOpenSelector(index)}
-              className={`relative group aspect-square rounded-2xl flex flex-col items-center justify-center border-2 border-dashed transition-all duration-300
-                ${character 
-                  ? 'border-indigo-500/50 bg-indigo-500/5 overflow-hidden' 
-                  : 'border-slate-700 bg-slate-800/30 hover:bg-slate-800/50 hover:border-slate-600'
-                }`}
-            >
-              {character ? (
-                <>
-                  <img 
-                    src={character.icon} 
-                    alt={character.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent" />
-                  <div className="absolute bottom-2 left-2 right-2 text-left">
-                    <p className="text-[9px] font-black text-white truncate drop-shadow-md">
-                      {character.name}
-                    </p>
-                  </div>
-                  <div className="absolute top-2 right-2 flex gap-0.5">
-                    <span className={`w-2 h-2 rounded-full shadow-sm 
-                      ${character.attr === '赤' ? 'bg-red-500' : 
-                        character.attr === '青' ? 'bg-blue-500' : 
-                        character.attr === '緑' ? 'bg-green-500' : 
-                        character.attr === '黒' ? 'bg-slate-900 border border-slate-700' : 
-                        'bg-white'}`} 
+            <div key={index} className="relative group aspect-square">
+              <button
+                onClick={() => onOpenSelector(index)}
+                className={`w-full h-full rounded-2xl flex flex-col items-center justify-center border-2 border-dashed transition-all duration-300
+                  ${character 
+                    ? 'border-indigo-500/50 bg-indigo-500/5 overflow-hidden' 
+                    : 'border-slate-700 bg-slate-800/30 hover:bg-slate-800/50 hover:border-slate-600'
+                  }`}
+              >
+                {character ? (
+                  <>
+                    <img 
+                      src={character.icon} 
+                      alt={character.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent" />
+                    <div className="absolute bottom-2 left-2 right-2 text-left">
+                      <p className="text-[9px] font-black text-white truncate drop-shadow-md">
+                        {character.name}
+                      </p>
+                    </div>
+                    <div className="absolute top-2 left-2 flex gap-0.5">
+                      <span className={`w-2 h-2 rounded-full shadow-sm 
+                        ${character.attr === '赤' ? 'bg-red-500' : 
+                          character.attr === '青' ? 'bg-blue-500' : 
+                          character.attr === '緑' ? 'bg-green-500' : 
+                          character.attr === '黒' ? 'bg-slate-900 border border-slate-700' : 
+                          'bg-white'}`} 
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <div className="text-center group-hover:scale-110 transition-transform">
+                    <p className="text-2xl mb-1 opacity-50 grayscale group-hover:grayscale-0 transition-all">＋</p>
+                    <p className="text-[10px] font-bold text-slate-500">Slot {index + 1}</p>
                   </div>
-                </>
-              ) : (
-                <div className="text-center group-hover:scale-110 transition-transform">
-                  <p className="text-2xl mb-1 opacity-50 grayscale group-hover:grayscale-0 transition-all">＋</p>
-                  <p className="text-[10px] font-bold text-slate-500">Slot {index + 1}</p>
-                </div>
+                )}
+              </button>
+              
+              {character && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onClear(index);
+                  }}
+                  className="absolute top-2 right-2 z-20 w-6 h-6 rounded-full bg-black/60 text-white flex items-center justify-center text-[10px] hover:bg-red-500 transition-colors border border-white/20"
+                  title="解除"
+                >
+                  ✕
+                </button>
               )}
-            </button>
+            </div>
           );
         })}
       </div>

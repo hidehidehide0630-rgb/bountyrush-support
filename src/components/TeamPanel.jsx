@@ -32,6 +32,7 @@ export default function TeamPanel({
     recommendations = [],
     battleCharacters,
     onOpenSelector,
+    onClearBattleCharacter,
     characters,
 }) {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
@@ -125,6 +126,7 @@ export default function TeamPanel({
                 battleCharacters={battleCharacters}
                 characters={characters} 
                 onOpenSelector={onOpenSelector}
+                onClear={onClearBattleCharacter}
             />
 
             <div className="glass-strong rounded-2xl p-5 space-y-5">
