@@ -6,11 +6,15 @@ import CharacterCard from './components/CharacterCard';
 import FilterBar from './components/FilterBar';
 import TeamPanel from './components/TeamPanel';
 import Auth from './components/Auth';
+import CharacterSelectModal from './components/CharacterSelectModal';
 
 export default function App() {
   const [selectedAttr, setSelectedAttr] = useState('全て');
   const [selectedTags, setSelectedTags] = useState([]);
   const [activeTab, setActiveTab] = useState('team'); // 'team' or 'characters' (mobile only)
+  const [battleCharacters, setBattleCharacters] = useState([null, null]);
+  const [isSelectModalOpen, setIsSelectModalOpen] = useState(false);
+  const [activeSlotIndex, setActiveSlotIndex] = useState(null);
 
   const { tagsData } = useTagsData();
 
@@ -165,6 +169,12 @@ export default function App() {
               toggleTag={toggleTag}
               clearTags={clearTags}
               recommendations={recommendations}
+              battleCharacters={battleCharacters}
+              onOpenSelector={(index) => {
+                setActiveSlotIndex(index);
+                setIsSelectModalOpen(true);
+              }}
+              characters={characters}
             />
           </aside>
 
@@ -207,6 +217,19 @@ export default function App() {
         </div>
       </main>
 
+      <CharacterSelectModal
+        isOpen={isSelectModalOpen}
+        onClose={() => setIsSelectModalOpen(false)}
+        characters={characters}
+        onSelect={(char) => {
+          setBattleCharacters(prev => {
+            const next = [...prev];
+            next[activeSlotIndex] = char.id;
+            return next;
+          });
+          setIsSelectModalOpen(false);
+        }}
+      />
     </div>
   );
 }
