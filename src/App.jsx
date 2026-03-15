@@ -18,14 +18,6 @@ export default function App() {
 
   const { tagsData } = useTagsData();
 
-  // URL Normalization: Remove auth params (code, state, etc.) after redirect
-  useEffect(() => {
-    if (window.location.search.includes('code=') || window.location.search.includes('state=') || window.location.hash.includes('access_token=')) {
-      const newUrl = window.location.origin + window.location.pathname;
-      window.history.replaceState({}, document.title, newUrl);
-    }
-  }, []);
-
   const toggleTag = (tag) => {
     setSelectedTags(prev => {
       if (prev.includes(tag)) {
@@ -62,8 +54,22 @@ export default function App() {
     setAllPermanentOwned,
     generateShareUrl,
     allTags,
+    user, // user情報を取得
   } = useCharacters(selectedTags);
 
+  // URL Normalization: Remove auth params only AFTER user is loaded or auth params are present
+  useEffect(() => {
+    // 認証パラメータが存在する場合のみ実行
+    const hasAuthParams = window.location.search.includes('code=') || 
+                         window.location.search.includes('state=') || 
+                         window.location.hash.includes('access_token=');
+    
+    // ユーザー情報が同期された後、またはパラメータがある場合のみクリーンアップ
+    if (hasAuthParams && user) {
+      const newUrl = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, newUrl);
+    }
+  }, [user]); // userの変更を監視するように変更
 
   const {
     recommendations,
