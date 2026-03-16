@@ -42,13 +42,6 @@ const ShareImageTemplate = forwardRef(({ team, tagEffects, totalSupportPercent }
                     </div>
                     <div className="flex gap-8">
                         <div className="text-right">
-                            <p className="text-xs text-gray-400 font-bold mb-1 uppercase tracking-wider">概算サポート</p>
-                            <p className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
-                                {totalSupportPercent ? totalSupportPercent.toFixed(1) : 0}%
-                            </p>
-                        </div>
-                        <div className="w-px bg-gray-700"></div>
-                        <div className="text-right">
                             <p className="text-xs text-gray-400 font-bold mb-1 uppercase tracking-wider">発動タグ数</p>
                             <p className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                                 {tagEffects ? tagEffects.length : 0}

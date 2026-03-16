@@ -285,13 +285,6 @@ export default function TeamPanel({
                             <div className="bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border border-indigo-500/30 rounded-xl p-3 flex flex-col items-center justify-center gap-2 mb-4 shadow-inner">
                                 <div className="flex items-center justify-center gap-8 w-full">
                                     <div className="text-center">
-                                        <p className="text-[10px] text-indigo-300 font-bold mb-0.5 tracking-wider">概算サポート</p>
-                                        <p className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                                            {currentRec.totalSupportPercent ? currentRec.totalSupportPercent.toFixed(1) : 0}%
-                                        </p>
-                                    </div>
-                                    <div className="w-px h-10 bg-indigo-500/30"></div>
-                                    <div className="text-center">
                                         <p className="text-[10px] text-purple-300 font-bold mb-0.5 tracking-wider">タグ発動</p>
                                         <p className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                                             {tagEffects ? tagEffects.length : 0}個
