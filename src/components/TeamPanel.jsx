@@ -368,7 +368,7 @@ export default function TeamPanel({
                 </div>
             )}
 
-            <ShareImageTemplate ref={shareImageRef} team={team} tagEffects={tagEffects} />
+            <ShareImageTemplate ref={shareImageRef} team={team} tagEffects={tagEffects} battleCharacters={battleCharacters} characters={characters} />
         </div>
         </div>
     );
