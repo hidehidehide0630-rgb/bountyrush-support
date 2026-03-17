@@ -13,9 +13,9 @@ const ATTR_COLORS = {
 };
 
 const STYLE_ICONS = {
-    'アタッカー': '👊',
-    'ディフェンダー': '🛡️',
-    'ゲッター': '👟'
+    'アタッカー': '/attacker.png',
+    'ディフェンダー': '/defender.png',
+    'ゲッター': '/getter.png'
 };
 
 // ========================================
@@ -147,14 +147,19 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                                     <span style={{ 
                                                         background: attrColor, 
                                                         color: '#fff', 
-                                                        padding: '2px 8px', 
+                                                        width: '32px',
+                                                        height: '18px',
                                                         borderRadius: '4px', 
-                                                        fontSize: '12px', 
-                                                        fontWeight: 900 
+                                                        fontSize: '11px', 
+                                                        fontWeight: 900,
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        justifyContent: 'center',
+                                                        lineHeight: 1
                                                     }}>
                                                         {bc.attr}
                                                     </span>
-                                                    <span style={{ fontSize: '18px' }}>{STYLE_ICONS[bc.style]}</span>
+                                                    <img src={STYLE_ICONS[bc.style]} style={{ height: '18px', objectFit: 'contain' }} />
                                                 </div>
                                                 <h3 style={{ 
                                                     fontSize: '28px', 
@@ -239,13 +244,30 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                             top: 0, left: 0, right: 0, height: '50%',
                                             background: 'linear-gradient(rgba(255,255,255,0.15) 0%, transparent 100%)',
                                         }} />
+                                        {/* 役職アイコン overlay */}
+                                        <div style={{
+                                            position: 'absolute',
+                                            top: '4px',
+                                            right: '4px',
+                                            width: '20px',
+                                            height: '20px',
+                                            background: 'rgba(0,0,0,0.4)',
+                                            borderRadius: '4px',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            padding: '2px',
+                                            backdropFilter: 'blur(2px)',
+                                        }}>
+                                            <img src={STYLE_ICONS[c.style]} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                                        </div>
                                     </div>
                                     <p style={{
                                         fontSize: '9px', // 10px以下に調整 (Requirement 1)
                                         fontWeight: 800,
-                                        marginTop: '8px',
+                                        marginTop: '4px', // 少し上げる
                                         textAlign: 'center',
-                                        margin: '8px 0 0 0',
+                                        margin: '4px 0 0 0',
                                         whiteSpace: 'nowrap', // 改行なし (Requirement 1)
                                         overflow: 'hidden', // はみ出し非表示 (Requirement 1)
                                         textOverflow: 'ellipsis', // 「...」指定 (Requirement 1)
@@ -267,6 +289,7 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
                             <div style={{ width: '4px', height: '20px', backgroundColor: '#d97706' }} />
                             <h4 style={{ fontSize: '14px', fontWeight: 900, margin: 0, color: '#f59e0b' }}>ACTIVATED TAGS</h4>
+                            <span style={{ fontSize: '8px', color: '#94a3b8', fontStyle: 'italic', marginLeft: 'auto' }}>※全キャラフル育成想定</span>
                         </div>
                         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                             {tagEffects && tagEffects.map((t, i) => (
@@ -278,6 +301,11 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                     fontWeight: 900,
                                     color: t.isSelected ? '#000' : '#d1d5db',
                                     border: t.isSelected ? 'none' : '1px solid rgba(255,255,255,0.1)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    height: '24px',
+                                    boxSizing: 'border-box'
                                 }}>
                                     {t.name} Lv.{t.level}
                                 </div>
@@ -314,9 +342,8 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                 </div>
 
                 {/* フッター */}
-                <div style={{ padding: '10px 0', opacity: 0.4, display: 'flex', justifyContent: 'space-between' }}>
-                    <p style={{ fontSize: '10px', margin: 0 }}>※全キャラフル育成想定（Lv100/スキルLv5/★9メダル3枚/ブースト2）</p>
-                    <p style={{ fontSize: '10px', margin: 0, fontWeight: 900 }}>BOUNTY RUSH SUPPORT SIMULATOR</p>
+                <div style={{ padding: '10px 0', opacity: 0.4, display: 'flex', justifyContent: 'flex-end' }}>
+                    <p style={{ fontSize: '10px', margin: 0, fontWeight: 900, letterSpacing: '2px' }}>SUPPORT SIMULATOR</p>
                 </div>
             </div>
         </div>
