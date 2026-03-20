@@ -33,6 +33,31 @@ const SUPPORT_EFFECT_MAP = {
     '動物系能力者': '苦手属性の敵から受けるダメージを15％減少する',
 };
 
+// ========================================
+// 名前短縮ヘルパー
+// ========================================
+const shortenName = (name) => {
+    if (!name) return '';
+    // 1. 最初は既知の区切り文字で最後を抽出
+    let result = name;
+    const parts = name.split(/[／\s/・･‧]/);
+    if (parts.length > 1) {
+        result = parts[parts.length - 1];
+    }
+    
+    // 2. それでも長い場合、既知の役職・二つ名を先頭から除去
+    const prefixes = [
+        /^ワノ国/, /^一番隊隊長/, /^二番隊隊長/, /^三番隊隊長/, /^四番隊隊長/, /^五番隊隊長/,
+        /^船長/, /^大将/, /^元帥/, /^中将/, /^王下七武海/, /^海軍本部/, /^鬼ヶ島/
+    ];
+    
+    for (const prefix of prefixes) {
+        result = result.replace(prefix, '');
+    }
+    
+    return result;
+};
+
 const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], characters = [] }, ref) => {
     if (!team || team.length === 0) return null;
 
@@ -155,8 +180,7 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                                         display: 'flex',
                                                         alignItems: 'center',
                                                         justifyContent: 'center',
-                                                        lineHeight: 1,
-                                                        paddingTop: '1px' // 微調整
+                                                        lineHeight: 'normal', // ブラウザによるズレを防ぐためnormalに固定
                                                     }}>
                                                         {bc.attr}
                                                     </span>
@@ -171,7 +195,7 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                                     textShadow: '0 2px 4px rgba(0,0,0,0.5)',
                                                     lineHeight: 1.2,
                                                 }}>
-                                                    {bc.original_name || bc.name}
+                                                    {shortenName(bc.original_name || bc.name)}
                                                 </h3>
                                                 
                                                 <div style={{ marginTop: 'auto' }}>
@@ -264,23 +288,18 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                         </div>
                                     </div>
                                     <p style={{
-                                        fontSize: '10px',
+                                        fontSize: '11px', // 10pxから11pxに少し大きくして視認性を高める
                                         fontWeight: 800,
                                         textAlign: 'center',
-                                        margin: '4px 0 0 0', // マージンを詰めて見栄えを改善
-                                        lineHeight: 1.1,
+                                        margin: '6px 0 0 0', // 余白の再調整
+                                        lineHeight: 1.2,
                                         whiteSpace: 'nowrap',
                                         overflow: 'hidden',
                                         textOverflow: 'ellipsis',
                                         width: '100%',
                                         color: '#cbd5e1'
                                     }}>
-                                        {(() => {
-                                            // 「／」や「 」や「・」で区切られている場合、後半部分（名前本体）を優先
-                                            const name = c.name;
-                                            const parts = name.split(/[／\s/・]/);
-                                            return parts.length > 1 ? parts[parts.length - 1] : name;
-                                        })()}
+                                        {shortenName(c.name)}
                                     </p>
                                 </div>
                             );

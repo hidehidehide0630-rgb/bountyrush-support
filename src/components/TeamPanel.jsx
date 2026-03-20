@@ -26,6 +26,23 @@ const STYLE_ICONS = {
     'ゲッター': '/getter.png'
 };
 
+const shortenName = (name) => {
+    if (!name) return '';
+    let result = name;
+    const parts = name.split(/[／\s/・･‧]/);
+    if (parts.length > 1) {
+        result = parts[parts.length - 1];
+    }
+    const prefixes = [
+        /^ワノ国/, /^一番隊隊長/, /^二番隊隊長/, /^三番隊隊長/, /^四番隊隊長/, /^五番隊隊長/,
+        /^船長/, /^大将/, /^元帥/, /^中将/, /^王下七武海/, /^海軍本部/, /^鬼ヶ島/
+    ];
+    for (const prefix of prefixes) {
+        result = result.replace(prefix, '');
+    }
+    return result;
+};
+
 export default function TeamPanel({
     allTags,
     tagsData,
@@ -325,11 +342,7 @@ export default function TeamPanel({
                                             </div>
                                             <div className="px-1 py-1 text-center">
                                                 <p className="text-[9px] font-semibold leading-tight truncate text-slate-200">
-                                                    {(() => {
-                                                        const name = c.name;
-                                                        const parts = name.split(/[／\s/・]/);
-                                                        return parts.length > 1 ? parts[parts.length - 1] : name;
-                                                    })()}
+                                                    {shortenName(c.name)}
                                                 </p>
                                             </div>
                                         </div>
