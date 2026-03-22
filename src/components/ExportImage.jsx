@@ -38,21 +38,32 @@ const SUPPORT_EFFECT_MAP = {
 // ========================================
 const shortenName = (name) => {
     if (!name) return '';
-    // 1. 最初は既知の区切り文字で最後を抽出
+    
     let result = name;
-    const parts = name.split(/[／\s/・･‧]/);
+    
+    // 1. スラッシュ(全角/半角)とスペース(全角/半角)で分割し、最後の部分を取得
+    // 「・」での分割は名前自体（ゴール・D・ロジャー等）を壊すため行わない。
+    const parts = result.split(/[／/ 　]/);
     if (parts.length > 1) {
         result = parts[parts.length - 1];
     }
     
-    // 2. それでも長い場合、既知の役職・二つ名を先頭から除去
+    // 2. 既知の称号や接頭辞を削除して、最短の名前にする
     const prefixes = [
-        /^ワノ国/, /^一番隊隊長/, /^二番隊隊長/, /^三番隊隊長/, /^四番隊隊長/, /^五番隊隊長/,
-        /^船長/, /^大将/, /^元帥/, /^中将/, /^王下七武海/, /^海軍本部/, /^鬼ヶ島/
+        /^ワノ国(将軍跡目)?/, /^[一二三四五]番隊隊長/, /^船長/, /^大将/, /^元帥/, /^中将/,
+        /^王下七武海/, /^海軍本部/, /^鬼ヶ島(怪物決戦)?/, /^炎帝/, /^九里大名/, /^最強生物/,
+        /^百獣海賊団(大看板|飛び六胞|総督)?/, /^ドンキホーテファミリー(幹部)?/, /^麦わらの一味/,
+        /^海賊王(の右腕)?/, /^伝説の海兵/, /^FILM RED/, /^四皇/, /^天叢雲剣/, /^ロジャーの好敵手/,
+        /^頂上戦争/
     ];
     
     for (const prefix of prefixes) {
         result = result.replace(prefix, '');
+    }
+    
+    // 3. 全て消えてしまった場合はフォールバック
+    if (!result.trim()) {
+        return name;
     }
     
     return result;
@@ -177,10 +188,10 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                                         borderRadius: '4px', 
                                                         fontSize: '11px', 
                                                         fontWeight: 900,
-                                                        display: 'flex',
-                                                        alignItems: 'center',
-                                                        justifyContent: 'center',
-                                                        lineHeight: 'normal', // ブラウザによるズレを防ぐためnormalに固定
+                                                        display: 'inline-block', // html2canvas用のハック (flexだとズレる)
+                                                        textAlign: 'center',
+                                                        lineHeight: '18px',
+                                                        verticalAlign: 'middle',
                                                     }}>
                                                         {bc.attr}
                                                     </span>
@@ -288,11 +299,12 @@ const ExportImage = forwardRef(({ team, tagEffects, battleCharacters = [], chara
                                         </div>
                                     </div>
                                     <p style={{
-                                        fontSize: '11px', // 10pxから11pxに少し大きくして視認性を高める
+                                        fontSize: '11px', // 視認性を高める
                                         fontWeight: 800,
                                         textAlign: 'center',
-                                        margin: '6px 0 0 0', // 余白の再調整
-                                        lineHeight: 1.2,
+                                        margin: '6px 0 0 0',
+                                        paddingBottom: '2px', // html2canvasで見切れるのを防ぐハック (1/2)
+                                        lineHeight: '14px', // 厳密に固定して見切れるのを防ぐハック (2/2)
                                         whiteSpace: 'nowrap',
                                         overflow: 'hidden',
                                         textOverflow: 'ellipsis',

@@ -28,18 +28,33 @@ const STYLE_ICONS = {
 
 const shortenName = (name) => {
     if (!name) return '';
+    
     let result = name;
-    const parts = name.split(/[／\s/・･‧]/);
+    
+    // 1. スラッシュ(全角/半角)とスペース(全角/半角)で分割し、最後の部分を取得
+    // 「・」での分割は名前自体（ゴール・D・ロジャー等）を壊すため行わない。
+    const parts = result.split(/[／/ 　]/);
     if (parts.length > 1) {
         result = parts[parts.length - 1];
     }
+    
+    // 2. 既知の称号や接頭辞を削除して、最短の名前にする
     const prefixes = [
-        /^ワノ国/, /^一番隊隊長/, /^二番隊隊長/, /^三番隊隊長/, /^四番隊隊長/, /^五番隊隊長/,
-        /^船長/, /^大将/, /^元帥/, /^中将/, /^王下七武海/, /^海軍本部/, /^鬼ヶ島/
+        /^ワノ国(将軍跡目)?/, /^[一二三四五]番隊隊長/, /^船長/, /^大将/, /^元帥/, /^中将/,
+        /^王下七武海/, /^海軍本部/, /^鬼ヶ島(怪物決戦)?/, /^炎帝/, /^九里大名/, /^最強生物/,
+        /^百獣海賊団(大看板|飛び六胞|総督)?/, /^ドンキホーテファミリー(幹部)?/, /^麦わらの一味/,
+        /^海賊王(の右腕)?/, /^伝説の海兵/, /^FILM RED/, /^四皇/, /^天叢雲剣/, /^ロジャーの好敵手/,
+        /^頂上戦争/
     ];
+    
     for (const prefix of prefixes) {
         result = result.replace(prefix, '');
     }
+    
+    if (!result.trim()) {
+        return name;
+    }
+    
     return result;
 };
 
@@ -340,7 +355,7 @@ export default function TeamPanel({
                                                     <img src={STYLE_ICONS[c.style]} alt={c.style} className="w-full h-full object-contain" />
                                                 </div>
                                             </div>
-                                            <div className="px-1 py-1 text-center">
+                                            <div className="px-1 pt-1 pb-[3px] text-center">
                                                 <p className="text-[9px] font-semibold leading-tight truncate text-slate-200">
                                                     {shortenName(c.name)}
                                                 </p>
