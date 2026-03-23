@@ -1,0 +1,918 @@
+[
+  {
+    "id": 1,
+    "name": "東の海",
+    "category": "エリア",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、同じ属性の敵に与えるダメージが2%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、同じ属性の敵に与えるダメージが4%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、同じ属性の敵に与えるダメージが10%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以下のとき、同じ属性の敵に与えるダメージが15%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "同じ属性の敵に与えるダメージが15%増加する"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "グランドライン",
+    "category": "エリア",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、同じ属性から受けるダメージが2%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、同じ属性から受けるダメージが4%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、同じ属性から受けるダメージが10%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以下のとき、同じ属性から受けるダメージが15%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "同じ属性から受けるダメージが15%減少する"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "アタッカー",
+    "category": "スタイル",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 80,
+        "description": "攻撃力が10増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 160,
+        "description": "攻撃力が20増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 300,
+        "description": "攻撃力が40増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 480,
+        "description": "攻撃力が80増加する[partition][/partition]クリティカルで与えるダメージが3%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "攻撃力が200増加する[partition][/partition]クリティカルで与えるダメージが5%増加する"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "超人系能力者",
+    "category": "与ダメ増加",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、クリティカルで与えるダメージが1%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、クリティカルで与えるダメージが3%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、クリティカルで与えるダメージが6%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以下のとき、クリティカルで与えるダメージが10%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50%以下のとき、クリティカルで与えるダメージが20%増加する"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "新世界",
+    "category": "エリア",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、苦手属性の敵に与えるダメージが2%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、苦手属性の敵に与えるダメージが4%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、苦手属性の敵に与えるダメージが10%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以下のとき、苦手属性の敵に与えるダメージが15%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "苦手属性の敵に与えるダメージが15%増加する"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ゲッター",
+    "category": "スタイル",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 80,
+        "description": "体力が40増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 160,
+        "description": "体力が80増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 300,
+        "description": "体力が160増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 480,
+        "description": "体力が320増加する[partition][/partition]自分がお宝を奪取したときのお宝ゲージの初期値が10%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が800増加する[partition][/partition]自分がお宝を奪取したときのお宝ゲージの初期値が30%増加する"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "麦わらの一味",
+    "category": "被ダメ減少",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、クリティカルで受けるダメージが4%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、クリティカルで受けるダメージが8%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、クリティカルで受けるダメージが20%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以下のとき、クリティカルで受けるダメージが30%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "クリティカルで受けるダメージが30%減少する"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "船長",
+    "category": "被ダメ減少",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを10%の確率で防ぐ"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを30%の確率で防ぐ"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを80%の確率で防ぐ"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを100%の確率で防ぐ[partition][/partition]体力が30%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃で受けるダメージが10%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを100%の確率で防ぐ[partition][/partition]体力が30%以下のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃で受けるダメージが20%減少する"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "能力者",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 10,
+    "name": "最悪の世代",
+    "category": "ふっとばし",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばしの距離が3%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばしの距離が5%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばしの距離が10%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばしの距離が20％増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばしの距離が30％増加する[partition][/partition]自チームのお宝エリアにいるとき、ふっとばしの距離が30％増加する"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ディフェンダー",
+    "category": "スタイル",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 80,
+        "description": "防御力が10増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 160,
+        "description": "防御力が20増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 300,
+        "description": "防御力が40増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 480,
+        "description": "防御力が80増加する[partition][/partition]お宝ゲージの回復速度が5%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "防御力が200増加する[partition][/partition]お宝ゲージの回復速度が10%増加する"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "赤髪海賊団",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 13,
+    "name": "ロジャー海賊団／元ロジャー海賊団",
+    "category": "状態異常",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50％以下のとき、敵から付与される状態異常の効果時間を2%短縮する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50％以下のとき、敵から付与される状態異常の効果時間を4%短縮する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50％以下のとき、敵から付与される状態異常の効果時間を10%短縮する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以下のとき、敵から付与される状態異常の効果時間を15%短縮する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50％以下のとき、敵から付与される状態異常の効果時間を30%短縮する"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "王下七武海／元王下七武海",
+    "category": "状態異常",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50％以上のとき、状態異常付与時の効果時間を2％延長する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50％以上のとき、状態異常付与時の効果時間を4％延長する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50％以上のとき、状態異常付与時の効果時間を10％延長する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以上のとき、状態異常付与時の効果時間を15％延長する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50％以上のとき、状態異常付与時の効果時間を30％延長する"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "ドンキホーテファミリー",
+    "category": "与ダメ増加",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50％以下のとき、通常攻撃で与えるダメージが1%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50％以下のとき、通常攻撃で与えるダメージが3%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50％以下のとき、通常攻撃で与えるダメージが6%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以下のとき、通常攻撃で与えるダメージが10%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50％以下のとき、通常攻撃で与えるダメージが15%増加する"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "魚人",
+    "category": "ふっとばし",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 80,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばされる距離が10%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 160,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばされる距離が20%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばされる距離が30%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばされる距離が40%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "敵チームのお宝エリアにいるとき、ふっとばされる距離が60%減少する"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "動物系能力者",
+    "category": "被ダメ減少",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以下のとき、苦手属性から受けるダメージが2%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以下のとき、苦手属性から受けるダメージが4%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以下のとき、苦手属性から受けるダメージが10%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以下のとき、苦手属性の敵から受けるダメージを15％減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "苦手属性の敵から受けるダメージを15％減少する"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "百獣海賊団",
+    "category": "与ダメ増加",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が70%以上のとき、通常攻撃で与えるダメージが1%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が70%以上のとき、通常攻撃で与えるダメージが3%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が70%以上のとき、通常攻撃で与えるダメージが6%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が70%以上のとき、通常攻撃で与えるダメージが10%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が70%以上のとき、通常攻撃で与えるダメージが15%増加する"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "バロックワークス／元バロックワークス",
+    "category": "スキル1",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "自分がお宝を奪取したとき、スキル1のクールタイムを1%短縮する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "自分がお宝を奪取したとき、スキル1のクールタイムを2%短縮する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "自分がお宝を奪取したとき、スキル1のクールタイムを4%短縮する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "自分がお宝を奪取したとき、スキル1のクールタイムを8%短縮する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "自分がお宝を奪取したとき、スキル1のクールタイムを15%短縮する"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "光月家／光月家家臣",
+    "category": "被ダメ減少",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50％以下のとき、通常攻撃で受けるダメージが1%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50％以下のとき、通常攻撃で受けるダメージが3%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50％以下のとき、通常攻撃で受けるダメージが6%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以下のとき、通常攻撃で受けるダメージが10%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50％以下のとき、通常攻撃で受けるダメージが15%減少する"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "ミンク族",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 22,
+    "name": "白ひげ海賊団",
+    "category": "状態異常",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50％以下のとき、状態異常付与時の効果時間を2％延長する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50％以下のとき、状態異常付与時の効果時間を4％延長する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50％以下のとき、状態異常付与時の効果時間を10％延長する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以下のとき、状態異常付与時の効果時間を15％延長する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50％以下のとき、状態異常付与時の効果時間を30％延長する"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "シャーロット家",
+    "category": "被ダメ減少",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が70%以上のとき、通常攻撃で受けるダメージが1%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が70%以上のとき、通常攻撃で受けるダメージが3%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が70%以上のとき、通常攻撃で受けるダメージが6%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が70%以上のとき、通常攻撃で受けるダメージが10%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が70%以上のとき、通常攻撃で受けるダメージが15%減少する"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "海軍",
+    "category": "ふっとばし",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "自チームのお宝エリアにいるとき、ふっとばされる距離が10％減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "自チームのお宝エリアにいるとき、ふっとばされる距離が20％減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "自チームのお宝エリアにいるとき、ふっとばされる距離が30％減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "自チームのお宝エリアにいるとき、ふっとばされる距離が40％減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "自チームのお宝エリアにいるとき、ふっとばされる距離が60％減少する"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "忍者",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 26,
+    "name": "バギーズデリバリー",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 27,
+    "name": "自然系能力者",
+    "category": "被ダメ減少",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを20%の確率で防ぐ"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを60%の確率で防ぐ"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを100%の確率で防ぐ"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを100%の確率で防ぐ[partition][/partition]体力が70%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃で受けるダメージが20%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が50%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃でよろけるのを100%の確率で防ぐ[partition][/partition]体力が70%以上のとき、キャラタイプ「遠距離通常攻撃」のキャラの通常攻撃で受けるダメージが50%減少する"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "九蛇海賊団",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 29,
+    "name": "革命軍",
+    "category": "ふっとばし",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が70%以上のとき、ふっとばされる距離がが10%減少する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が70%以上のとき、ふっとばされる距離が20%減少する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が70%以上のとき、ふっとばされる距離が30%減少する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が70%以上のとき、ふっとばされる距離が40%減少する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "体力が70%以上のとき、ふっとばされる距離が60%減少する"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "サイファーポール",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 31,
+    "name": "ジェルマ66",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 32,
+    "name": "黒ひげ海賊団",
+    "category": "与ダメ増加",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が70%以上のとき、アタッカーに与えるダメージが2%増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が70%以上のとき、アタッカーに与えるダメージが4%増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が70%以上のとき、アタッカーに与えるダメージが10%増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が70%以上のとき、アタッカーに与えるダメージが15%増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "アタッカーに与えるダメージが15%増加する"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "麦わら大船団",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 34,
+    "name": "海軍大将／元海軍大将",
+    "category": "与ダメ増加",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "体力が50％以下のとき、ゲッターに与えるダメージが2％増加する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "体力が50％以下のとき、ゲッターに与えるダメージが4％増加する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "体力が50％以下のとき、ゲッターに与えるダメージが10％増加する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "体力が50％以下のとき、ゲッターに与えるダメージが15％増加する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "ゲッターに与えるダメージが15％増加する"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "アラバスタ王国",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 36,
+    "name": "天竜人／元天竜人",
+    "category": "",
+    "effects": []
+  },
+  {
+    "id": 37,
+    "name": "王族／元王族",
+    "category": "体力回復",
+    "effects": [
+      {
+        "stage": 1,
+        "req_level": 180,
+        "description": "敵をK.O.したとき、体力が1%回復する"
+      },
+      {
+        "stage": 2,
+        "req_level": 240,
+        "description": "敵をK.O.したとき、体力が3%回復する"
+      },
+      {
+        "stage": 3,
+        "req_level": 400,
+        "description": "敵をK.O.したとき、体力が6%回復する"
+      },
+      {
+        "stage": 4,
+        "req_level": 500,
+        "description": "敵をK.O.したとき、体力が10%回復する"
+      },
+      {
+        "stage": 5,
+        "req_level": 600,
+        "description": "敵をK.O.したとき、体力が15%回復する"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "遠距離通常攻撃",
+    "category": "攻撃特性",
+    "effects": []
+  },
+  {
+    "id": 39,
+    "name": "巨人族",
+    "category": "勢力",
+    "effects": []
+  },
+  {
+    "id": 40,
+    "name": "巨兵海賊団",
+    "category": "勢力",
+    "effects": []
+  }
+]

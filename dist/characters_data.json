@@ -1,0 +1,5362 @@
+[
+  {
+    "id": 1,
+    "name": "大海賊 ゴール・D・ロジャー",
+    "attr": "黒",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ePYo1wCwOwCrAey4mQzsqA8rMPKpz-I409VXA8xX7z2JVtcFbHj_Fh5rWVBeM-b2PuY5qw-h5N0PwQxpWZ84dSVa9RqzGrW2iRcJwbWODeE9",
+    "tags": [
+      "ゲッター",
+      "船長",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 2,
+    "name": "鬼ヶ島怪物決戦カイドウ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/37PuhmEOu5Psl1n_jmXo2PQE7nmyOm72gKwd_23g8_r23aJOVdtPE48xEa8IRvE9NkKMsRb7779WffJ5AYx9eOAdqi99TnwdD1n7Ye8Nnktk",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 3,
+    "name": "最強生物カイドウ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ogw_2BcQYtTlwac57FZKgryLBi_U6AivBzVSgd9jAn4nkNji3IMMeo7Nm3geqatooxK_pUakMmxud_ms27KqZcjWtZctuwyYGNZL1GzUxVCy",
+    "tags": [
+      "ディフェンダー",
+      "動物系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 4,
+    "name": "海賊王ゴール・D・ロジャー",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/IwmVLi_BAwoH3winsr-eOnKKPb-jrMU9GC0QvAtG7q4B8Yn2ZN0iB2-xSsf_7L-4rqCSo4bfBdz6t_Vt-ESozEtQcHceQQ-gQASFRru6zjjG",
+    "tags": [
+      "アタッカー",
+      "船長",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 5,
+    "name": "ギア5 モンキー・D・ルフィ／ニカ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/fk7I8oEJpynvJjV5EYJ5uvrue-EbtEA3SgssHF-yblx20VdPAINvS5vQLM5M9vcKm4_Y3Og3D2xoxNOCpABwQ7GlazwVBJVYM5BI4nwoOHqw",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "動物系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 6,
+    "name": "伝説の英雄 モンキー・D・ガープ",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/EVi72RjR9VMY0LW1v_RnRyQ_4J8VjJFp4ye2npWa8noJ7dugOOzeLR_FJM2ihtJQRORKnOY5a9ZmwEOb6k0TlfxCTx-PZFeN2d1W90l75X4w",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "新世界"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 7,
+    "name": "四皇モンキー・D・ルフィ",
+    "attr": "白",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_8ShiRxmwXBDEUCPwNxsEx8zRhW-QZkWAwBwCzKp-NVNTI07w1Y3jEtfWX6OAuCC569vqEwLOfhRf8NikcdxCQN88Vq1jT1RPCFwMpea-7VK",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "動物系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 8,
+    "name": "FILM REDシャンクス",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/2kVT2bOcOKNQXg0Ua9YBC8ydApml8vdX3prFBOASrSrUR74yYuYFtaJtltyWr95yjmCagMCtUOyS41pRew57XZi5iD7R85iiVGrbaL5m41ng",
+    "tags": [
+      "アタッカー",
+      "赤髪海賊団",
+      "船長",
+      "新世界",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 9,
+    "name": "四皇シャンクス",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/bs7E_Zcx2nFqhBOoul_ezCOSCsHXjLu_EYqc0KH8mRFdgAnv0ZnU8BiKNspFvbqU_R1pSAvbVEGmA5hLZM_xREhmFoaarRNTfuqz_xx4gV42",
+    "tags": [
+      "アタッカー",
+      "赤髪海賊団",
+      "船長",
+      "新世界",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 10,
+    "name": "海軍本部／元帥赤犬サカズキ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/GfeXGyApCHEZOZ9SB2fqnxgtQxujAWktp5RHBKdE-zh-92l5m3Luv0YPoYHoMkmOOmvNxeJ2Hd9CnSzp_uj2ZLTWGDV0dI-WfN6Nr3AaEOc6",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "自然系能力者",
+      "能力者",
+      "新世界",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 11,
+    "name": "鬼ヶ島怪物決戦花魁おリン",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/vvN3gsKfP2BbB6NLVQiVf2k78zPyvWF2UTP1tfJZOB-j0Dd_ah7QyLJCDaTJgO548FSEaNjFei82UKckFXs4aazbXZxqMeFvL9xr0F3GfuvFHg",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 12,
+    "name": "大口真神ヤマト",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_nu5lztwN6z2sV5ylgf51_s9eI4HymjlcuPwm3CvPRX7oAOVDcMjFzUf0KEkI8KjOtAZIdxUMWjzRlXTtKrajWP94ug5GXw3YFHb1Vr6yreh",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 13,
+    "name": "四皇／黒ひげマーシャル・D・ティーチ",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/6jMOybrqh3jzh3mSjuh_V7G6mHtCJGJAGRGhJhdkK_Z4wZCLqjRnMj7_GIRwDXtUFi7P_Sva1DlfzfoMBx4qo1SnLuKFVaqgXRv-2KzTQ1gw",
+    "tags": [
+      "アタッカー",
+      "王下七武海／元王下七武海",
+      "超人系能力者",
+      "自然系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "黒ひげ海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 14,
+    "name": "大海賊／エドワード・ニューゲート",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wXfPMvYNXj1FY8lqhbQzwNA6dNM5ZJjMTu4vB5N2W5bcIcQVEUjmX7mbubmGrDUj2a3xAj9Z3ik_2TBlCUDDnKrplIscSQwoQR-xmK6wXOiUGg",
+    "tags": [
+      "ディフェンダー",
+      "白ひげ海賊団",
+      "超人系能力者",
+      "船長",
+      "能力者"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 15,
+    "name": "神避シャンクス",
+    "attr": "白",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Px8lUE09aeicnDUA8dEzBtty9B5KJKDKN8hgrERelWBefPL2odq6AE6cihSa0srjHSexNwdzTZj3cznqm2gOo-JUjc3oE0SQ9ABQJMq57JJU",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "船長",
+      "ロジャー海賊団／元ロジャー海賊団",
+      "赤髪海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 16,
+    "name": "天叢雲剣 黄猿【ボルサリーノ】",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/lVUB0S6bTkJcLE5fooRF-15ougP9Q2fkzf8oRrav6USqoQm3NKWVG2zW5BG_4SjO7HwuCKcReG6BOm2fOW_gQRUR-U0sgJ_6f5G3aXAbvV8P",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "自然系能力者",
+      "海軍",
+      "海軍大将／元海軍大将",
+      "能力者"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 17,
+    "name": "五老星 ジェイガルシア・サターン聖",
+    "attr": "黒",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/26FonvxAXH7KW-3Q85SeEBF06PowVrZlJLEMTrEuRcL4a8RLl8H0ieKdvyGLbOni8C-K6R6J_rQY1VhtSI8PiYHQLVCjEA1iRGXnWikbtJQ",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "天竜人／元天竜人"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 18,
+    "name": "ロジャーの好敵手エドワード・ニューゲート",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Z2LVymNOgHKfjoM_4LLeqrKJr_4ALWbdqAJTfVhDIinf-3GLnJM27f162dTtOX2X1Goz9uT3-kXZEbfqXtHRvuqLjJ2B1YGXKZBffnW5VGjnZg",
+    "tags": [
+      "アタッカー",
+      "白ひげ海賊団",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 19,
+    "name": "白ひげ海賊団／船長\"白ひげ\"エドワード・ニューゲート",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/REjhMbkMXykchRMJcYbStODsRbjTzS5CL0Q3GwS500_p7jClCYSGOccoX1XYwNy2flWDj0PP0pv2-szVa2MsPJxcFstnO78pJbiffNma0N_K",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "超人系能力者",
+      "船長",
+      "白ひげ海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 20,
+    "name": "炎帝サボ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/nFvGxh-eLlLqxLKgaMu6zW3pVVqJoCmMBYUQI8hWzOP4HCX82ayRowKx7KYc3yiVsyajMK_xIClUzv8qqdgoGAOY2jzLgIZeeB-SI_F8cDQA",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "能力者",
+      "自然系能力者",
+      "革命軍"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 21,
+    "name": "黒ひげ海賊団／クザン",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/nc04X3TveAVe9IF22LK6XBrIVXEgCeQu_rRX74hiR_FWCb4GchXSxaKPlTCXu2q-n1AduPtzejqMwwhtC--GMJjqDgggfKTBW0bDIddtAqgG",
+    "tags": [
+      "ディフェンダー",
+      "自然系能力者",
+      "能力者",
+      "新世界",
+      "黒ひげ海賊団",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 22,
+    "name": "五老星 イーザンバロン・V・ナス寿郎聖",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/PER8PbPf65k2VLrzJ6niIv7blGyOJqVt413L6ErUrYtu3j5E_CgcGM7aoq419YseCdAEQj-mZSzk_gyKuV5aVYy1BCZZvTx95734jsNgw9_2",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "天竜人／元天竜人"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 23,
+    "name": "海賊王を夢見る男モンキー・D・ルフィ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0_xnWY8WonsBFtk5dQa90fDJWdlzsWfRiY2qcAzbZN4r1erXN0wcHcPmDxA_UqAQOZPDAdcFmKxVl6zx_X7NEvOzM1BVLhQRV-vyMqhk2hlL",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "最悪の世代"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 24,
+    "name": "覚醒フォルム ロブ・ルッチ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ZLuq5xC_jxvuwV5sSbpByur9VgrqrAqUs55XmGnD5NWvgnV9-jDFlWvcjeOZX3QbYOdXpBXa6U1tfScnMltAX9dY_aLc4ltJ0EypS5t8gNa7",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "動物系能力者",
+      "サイファーポール",
+      "能力者"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 25,
+    "name": "セラフィム Sースネーク",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/pI307kuXgsgbiSsXey3Qt6q8rbRvMDRFdk2tp4grkIL7XUG9AgHDxZ9YehYyBq8DHWDvx4cBGKD_H8FEJDAdYOkFZ7pzO86fX4_p98hBxQA",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "海軍"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 26,
+    "name": "勝者島 ロー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/XboGRYNUegileqNdPAAhfT-qpNqRzgViLxz_d9qqF4Of2pwxp_mOHo8k0VznKtM-yYzeUqdcDFmCdKJX-dRitDvjDFuF_TuobkAosgAHzYfW",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 27,
+    "name": "王下七武海マーシャル・D・ティーチ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/IZ34YcoAKW-MOvKJegnnj2-V3xniBwkRpLsSSpw5PcSyDgJMxW-VVzTQujpxz3vAsrs5O9wsqO5LrwloSpR73EHnmHuPTSpRhMEBMn0GHn6Z",
+    "tags": [
+      "ディフェンダー",
+      "王下七武海／元王下七武海",
+      "自然系能力者",
+      "船長",
+      "能力者",
+      "グランドライン",
+      "最悪の世代"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 28,
+    "name": "九里大名光月おでん",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/J_XegJxRDVPU6vCYNT4wa61axkwAlf2Ffh5r0GSWn41hjIUUS97q2jBO1uMH5RRg2OjFCpfgrB68k5P2mkfdIRxp40jCKHYrBgyE_kDOD1hvkA",
+    "tags": [
+      "ゲッター",
+      "白ひげ海賊団",
+      "光月家／光月家家臣",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 29,
+    "name": "カイドウの息子ヤマト",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/-Shrm1XDjXFg0jchp-QWtqrBgmhzsO2OFEH7AHb12Kprv0qOTa2kk_ii9sckFOmfazWuSeBnWFPUtwkQUm3-cuaCSnWm7STnKCCWtgK-H-tC5w",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 30,
+    "name": "鬼ヶ島討ち入りロロノア・ゾロ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/cfx2ltS_3zeATUOYpRD4lkpQtoHkSf8mdm2vAkEkr6gnMVKONE3iqNQVvysQAs3GvfgigmfFrOL6elE8kW4tL5qOLGgjZ16_jHeM3Yj5RV0-",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 31,
+    "name": "食いわずらいシャーロット・リンリン",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/1xyajIs7OuYnay_r2xhhw12M_KlOqjTQ-a23CVhvkupk8gF0-fSaFwKOuJVRak_FCLJWOv2fRljn9zyybm32_3xQKtUFkxeszUEe-v81eqOE0w",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 32,
+    "name": "FILM Zゼファー",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/quWYCDlFTndQcfckSCDv_vrtSc0m1RxVbfIUn5787xyyM6AD-FaRopPgz9Em9xo5qi-Iq69TqxLUbI3rvmluVxruRI4AmpNUWOjDd5n_RqxvXw",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 33,
+    "name": "鬼ヶ島怪物決戦キッド＆ロー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wwX_3nOO6KZm_5NtVWuMJ255laiE54glsq5GbYk0xgt7NFyRfwyQKmX7Drc3VZs6mGe5VKgQph185Bre19Soh-U3DLMIEihfNajf9faSYmIi",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 34,
+    "name": "火拳 鬼姫 エース&ヤマト",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/zJz2_ysrXqByh9aNeLElLw_rFnePoofw9BMZ22VdAzDyoAlCjWdvWstzwZTUiuf8N7T2pilXtZLMAVGelFFNyPxLW-d9eSzu3TT56iGN5O_W8A",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "自然系能力者",
+      "動物系能力者",
+      "能力者",
+      "船長"
+    ],
+    "obtain_type": "超フェス限"
+  },
+  {
+    "id": 35,
+    "name": "デービーバックファイト モンキー・Ｄ・ルフィ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/jZCv3VSkiGwE_Du6soaLI2VTNddKL1dFnrQfVKVwHgN6Th1ROinCGEBQ8xGlpBRd289Xwf33evh65PTZGP_wYZIfFVabOeF_fHRBxCe2iVxo",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 36,
+    "name": "ビッグ・マム海賊団／船長シャーロット・リンリン",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/purDuWV3K0NiqBOTNiW_ZnQwGdYVM9WcB4pfVop4xs2GkL7W_jTQyOnZXDiCMdzPvimlJk_9bjS4bfryrYQa3bMG-XeELpAH3mmIw4Yqqxb4",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "船長",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 37,
+    "name": "青鬼ドリー",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/9vWnmIkFbYdx5EpsZU6uxzFy9UEtopRMQ_kyeHlYuiiqYU6xwQ0Jqan7cPGKaxB4aqwuQhwpPzACpVZkrkVrNJ6bXbZisxgrvnAgBbXZC6Y",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "巨人族",
+      "巨兵海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 38,
+    "name": "赤鬼ブロギー",
+    "attr": "黒",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/SmiOAaUqcdo0udT7GHBxEwH1qv7bFhU2JB5odExweUpyD6W3nF3P61Uq1V-mZH3rEiFUfXKAZf5AspqH46q2syNaRX9o3aFs9cC-xwmaFUz5",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "巨人族",
+      "巨兵海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 39,
+    "name": "海軍本部／元帥センゴク",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/czkbwv1lzUymYJVGnyddtjH0QYSk6s2JvtFZBs1AggbFOj-wJOdbFu8gz3jQ3tVNiCQOZRzU5yBaiisOOUnRMg3AUq35WZ3hbOUqvnMpOIO92g",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "動物系能力者",
+      "能力者",
+      "グランドライン",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 40,
+    "name": "インペルダウン／監獄署長マゼラン",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/9KS0b3-QcRedcm-75kI36ogGDu-EM98xnznF4oBIKJsr35OYFgCVdi_Sf84sIglPGFbRpNI7SAzK8zqS2g_w0RGZMMa75-Xi8bedP1P4qoN7ew",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 41,
+    "name": "エッグヘッド モンキー・D・ルフィ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/mkV5ZEf81OVa9PnklrkWlaERnOhpr23SdrT0zTburTltM_qXyafEs8lWburzI8aS6wsXKnI6Qs3rVfiI3k2QVcR9ScfleNGNQ-YjjhfYzsU",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "動物系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 42,
+    "name": "海軍本部／大佐コビー",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/AcfqJvkB900V-sqZ5ry-ufxtg0bYbkNLi6kjDiCJefWtiRD1r1Vhto8hhW-5LsQ3nKZoqGxiwg3IAq_ZnxsJqUgG8XFSz-yUCgzothi3ONE",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 43,
+    "name": "鬼ヶ島討ち入りモンキー・D・ルフィ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0FjRmOpKxWn9_7JRG9-cI8PUw_oY-sMGGd8O_6b-N6baIXofWpWsxrJLsbigTdUsiptOcUOkVJKsAEaioX8Ao7bHUUVg48BJzNEH9OQzRw8",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 44,
+    "name": "一大・三千・大千・世界ロロノア・ゾロ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/twY7SVBUCCOS8p9Z-77Jyz-zZutORL_CRsy39TNsbw7ncEildU73yKLiW9BX47rvsiZ8k9BYDRmPCz80aucnDarp9DeH0YXXN2dKjdE3WV4",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 45,
+    "name": "元ロジャー海賊団／副船長 シルバーズ・レイリー",
+    "attr": "黒",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/KB7alMx1FREAiLwpeXrhx05-SgljSwYxSJHol6ItDQILsL0Dsys7GhWdHAEkCghZMlP2tAVJEne0wcfvKpORfcZkNRwqKvGKXyVnKXOwUSw",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 46,
+    "name": "海軍の英雄モンキー・D・ガープ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/BF6PvTQyfxA-fQf-Xm7jKXAP6I4s0-r1-RJEOp6m7s8QeV2l-oaxnRvu3eTbg01OUBlpdEs_ISkJ5fqT0nNsZaMqVtmFpHMz4PdAx0lRqD1m",
+    "tags": [
+      "ディフェンダー",
+      "海軍"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 47,
+    "name": "CP0ロブ・ルッチ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/2rCxkYTNbqQQlZj3qmuSTC539d80eFhu0pg-fag1yZnTC_TBohaAJ8ci6uceXdwd8cmqEeGDdAw-huX5-1bucBZIyRUS0Ai3TQYX_YjE7_uk",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 48,
+    "name": "鉄の海賊フランキー将軍",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/qzy6rtxIok2-ZjGnDEyRMZu9cmqRDNTn8S1yzwAHBcGdhLztMK6vk_DMnuBUvXmiHQAWD0Jmg1iFvMMtjZ0dptnU2jagyENsHJLWJuyrLI16",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 49,
+    "name": "鬼ヶ島討ち入りトラファルガー・ロー",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/hvZbtP1BoJ3fsNnw6gpuKhQ6kbFHMySRJufjf3pLuMZG8myrF6DoqtnT4K1GGRf-SQjxL1ej6Tcx44vMxrUAjV_ULqo-gIyrMRwpxU9U7I5z",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 50,
+    "name": "鬼ヶ島討ち入りユースタス・キッド",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/OAyj-BexeKpzpbG8U81HRzLM5-NJyH-R1Bn4hhm41f8cQcI-n3LnMmjRS4_CpwxTuuuCrI84igtFGz0Lmem233QKAd3T3HH8tNuPc1XbvXA",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 51,
+    "name": "ロジャー海賊団／副船長シルバーズ・レイリー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kGTs4NZRmh821tHyMJ-qWZ0pQlkbaYZyOlFQtdSRT1dulLV3dr7-caPYTUzEPlwFSCP6wl1oX41e_vO0n84TPHDr57h65nghnXP1CO5HnJLJhQ",
+    "tags": [
+      "ゲッター",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 52,
+    "name": "STAMPEDEダグラス・バレット",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/W1GBJ6L_C9xhJiMqAeK5gXYNLMEF644aZ0_dug6zQMmOj4H75BCC3ZnYkP5oBl79QCTZrScakW9OXtasyI4ziajOvb9yy0YnbZ_lhQsU_6h0",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 53,
+    "name": "FILM STRONG WORLDシキ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FKv29b3DLHW2wI8dS5LqQpPAgQWnD6IuHcZImO1FzAIXrYsOaAJ0KsKSVA75WIuz_Geick8L_zKiqtod9qJ64sbkEOLUcvVeiO41UgMakiAD",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 54,
+    "name": "ルフィ・ロー海賊同盟モンキー・D・ルフィ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/MAvax73XjPv6xxWljv9SUplSe6FEMOwFIsmYp6jXlok81lwwfMhmgPXizV8J25aTqB9aRukiNoq4O8V1n43v9Zi8GzgkBsjldsDY_PNw4eRY7Q",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 55,
+    "name": "世界最強の剣士ジュラキュール・ミホーク",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/mndRrEuIJKf7Sj6Nvv2CdHrJ2rg_FM9tTo9S1Hkslj6CmuItkz_dED16DAjH0fiYfMxsmdwCRD3n9XbjRDFFmB-g8JOqAsKND4VZGEI1dPWJ",
+    "tags": [
+      "ディフェンダー",
+      "王下七武海／元王下七武海",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 56,
+    "name": "海賊王の右腕冥王シルバーズ・レイリー",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Z57F0IWwF1JIjpw2sGfDMaFlRh80I8P-WYITFcMTZ1wjoHk6WeZZU6jDS1HsG-EvkdguM9WNj_5kmfTprfmd7TAi2zkyMq3cJ2syhS02S3vH",
+    "tags": [
+      "アタッカー",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 57,
+    "name": "百獣海賊団／総督カイドウ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/zJhZ5AYEvCgiiyALInK2qsbto6lmUEjO72alvtJDmCQCI7JRUZKN9JhJUZ4BWzgjlzLpxOuz95fbcg0Hl3Bn1Euk5d6bLUkZcsm1iJ4pzWh5Ow",
+    "tags": [
+      "アタッカー",
+      "船長",
+      "能力者",
+      "新世界",
+      "動物系能力者",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 58,
+    "name": "ギルド・テゾーロ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/lF-5qKl5zXzm0GoxEfbFGwZIBGlIQAcEO5U8wMuDjG3oJO5TKJvB_Y-xDGTehRPkf6t2mxwiNMsVKgqV0uSBPKoNm1GoeJsH0FUGM82mHoY",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 59,
+    "name": "海軍本部／大将黄猿ボルサリーノ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/mJteF_hzLNNmdGVIOJdPm9brsIUVb5fjzgKN2Mfm6z6YmYYGBfB2p905X0HYSslDLaaQ0xgPJeRpvSIyTfWJS9PuyPOYoqLZDCoIkvcHjpPciQ",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "自然系能力者",
+      "グランドライン",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 60,
+    "name": "海軍本部／大将緑牛アラマキ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WLnvgc1Kk40Ex1j8AkxZFrgYkkTW7TX7-zGCbyt_opND4lYw6TFfFgBnL-NXp6mKdC3KCNJa_EgvpcCnn5mEQ5AimfraonkxkNZVeOl_tTk",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "自然系能力者",
+      "能力者",
+      "新世界",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 61,
+    "name": "ワノ国将軍跡目 光月おでん",
+    "attr": "白",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0wV1E475v8ri8FeVJLFjb48iQXmXHkjkaugjK9XFK3cxz34Vtd9Q9aoJDqpP3NFhGbs-2ri7BuqltgFAgp3wC5J7cve7-XYlftZBlCGEpBLs",
+    "tags": [
+      "アタッカー",
+      "光月家／光月家家臣",
+      "白ひげ海賊団",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 62,
+    "name": "セラフィム Sーホーク",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/3LdEiUL--UZ4T9GmGWD4_oTJKy8AWV35VSLfyBer_uK3QBNTs0tMKh9_K3U0ynu0CHI0rODsEWLr3vvls_ybnnPN-b5c9g7Qu0_PSaOT4-0",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 63,
+    "name": "エッグヘッド ロロノア・ゾロ",
+    "attr": "白",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_zjYCzr08jVk1tte20xqH-2tvRUZl2_UV4RjnaCLOQGthfqB1eElelCaHegLgvaWLEt82FkNFgmm4huR6PZmPLOLOkVeDz8kcATzSNpbN8xCxQ",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 64,
+    "name": "ハッピーハロウィン ウタ",
+    "attr": "黒",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/fV8BoHivC0_dzKA34SjC8KH7mwq3EhYgkWkXR5lXQl2Q_7-wHG9EeEgaYjiO16LNmUaFr4dAfQ5B0qrzhHTFVAboNrVX74OX2SEEnVTS-1gh",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 65,
+    "name": "セラフィム Sーベア",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0MVcLVojlxelZ8VvIH-toJqRn11GxyxU4pEObQqvLLLxPoKA7lYg6DcPoLHTF7ZIasUk7kq6HsACY4NaAjCqE6tebb5RWwLR1_eOHc6EVuEH",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 66,
+    "name": "エッグヘッド サンジ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ITjm0TsNii5Xqnfuh8eOxcHVisZP5sFhCj8uluGLgIdtNv6vtL8ri2gf29IkDIiA3Zeu8rMaUU_ZJa9c0KLbJEh24pnLEV7-IJhgoLQ7Z-X8",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 67,
+    "name": "セラフィム Sーシャーク",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/E14i5MsxfgjvLK_sC5axhfZGrbKVFgQ9OeOmBFJfWoit2Gw-wgf_-qdkUCGrWcpMqwN11MRhi1liRA48NVHLdAXYWQ9xibyF8H0gnpCWpPab",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 68,
+    "name": "盲目の剣豪 藤虎【イッショウ】",
+    "attr": "白",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/sxVO6cQGGYmuhujV7CoR3xDAeayooInbaMqeSmem7WsxqmQyGY8-NmWCM69TY1vFc_BMPdJRzbjVpB_yv6hKkKJ4ppXYAGOZx5fO57vwDw8R",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "超人系能力者",
+      "海軍",
+      "海軍大将／元海軍大将",
+      "能力者"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 69,
+    "name": "禁憎森々 緑牛【アラマキ】",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/JHmCKYLp1FCZKWRq3dvsmYIMs9UJPCSDE8EH_299SC3oJmDSeZqYqUf2-ttb8WLzJyTPFQ3RRu9iJuDehSzIK_4brnzRhR3Afrnk0Zopt3xW",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "自然系能力者",
+      "海軍",
+      "海軍大将／元海軍大将",
+      "能力者"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 70,
+    "name": "海軍本部／大将藤虎イッショウ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/e8c3kgz_gdn8o8GObzxi3ZBldSMN1X0DCTkNtVsGugZTvNt857h0ZhIPm1GjxURUkEAjYI7_z0G-wPVhN-uJziwkxfejKHzyAyZv1KjXoKqI",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 71,
+    "name": "新時代の歌い手ウタ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/GwEI1u5oJRZREzLxCH9PCrj0yyg_Gz-ZnrY76eMs0JKEhTLawOQHb8aPF4yD23UTvBj1bvottBPoSc8YgjVCZ6EL2zOrJ1XFb1xkVezrgoa8ig",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 72,
+    "name": "ビッグ・マム海賊団／スイート3将星シャーロット・クラッカー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/zC5CjJr6670Wq25cJoHYU2fT2AQXNVLUE6r1Nt_Aud8GfZlDd0U91hfP0FjpgYZA4hTIEzG9rPv_7vTA_JTRsSHjpaRwr42XcTq1QiuXfsmvCA",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 73,
+    "name": "シクシクの実 ドクQ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/rMiqPgdJXwi7WWUjP_VQmJ9Bg3suoQWw1jVoUGCVfPy4H0Nh7t4FRIkxv9XZyOJEK34_y70I_45TatNNadL3K6ufk67KCUB3vWnKwVADWw0",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "黒ひげ海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 74,
+    "name": "海軍GL第5支部／中将スモーカー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/7Uc-RlXhatRCbS_E2R2wK_Y1dtUrSigJvJeBlM8l6Fer5QXYvqzQpfLwAQz9wR953wnBGSV9Z55-8qCr4w7DyOfXCjt-UgjPQREbDLMqwNkA-Q",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "自然系能力者",
+      "海軍"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 75,
+    "name": "ワノ国マルコ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/87TcCm777fmR8MRydSlX8Yz3GJSE6PzjdFt7SIiNvKex4lr5L-IDtbvsr2UPYkCgxGdr3hfSbVLypgn7KJmd4SwanHT2AUCQHCumMqXlZjw",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "白ひげ海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 76,
+    "name": "ルフィの兄サボ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/DN5V1X9dWp1x79h7W7TgBO3VezCe8hhiltJgk3LcH9q8WtCGqECtOa-dqL0LWYj0uWMMWuuyLEXT1qLafP1nUogHluRU7nNoI8mufeEaRIqF",
+    "tags": [
+      "アタッカー",
+      "革命軍",
+      "自然系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 77,
+    "name": "超人シャーロット・カタクリ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wswPrVXs74nL7vkkPRdlkV7WOD6WeLvqSSe9j91Q5XnbaBWX4MozjfkN1k1msQGFmGHuUuEz7vTKRf2ClJFgUX0Rih_v6lHkAXtJ9tv06c1A",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 78,
+    "name": "ビッグ・マム海賊団／船員シャーロット・ペロスペロー",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_cJnwzEcbY05LueQhVcdFBl0QPXVTuHHJ31E9RQXUSg_vdIXGuC5ek4dnlIquvNba7hA_hyRvjqwQHFKqoW7fGiCpseT9d-h_CT8b-dCyI1d2g",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 79,
+    "name": "怪物強化トニートニー・チョッパー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/cA2oLNgcseihfdOWxyWPy_-4fRjJ1pvZDPBfZA0LhUpjmc4KIkxN0dhtw-X6NNuee20QiGqM6htJIh-r8qbbCjV7DeYVKnvM3eYaV0tn9mcDmQ",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 80,
+    "name": "FILM REDヤソップ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/NXOZY27x8z-M2-vOsFxH6xqfvn7DBGrMw8QLTz50ZELAbXqiMLSylDOidf5cp9UFmCjWmzv96ZVUAeVMq8uuu2w8dPjWVfITrhvlepqLaLkI2Q",
+    "tags": [
+      "ディフェンダー",
+      "赤髪海賊団",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 81,
+    "name": "新世界ユースタス・キッド",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FzGvrZrjXJQmqcV9k7Gu6ebupIHXUIMMWyvxxXaastLewGfmgxyjqfvBDnl16GhO_kH_4t39gI16iyrKSVyvEs-affmLF1yfGWp5kAa0lsuA",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 82,
+    "name": "STAMPEDEボア・ハンコック",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/27urcqGJ0UB3ANPlg_KatjgP3zt62QTcdpi6aWJ75L7ITAUuUjkLihKLPdPXAJeOOYGP7WpJPNm9UvJDRgsoDgeWBwCHiGXMIoqWk1nqKtzq",
+    "tags": [
+      "ゲッター",
+      "王下七武海／元王下七武海",
+      "九蛇海賊団",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 83,
+    "name": "ビッグ・マム海賊団／スイート3将星シャーロット・カタクリ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/xbFESOGffZZO_-FN80hHR5woul37MWkd6gReVItqgTl5HJJAoVB7QbTqT2lmEjdK708BJNOy4bFGj1e2ePWafcnFyyFBvijRlBcXxo3fWj2c",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 84,
+    "name": "ドンキホーテ海賊団／船長ドンキホーテ・ドフラミンゴ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/yYmvvlOwifGsF7ys7GsaJfsREaX9ott6opk6ZBRztnGhB1s3W_2rc_pSNEzYiAr_f6N7u969SI4eAdE0gYzQ5iECv8zUGImPBoEY_k4_NCk",
+    "tags": [
+      "アタッカー",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "遠距離通常攻撃",
+      "天竜人／元天竜人",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 85,
+    "name": "ワノ国X・ドレーク",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/UUf0jQWl8MxazNsORRPB2YZHWh37ve93Os1qkilDNhxbYqLsyxZaTKoAM6DO05ImFF89PFsaUNzCRTiu-yz5bXuphPIVOaC6ZWW5hXEs6C-7",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 86,
+    "name": "百獣海賊団／大看板ジャック",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/vHsf5Xq8L7GfGnpJ9ec0sQB960qoD0sYBKUwciWH-BATcli5TmohY3S_Ug8GbDp5qsoM-eLcAcz9JTlZG50EgVoyNOqfkSDgZjaKaXMd3bg",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団",
+      "魚人"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 87,
+    "name": "ジェルマ66／総帥ヴィンスモーク・ジャッジ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/8L59oKhZapxCjrFOFv91HfLE4argkD2XJwDBIpIeTDESel1fX9YQGQCt13QbLeCs8tMqaSG0nrtdddvKhXu4THYDslZCTmQm8QqkNGl3miJ4",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "ジェルマ66",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 88,
+    "name": "鬼ヶ島討ち入りサンジ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/NLaQy39iMrkr4h4KYfJ9MA6KeeHbfIQ6MXwqHHLIxssS0UBGPV5uvcm0fSZ0J05F0AC5QMVM-EZj2-WCg_81CDylsqajhR_O2Kquc8ffHeg_",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "麦わらの一味",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 89,
+    "name": "鬼ヶ島討ち入りキラー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/qYj26OCXnC8bj6zz039_1OWNqJzDcJt1fF7bfDMjSFWNPk7ABZswfCUiaNMzT0BLkC-UrOKi206HFWo_y6An_Zd4pHVSzGEhxS1Is_QYc5n6",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 90,
+    "name": "ルナーリア族アルベル",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kdHzQ1zbz_kGuwd0r0HOfwNaUAINZw8AhBB8atSX9uBt2_nUukxJOvMyG_UBOJaQCxTsvl9NMfniw7cM-AVbV_jLGG_ZOn1MPnHWgSpfW2eo",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 91,
+    "name": "絡繰人間クイーン",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/jr58ERqg5x3CVFGot2aKBsjAoH1Jy2ai-WZatUZ8a20UfOZg79KgyAX84QJvh4dVB-DEPGT4jU-oMlHTSbbGJ7SOHAci0WpVgyazC8H8HRu8",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 92,
+    "name": "リキリキの実 ジーザス・バージェス",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_thXHnaGaoJ9r_qvlKGZxvUBUGjN_edVB4LNXU-9_pmFgRe0Xk_GPJmqbRI2OIHv_07rfQiIG8h42OJtvGUHyaFNsr0kw5ILRukd7KwvUQ1b",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "黒ひげ海賊団",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 93,
+    "name": "スケスケの実 シリュウ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/3bJMFsUHHCyjvSC7tIGtvGc4YBGdE8hoHrOcw-BxC5tlD-x59AuO-Di_tD5FVXOwA_EU89CFXhHwJpNgd76fjhkvsARv0JImB-xsrHcfq2QWzg",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "黒ひげ海賊団",
+      "新世界",
+      "能力者"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 94,
+    "name": "エッグヘッドブルック",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/JIEnFRRZfGAoCB7VN4roJ-mzrnGDFfppU3L6Qc9HMFJDrvHS6t4Tm1-2VN9ZtJQarXtEcjB4PeMOpEl54Fks2j7oeMRvb0gnywlI57y3HOer",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 95,
+    "name": "エッグヘッド ロビン",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/gXcHHxSZGjFjPYFwPX31EvvEBItOkhRIuTuY6iCk1tF69f24vsj4GzzK3LHs9cuMgp5e4Hn3PujNfJ2B6OPUGJcsEBRSQe5VwChAi9cxNe52",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界",
+      "超人系能力者",
+      "バロックワークス／元バロックワークス",
+      "能力者"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 96,
+    "name": "エッグヘッド ジンベエ",
+    "attr": "黒",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/bZHG-e5Kd2qLnztkEMr3oId-Gf7KIchczvFK_1NUi1_BnrIXPEO31_u2Jl5_6D2bV8w9W-0cR0-OXtsFxoyqjhYJvjLGrRpFtGglc_Fy4d_V",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "魚人",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 97,
+    "name": "ASL エース＆サボ＆ルフィ",
+    "attr": "白",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Wc18GmoY_DTBjFWjaYhrx-xASYxkUVtvxAX-Lsu_VlWss5LRWAvO0QYvHXSRGz_kejrnVtosk4JowKi1QXsGoU83jwScFcFHPuoLYvxtDQY9",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "超人系能力者",
+      "能力者"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 98,
+    "name": "ワプワプの実 ヴァン・オーガー",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/vOgezr04VyOOHfZLb9OXm4bgTOb82pHVg5swG82Jv2ZanfFKfCjCio9P1FD7utcPonMPWEmWzEGtRTMWR0pDV42iZGqySF1DOwsH5yFyVPzzOg",
+    "tags": [
+      "アタッカー",
+      "遠距離通常攻撃",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "黒ひげ海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 99,
+    "name": "ステルス・ブラックおそばマスク",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/rHiU7GtMh-oH6h0GSE0pZnl9LMAgqwwgO5DoJulAGOpzlZU8CsCoSRMcUcnfE6x-Z8hnOyWprqVEM98otxxTwbAM_LkKqgLoQHHZcHPeSKKG",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "ジェルマ66",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 100,
+    "name": "STAMPEDEスモーカー",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/goIe0YvQbIP_rOv0oCfkSH9ZAro3ckrhabEHXMINqgnSXF03ProrjweHJNR1kH_JZYUNLKk5idhO_OIVnquMPOsfetq1VwKLzA0nGbSCDEoK",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "自然系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 101,
+    "name": "雷神エネル",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/8_fZQ6O_AzPVrE-BviMmaUihB1xB1flZKTfvEHJAGBZNQeZfHb24BCA_GzEUm_U9vq9GcRQSa3ht6KLOhFrOQOKKl8ngWmBY7Ozx9V6v5txs5w",
+    "tags": [
+      "ディフェンダー",
+      "自然系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 102,
+    "name": "百獣海賊団／大看板クイーン",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Q6xr_5KixVV5fbnc6zTTlfwxgo1_ivEV73A40u6iDtp7sPA0iQz6Eitig-qki9Ae9Io7fzD3Ls2zaXNyNnxPksOYrN0aP1ik1PIgBln1IFEPJA",
+    "tags": [
+      "ディフェンダー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 103,
+    "name": "FILM REDウタ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Gk_jShbG2RjHXyq3V1buyvlNsLWvoSWzURXZjui-Kn-39Nx9J_3GQZZYdQBzooVTf_wCIFC_nyNNeCaV-D-6biMFCDPhqX8zLSkQlTsM2Q_8",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 104,
+    "name": "FILM REDベン・ベックマン",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/HwDIe4KqccVTMs28lQvoGlYGw_AUCDUC2ehK9SKXMPBMN7X7TGvrIiDwCU0JT63uIQRWX1nUhOINTdQgkNTt3reXRDqco528vfF9A98Vit2M",
+    "tags": [
+      "ディフェンダー",
+      "赤髪海賊団",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 105,
+    "name": "百獣海賊団／大看板キング",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FcIwSdX-9gUqfz6jPHcW_tq1pb1NyDUqjrv0U-3ZUyYTYcdLNSsyU_r7ihh_hY7YrC4Ec9ZbnkzBVHM9yzGJOgPVcWW4p1yYlzbZe0nBBMuc",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 106,
+    "name": "エッグヘッド フランキー",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/uhbW-uDo0MXMn_NiBCw_srEasg7590d79fThbSS0CwxFeSMIgBMZEJh6RdFdaApIokmtkTpCtT-Nas9J2RtJ1pZOnYnbjDif-Z7Yqah1MyCMAg",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "麦わらの一味"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 107,
+    "name": "父と娘 くま＆ボニー",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kh5QfIlzkm12A0NXaga3QgYV2mGapylDgmiwqwrOQTGFvG8a9KVM2rKp8AMbyAD4znRUozIRaQL4TFrpzZr014FzWLqJKg8Ng6CH1d2enP6X",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "船長",
+      "王下七武海／元王下七武海",
+      "新世界",
+      "革命軍",
+      "最悪の世代",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 108,
+    "name": "アラバスタ王国護衛隊副官ペル",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/oj9uHx_qJU-0rEv1RvfTBsK-m_-2tfdMzJ3oCJwi-he7JguWcAuhRkoSRv5QpKaz-wiUNzd21mGSH2wI-X4-s477qtIYOGs9cNY80bhP-aU",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "グランドライン",
+      "アラバスタ王国"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 109,
+    "name": "火拳ポートガス・D・エース",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/RoukCS5utAp7Djw8zZYY3Kn1sVzfeGJL2UbkH-W6dhg69quMmdnRSZ07p92ngtjBEznbXmtp9ZEkZLyRxlWIsYLJ3B272flNwQ7Yrdfc4ZJx",
+    "tags": [
+      "ディフェンダー",
+      "白ひげ海賊団",
+      "自然系能力者",
+      "能力者",
+      "グランドライン",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 110,
+    "name": "革命軍エンポリオ・イワンコフ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WQWMal3-UZfuAI4jQRDfX8iNjSG49d6tgOKj9nDZxRwKPhVVK2qMCypT2fRbL7-Zbi915lUVPMlnXe0mun1en-0WToz43mUN7fYh3V9K87g",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "グランドライン",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 111,
+    "name": "百獣海賊団／飛び六胞うるティ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/w6jn6NtG_eseSXFeJSethVGbVC9iwg56FRCeAZmJyGYBbNDdl25qDSX5Uy5reCf4BbdcM8tBTdYiQ2x3pFikAZA_dUxTus8TOf07M8zYqtLrxA",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 112,
+    "name": "九蛇海賊団／船長ボア・ハンコック",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/yunMY2IbCCTSZA-bMxIiVODE58OkbqCm3BCZUteTGGdTOWHAmb-uWsxROKmAv_6vM40TynUp5xZyAoKbTJUjkCkNm3Z4sVMHPhJirX_2Lnk",
+    "tags": [
+      "アタッカー",
+      "王下七武海／元王下七武海",
+      "九蛇海賊団",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 113,
+    "name": "鬼ヶ島討ち入りジンベエ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/cZUXrrZwnAEqvtzgHBhhBMLVSXnnf8gd5XQyonRKTsxXN1LSVETUO0VQ013O4zqJpgw-iBAO5SYffzoyCdyXU-ASzTszm18CwaOK8ITqIZpa",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界",
+      "魚人",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 114,
+    "name": "ロンメルのカマイタチハクバ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/nR8rKbXBsW-MLXQy3rZyIwBA2UJBEWSQnj65z29LUrSqt5hBEu5VNhMNs1hCuLj6Ksv3am6uv7QtHQV8xSf3O7n0C9oxcxMaFPs1Z1rXLuPg",
+    "tags": [
+      "ゲッター",
+      "船長",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 115,
+    "name": "元八宝水軍／第12代棟梁チンジャオ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/fx1XvmXVXegCQdsXm6C_C-mzLM0YqqTWqy4FJellEZXfORHvJ8xh-XqdB8DHCg2Hy6heWHmc4pi9avnB_QHBVo9zOPoZxPSRe6tzC5pAfMY",
+    "tags": [
+      "ディフェンダー",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 116,
+    "name": "鬼ヶ島討ち入りニコ・ロビン",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WEN6cW15dFNo64YiCLSByehbR093NI2Sg2Smutsu7km9MOSocHhzz16W_LwfSRUbkOtsymoKyZSS6putGKiKa51pFkxyRFm9qNnE0vwYtWSd",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "バロックワークス／元バロックワークス",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 117,
+    "name": "ジェルマ66 ヴィンスモーク・ニジ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/v-Md7MYE6qTRPPmJ2LKewGRI6j7yQzCD3QIEHzGJ29RZiQFImuT42RjMBtCEA2HmyzdTdZGFJeGwJ7ZAnkAXBVRooB3CckuNtN4huwtDgWZ6",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "ジェルマ66",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 118,
+    "name": "トンタッタ海賊団／船長 レオ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/rhMP7VD6FkQ3Wf3ft1ClrZTRXX0y2vi0cRdVWiXXEzO4Yrk_KE6K4hV1LcoCsOv0ZYdwFHmmGZwj45WQUBinkFmjIkHZFAgQ1RQ3EdE9zXGXAQ",
+    "tags": [
+      "ディフェンダー",
+      "船長",
+      "新世界",
+      "超人系能力者",
+      "能力者",
+      "麦わら大船団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 119,
+    "name": "デービーバックファイト サンジ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FVzbciBgrdAxHSHIftzdlyHLeBPuERh0_eNggprSKrRZMaaKjZi-ccO9Kmp8aZURqChRs5URGaLZQpfi57G11gIzUu25DGNR5GJFxNDM75rE6g",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 120,
+    "name": "天才科学者 ベガパンク",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/EpUyRbY9jmYMxcxgtm1mnTslCBmagiaVQNjmGF489LPFsikjSSVcrdno5KKNdvceBDzgAyPnMUn3YJfVONrQDv7IkB-L8IedphCRLkV6LdaC",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 121,
+    "name": "ホールケーキアイランドブルック",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/MeA2WLiYZ25_NiHCTyTnwW3ykCY97rgh3NR_B1-k1zG0SgERwVpHUczycSSPzCgwjsc8VgnnKB9BFDEUd-u7-tf4KnbCK9RK4LTuvYvIUks",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 122,
+    "name": "百獣海賊団／飛び六胞ページワン",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kmjp21e7X6Evr_bsvtK7LNk5FgRwt2JSTqW2ax58hV0o4FpqKBnp8dqQb_svxM4cFZarY3F-GUjYLeup0SLh2Pc_6eDiFcHq8aqaGpp4XzE-",
+    "tags": [
+      "ディフェンダー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 123,
+    "name": "ドンキホーテ海賊団／最高幹部ディアマンテ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/1zkxhnQbwyMBb2kKzGYuTM6o5KzsU9m2iHo-5qiYofyC2mv1EzlvkO50CuNC9TvwzvnfgOJufIUp6ZAL0NVV5vIfDzLk2-Za-2RzFUD3hQUb",
+    "tags": [
+      "アタッカー",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 124,
+    "name": "ロイヤルウエディング サンジ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/6KOXoaRYhXraiZ2OQzX4W1KeIqX1ULVtD0gjcBFvx6_I2nuBRIPhCU51OHg_4JFKg5htArDPOS6M4LmJshPgzAkpF76C5ZsFi4BpKMezOt3s8A",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 125,
+    "name": "エニエス・ロビー／ニコ・ロビン",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0KlhFebFJpXgYVuvUWUsP_Xdav35sLxDQzKuCDrvYcW5a11lMlRCDS0uHOkIfZj6wb_lh8W-8aRtw2m48hJydl2wyNAlbm4KXYmzlbUa1RNj",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "バロックワークス／元バロックワークス",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 126,
+    "name": "王女と大切な相棒ビビ&カルー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/6DenD7SDU9BLbcUBEEGbHWC4J2IIw1v8_jEorLPXDDcPVYYUJzA9A_J3k93rfKJx-eTDyOtMpx427Gj80q_YibVTXIMjjdgFOFv3WmLVZFIA",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "グランドライン",
+      "バロックワークス／元バロックワークス",
+      "アラバスタ王国",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 127,
+    "name": "ドンキホーテ海賊団／最高幹部トレーボル",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Q7jBSZeyBVAbREBnhAozB7kWZJT0QF1InbtmRtbBY0qsdC_ml-BoSZD7ZaMiJh7kpuDo0tuk5RoRS8zjSJRa330tfqVAM14sHxuedgxYa2us6w",
+    "tags": [
+      "ディフェンダー",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 128,
+    "name": "鬼ヶ島討ち入りブルック",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/9SNW3Y0m9OHI4EjYZDbRZ1kc4sesTHWqbyxZAeWl2e8iF60Zsh5B7LaLqdzcO7ypz5ShMx36XBMCMMp3t_tzUnAIymLrC72dDQj_znnHoNqz",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 129,
+    "name": "リュウグウ王国／国王 ネプチューン",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/EnLF5NZj6-3DDbpM00tSmnIiJN03RNSvoIskxbiPoC1cjl4q6n7cf_E9d_A_-4mMfKquICUxvEu31IboCfJbsynRWy-JQyxvMnSKFNFSqRHP4w",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 130,
+    "name": "ワノ国の将軍 光月モモの助",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/hMto9LBJPjNj7tWDZeI9N5XTuTeS-Yqei7lqzkV8bcGw1iOQgIaziddVFznET2Z5Q79B7Vh9OxXgpfST3qgzngfl73_Yw6O_FIe3411MzCA",
+    "tags": [
+      "ディフェンダー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "光月家／光月家家臣"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 131,
+    "name": "覚醒フォルム カク",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/7skw3X3pdXIjp5Dd_9mldHJwnk89RaCu3GZGnQ7fw-d1ixMXhIiBFRqEwAiqwMKpE9WJRORQ4peQw41hnND1BnmlL61SD5c6SOQCk1xO9VRa",
+    "tags": [
+      "ディフェンダー",
+      "サイファーポール",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 132,
+    "name": "ベガパンクのスパイ ステューシー",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/sc0xQ2bJA63-9DAmtU2eUht8_qpgOnBtTFrTIqa5XR4g_xrZrgbDe42IvOuyLvEYrnDbeZVVF2l4x8UJCHSwtORizU92C9KU6obqm65RfrDn",
+    "tags": [
+      "ディフェンダー",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 133,
+    "name": "ジェルマ66 ヴィンスモーク・イチジ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WWfUDy2Y9kTwuH2Vlh5Ndiv0yO2iABib21NN4qPRwB9DRY9ys3sY4tAAJ3NIcVZMLTXs1BeM_tM6BKBVLOd84TNH3hOsA0_LeOwZE8mVCHk",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "ジェルマ66",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 134,
+    "name": "ジェルマ66 ヴィンスモーク・ヨンジ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/9ninj7CfYbbl1V97pQHx_yCkoi5XIufROYk8G2mL19m2qVCHF-TCSS_xQkTbJp5oTltl-d2lGNZAzHVLJiow6spDjWWYrTpXgNx94NaUeOc",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "ジェルマ66",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 135,
+    "name": "八宝水軍／第13代棟梁 サイ",
+    "attr": "白",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/tR3M9KvDpRJMj4eLu5k6WKoRAlETOK-WS77zMEFhtejUxnLAvF392HMgl1IuKeY8t0k1xPP1b9bcROQVONf3j0jaHuAYX44iHC12vJ56j461",
+    "tags": [
+      "アタッカー",
+      "船長",
+      "新世界",
+      "麦わら大船団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 136,
+    "name": "フォクシー海賊団／船長 フォクシー",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/cQFnRECA6EEJ5kco0WwNs9_GIyWqesm_U9tzJZmY2Wtq27EYy09gvaNWGWXrlFdnc9YrU72hbkd-fmZTTdoNzHVA09U0VTlslv7Ey35t5H2Z",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 137,
+    "name": "勝者島 ベポ",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/h4S870idsSMR_gZMo4aSceVXWkfTa0ejsWffdI0YLb2gRcheHpYlZftjdV1ZZTYoLkeExh4SmJIZ2Db5jt3YSsHTRug3ufelQhlL5iaQuuEmmw",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "ミンク族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 138,
+    "name": "海賊王の息子ポートガス・D・エース",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ndl8wPAiEWPqaNgNqIfzRkS4E0lfPS6_vCooYsapbIgzS6FFECmZYSsZ8RZsSqYJyc_82wl4fdBpSUolxCFoWffh_MYCaLRqCrid6zv5k3AQ",
+    "tags": [
+      "ゲッター",
+      "白ひげ海賊団",
+      "自然系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 139,
+    "name": "鬼ヶ島討ち入りトニートニー・チョッパー",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/uIYxWLv-Gm8jPlj98YYUC9LKP28-JlIs_xSG9gq1_s4wMuIwS_iGh5on9yS0UR85Qytq3ZL4350Pr2MfVoLF5SW02JHAu__79DquKV3lERU6",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 140,
+    "name": "ホールケーキアイランドナミ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/mgBWcmh-NU3P8Ehjnni-2-SgtBASOSLlh-GU1lFrT9XVfAgPCGS58Va0DrTluyWZ25_CRbZM5qYPOko0Turq5tcR2Dz0DSPjP1xVgRb_Ogy3",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 141,
+    "name": "元海軍本部大将クザン",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/dnHC5jLpRQsYc248BFrHguogQPKi8LSsERrgv17Bni_JnT9CHXS0saDGLEwPfgl7H4zftz8OpV0sj0HhbePyixv6I5Vc-L6wjNKlcEy-CXa_",
+    "tags": [
+      "アタッカー",
+      "自然系能力者",
+      "能力者",
+      "新世界",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 142,
+    "name": "白ひげ海賊団／一番隊隊長マルコ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/agVgojMi-8sVa9RD8YAxWsxRa6GiclZVPyX55kcGFHYHzLT8fEzZ8AatGWf2EpzjEChR13s-v_Yl1IPmF0VezjTwYMyUJ1ze5nWkUo9Na4g",
+    "tags": [
+      "ゲッター",
+      "白ひげ海賊団",
+      "動物系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 143,
+    "name": "百獣海賊団／飛び六胞フーズ・フー",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ERqBXfX0HMR-zi_FKLBo_7zrLtYjjiN1C6wtO-zmu83HmrPZkIgecrpB3vQNaH9QWXAo1NjW_y1q-bPI2US4umfByTgxumSZGYglTATMOY6I",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 144,
+    "name": "ギア4／スネイクマンモンキー・D・ルフィ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/mHxZZic80YQWIF45JU-J5VizVxfjePNbts3Lz4ako4ZmVJZZGRmyicdMwfJeZyK_M7JgIpWucuA7H_WbXYxeDgyAh9XPGBTrExLh4EWWyKqO",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 145,
+    "name": "救世主\"ゴッド\"ウソップ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0kP-fhjLEUt5pwI_ugElzJEcgS0Iwsns7GxbuUO3zGHrR7UuZCVNvIYO_S-vJKHzxjZ91CyEmDB2rprtbTtcmGZhBUoBvs4ugl0aNAZs4W98",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "通常遠距離攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 146,
+    "name": "頂上戦争クロコダイル",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WXi2MGDEQpWYStuj0vpmCWjO9HIzPaK1GRshIIvMAdfB7OSaRfU1xQSnx98ShvrXpbj-wNU6uauTQrGpmxN1YEPTtWWjaA5n6fGNj4WdHNc",
+    "tags": [
+      "ゲッター",
+      "自然系能力者",
+      "能力者",
+      "グランドライン",
+      "バロックワークス／元バロックワークス",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 147,
+    "name": "ドンキホーテ海賊団／特別幹部シュガー",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/QG-d6kKuqVsouqXLZl4dU18C_gwqNVE5w0NhOGiiaaXWnncF--Dmb0JHBVh1OsMFPp1QrkiL6WRm05rjc0e_xp-alMWHrT-GxvYwB9eTBQ9c",
+    "tags": [
+      "ディフェンダー",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 148,
+    "name": "黒ひげ海賊団／元インペルダウン看守長シリュウ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WpIr3yW4xUchrpa_igdOf_Z1jfeQgZkUSSWAoOmu-vi977M27MTgz-K9SC7CksyDyo7iPEp8hB4lO310wuQzPBZ54nkBtstGXPKkBHTkaM8",
+    "tags": [
+      "アタッカー",
+      "グランドライン",
+      "黒ひげ海賊団"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 149,
+    "name": "ビッグ・マム海賊団／船員シャーロット・ブリュレ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/UVYxTRxo-Tjcs9dfCM02TDQwUbmOF5hR8gmtrRWLzys3sk5WseaRAL3o40XPdwXkkqTP2yrsPCSSqSLmWHeaVinFbID-9svPqHWu8kmA7M5y",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 150,
+    "name": "鬼ヶ島討ち入りウソップ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/E_zlj-svzo4bLwW2vVaMKdVc16lCird1h71_RmZW1GYAT5mMg5ac4gGc1KQT7ngPu9mOO6B7rQhBgQ7EQ2wBIs0-L-HpNPmQBWwy8-cpYb52kw",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 151,
+    "name": "鬼ヶ島討ち入りナミ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/CqgvUQgIV1gQTCzj9x3X0QmV06i2oTFCrLdmUWYAYsgM7GkpaXipWxfi6ktVG1_19rlVaNmBaAUZpCmzXbHhhIQP8P7My1pfyvIxX0CyK0PQ",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 152,
+    "name": "鬼ヶ島討ち入りフランキー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/H2o7DPVknn_p_hJ9N6Eg0hg4_4aETOKt7bQ4xj4acV-VSEaLbzhgjv7w9p0waQq4nRmP1_zirSqvBFWxUnJeBJ0drFJ8E56u6XxHNBJG7bPnIA",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "麦わらの一味"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 153,
+    "name": "革命軍／\"東軍\"軍隊長 ベロベティ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wWwXKLH8HgP4gqKlKCZTuBIoOZV1Nx_-PRBXe75bxu3BenRTxjBhdx8hssDRRj7lwAHkYJbU26yqhImaAVOOhyu-8BBL9EdVLLsmzPrIz1Bw",
+    "tags": [
+      "ディフェンダー",
+      "革命軍",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 154,
+    "name": "シャンドラの大戦士 カルガラ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/LuAa1YsuPduo9Y17kbbI9_81L-R8jmCpqHfIuhIb0GozWUQw4ourzlv9W3X2nBiXXbK_wOFfpGNnBDxcK_xJRCBtxHRDg8I9q3g4_Xgpqyw_",
+    "tags": [
+      "アタッカー",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 155,
+    "name": "ルブニール王国／探検船提督 モンブラン・ノーランド",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/NJYls3p0zrOA6YfPCn3cgGdK4nx10XCXoACNeIkapmUUYbiHlTa3R-eFpgYVBMuGkh1GD5TBQK7lOV_tw6lQeH7SMJ-zSOlcEQ2XahUWIUk",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 156,
+    "name": "海軍の人間兵器 パシフィスタ",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/qCdjT8vFJal2YgDLYmIVp3diyqS7K0VfCn3Sgo6iTFrTh9FED8btLzyt7281M_l5i2x3H57CLH6j6NiKS17_ZZUj68qOiAFzm5HURvtFKw3N",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "海軍"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 157,
+    "name": "世界一ガードの固い男 戦桃丸",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/DYxlv6xmNGipsmDtnw3pECXa0N2UKKATCT6cvrz1TkGID6OgS-Njm3EoChf5JjOtTHIWezinnPZVSMQJI8EyFzoIBysI-GSRg9zBC799op5Yfw",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "海軍"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 158,
+    "name": "CP9ブルーノ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FoFkqrrU-bMI9lrs7G3SAsXnJikzrYo1aU88DlVOC6YNxMm69SMGb-fKG4xiGb8wqCXLUtF6jggszvD5tcv0EB0MXQOEFCL7uKGVw8-mC_w",
+    "tags": [
+      "ゲッター",
+      "グランドライン",
+      "超人系能力者",
+      "サイファーポール"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 159,
+    "name": "CP9ジャブラ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Ps9ifFb3MdNQ_7H2k6GDbYTt_8fQ1PuPyyrLV0R3uXCBxFdGGpWkHz3nZfStXBCWKT7FbvHo2DQpMlCaiGIasiHeOaGNK9KYccmpFLENRUapYQ",
+    "tags": [
+      "アタッカー",
+      "グランドライン",
+      "動物系能力者",
+      "サイファーポール"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 160,
+    "name": "PUNK-02悪【リリス】",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/xaBFFNY9cZXa5u4ma2pnwF3R2aC2BtrfeQPaCblgBv6YH_9-iv-iN3_NlGMvkceUqkmtizkSwTFZ0rvWDGp8NJsqmLx_8VQs7n_wqENpDR8f",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 161,
+    "name": "エッグヘッド ナミ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/F1e5X5qiuVwrCFsXldNykTMmJ7E2wWXwGb5dRDzGdWMmEXDVbVHFfFmCyFXuW_9lKzUPI2SDeoKAj-mNTIrIV0NpH4ZR2JwoLvYcS803b5PB",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 162,
+    "name": "エッグヘッド ウソップ",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/2b2KBaZDnPVGlT-H5LjDngEgUVSzSh7eS5h1_gNegpOi_ERWlAB7FakdOPlu_exVEuPhripXhjLLf_fscOzB_kjDMSPlpxE4ruCSuorT6dYv",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 163,
+    "name": "エッグヘッド チョッパー",
+    "attr": "白",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/n-5IPX9ql19UNFcVFCZC78OgaycNhAkyTWHinGp2knJwoDu7g3gzlz0MHPKuZkT-vdcWHQdFm_frSm9C1DxGu1d3Ui5VmrWBuBrrQTwokLje",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 164,
+    "name": "頂上戦争ゲッコー・モリア",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/CrujYfhQMK1YJofILnzeBX7ruuxc7RzyEUfbhOBJacKDGLrKjcELHeQ61iHA5uy4OB5mbuSvkWZsNn-KZiRHfIWDQSyantRcvqJ0hSLBkakM",
+    "tags": [
+      "アタッカー",
+      "王下七武海／元王下七武海",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 165,
+    "name": "光月家／家臣錦えもん",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/N3b9Ey_F8BWVRJBoVWF58WTbaPqRCAo0erm5b00KEjR4KpSWiBx13s3Indt9lOm9cc0US3Nitqay54l0MP36m_h5EIGH7Kimo49IaI93C_E",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "光月家／光月家家臣"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 166,
+    "name": "FILM REDウソップ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/oyj34yVBddJXr0C-yncaccGMtIQ4FetTNyN5UQNahhqiTyqSflyzRTZ3fQl0koLyRgGvQasM86fq-aE1Md5FLqv3aPrLq5kLMtZ3Tw5GHjA",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 167,
+    "name": "白ひげ海賊団／3番隊隊長ジョズ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/OZ14zIAsEdaAo2DAGqir-6E1WyZ_roGSRFVCVqmuHBWgMdAMHX73aUSrKjQxEoOzkDcbSYiQhd4ixYtX4NtfjwuXaC5yi8WUb7JVX9sFv_ylEQ",
+    "tags": [
+      "ディフェンダー",
+      "白ひげ海賊団",
+      "超人系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 168,
+    "name": "王下七武海ゲッコー・モリア",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/8Twk-DvbKceSJms-Qg6DrRQAwZ5iZ-v_8k18fSjUp_4HEyGGf7a5KvIq7OG3v9aKaejI6rsZmz9sDI9A-r2lM4Z09krTqg5tQ_yS02F_SMTI",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "グランドライン",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 169,
+    "name": "新魚人海賊団／船長 ホーディ・ジョーンズ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ZbaLAewW61z_GCn7rYkmLsIBjRLnjygCNH_DDZg3VNmfjf5B4KRzDmoV3y-ijYpdDCNbjmtBRoVpZeS4LE3cwEdA-nCS2H_3mxtbENiWMuk",
+    "tags": [
+      "ゲッター",
+      "船長",
+      "魚人",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 170,
+    "name": "革命軍／\"北軍\"軍隊長 カラス",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Yf8O5Kip4kJGn1V6VeXeuasJPaI5YVJ2drthS9A0kc02RRASF5XJ1qHpwHp9HnN3sZPdCMUJl5hzQ-zLwV9IGRUrFiXbQlSevH_FXS8SUqI3",
+    "tags": [
+      "ゲッター",
+      "革命軍",
+      "能力者",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 171,
+    "name": "ギア4／バウンドマンモンキー・D・ルフィ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/XR96haZf8V4J079JZQyiboc78HoWVR89P8SMLwdENMA6nmCEXS-ue18Se3dG64pgW38uOcxuKRTa-FJTs1H8ZNm4aufb8SW4nlNUBZFPaAtR",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 172,
+    "name": "ワノ国ルフィ太郎",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/XXXsFoo8CtOfLb3BZOa2vuZa-00gkWoWs1OkGS2t02_HukbClsG0O8q1wGx3cecRGbD7vvIgqfVv0YzSiVjgodajRNYJz8g0qVgWpgCs3U9L",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 173,
+    "name": "水着ボア・ハンコック",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/4unPloRhMkrrBJ2hqrfHwaGS3RshHbPjQrgH-jIv_f6voFiWauQFsRDmFLPSRfQCIeKFGQ0LWwdG7eaYKV0A25sv9fbt61HOxbB2dwICRLFA",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "船長",
+      "グランドライン",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 174,
+    "name": "機密特殊部隊「SWORD」隊長X・ドレーク",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ocx00fCAXvr8EHSGRP6Te6CIkyTf5Io3Rg2iGXJSaqro6uFyK8a_7Mb3mv96qbYk77iAJhAbHg0F0XJoiXEo_68YUxPj9AsOrZovMTQ8Thta",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 175,
+    "name": "ヒョウ五郎一家／大親分ヒョウ五郎",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WV_2PO485tkxVKzi8riBIHsHpmnx8HnNLUiypNFtQJ8CPFcvC2n-ZGlL1KddPd5YlnhxuoQ-Ts23OBzcB0XhZGzrgxbVvTWvf0K5pki88m7a",
+    "tags": [
+      "ディフェンダー",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 176,
+    "name": "PUNK-06欲【ヨーク】",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/MjKnStE35j_WXiliAX4d0amQC7pBfqc33eXgBEcnYDxad_4un2LwZDBf2i4vMZN2fpAPTXoLnkFZ1ghMI1FySrCHtiiLdI6ArQPKd9NIcdo",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 177,
+    "name": "インペルダウン／囚人Mr.2・ボン・ボンクレー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/KPSFMIvtFH0070zu5UTk2_8nJp_guwC3gSwVdkfDsfqnLtCFxwjgrFrKCn4ZYfdaX7m9XI1iTXHMHvhajEHyMhxjeA4HoyHSjHaDMD_tV4o",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "バロックワークス／元バロックワークス",
+      "グランドライン"
+    ],
+    "obtain_type": "コーラ"
+  },
+  {
+    "id": 178,
+    "name": "PUNK-05暴【アトラス】",
+    "attr": "黒",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/uvEY-eXuBjitGl3Xzik6SrVF-9HkMDxHQVpGTA6mSNg5-zLRSxhDM79Fz3v6lOWZWreiJBnPtTP02zQd7mgGNqEABgjPPcBtV14gX4dtEvnn",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "海軍"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 179,
+    "name": "ワノ国ウソ八",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Cil3SPB1Q9enheWEG78Ii7OroX3cTsyqT_QL3jF8AH8060QHjmsKTxoTbUEdFDsKDrM-6bOqd5KR6e-MhUi5VowcQqB-19SPoVCSss4KEHaFyg",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "麦わらの一味",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 180,
+    "name": "ワノ国フラの介",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/GRLjVsevqmgzMZTbwF9646zYQ647XX9_u-XbV3BSZNciY7wQV22gvz01oyaAX4vT6iDKthdG9bq1DSY3BFqpQ5HKNx7rV3ShtR_Uwd3hh5A",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 181,
+    "name": "海軍本部／科学部隊隊長戦桃丸",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/uoaITJwZFssMrdtc-6PEAJstkaj-0-62WsNwSnx6rLYdD7Rc6k51NGdayJR_gXGK7P5zu5WqewLcmt5jBJDJpX1Tkb27Vp8MJLfmwIVgiKO5",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 182,
+    "name": "ホールケーキアイランドジンベエ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ivB8YHdEwp2XSS6T8jRRU9iqFDEBnO7jyzcLeVT14LE5YCYpRQeltinREoG4YiGevbxuYYq1fOOUPUdm6UJXbzDytgPGlyy3aYWKBOvgAHit",
+    "tags": [
+      "ディフェンダー",
+      "船長",
+      "魚人",
+      "新世界",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 183,
+    "name": "くじらの森侠客団／団長ペドロ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/7ByTmIw-rEBLVV6Dxz2PbAxJPnDHMFYucxS8AJG9LsPx4VqCfj375_BYj9g5kemxb0XsDImf85YJ7aTF4jijvPxEPjoFEwQfsu5FeJMVpxr2Tg",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "ミンク族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 184,
+    "name": "希望の星ナイトメア・ルフィ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/SJq0NXA6Hz0aoAhgDDSCFXItB-vGjlMN-UCF9TuBWMlw6iGAJrx4-zAcMhIyl7WPgqU6zory5jr81GJhSSh1BqCvMioKnmCGoPKJVugjOf3p",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "超人系能力者",
+      "船長",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 185,
+    "name": "FILM REDナミ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/3Pc0HmmVBvlQhc-E216F9MkKq1m9kws7M9V464PxqjYSyrfmmYgWl2MDUbEU0h61F7bsw9NVOgyUBCNUntzpK0t9Sjm2NTwRkKZsaZCCgrjfsQ",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 186,
+    "name": "ワノ国おロビ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/GD_OOfWTCrLYfs4KXmd4PzTPqeTEqptNQg4GS921Eq4amuNkuCs0b7mCE58T8Ls0snWOiNsJTpOQ68ax5mvkkSxcpuQS6dOYYpoMK__DFXGpWQ",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "バロックワークス／元バロックワークス",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 187,
+    "name": "王下七武海ジンベエ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Hr3e0fYfDq0X4ZyOA4VA2alRKSmGam8wfIalHTuqQKXXxFnoFkfhpfbbvLUvu81UaNks3ylIBKHmBkTbHgUs3BuBASdFYeJHmnCNfeOIHMbPIA",
+    "tags": [
+      "アタッカー",
+      "王下七武海／元王下七武海",
+      "船長",
+      "魚人",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 188,
+    "name": "ドンキホーテ海賊団／最高幹部ヴェルゴ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/r_MqTyquTaXQvADOMxnypmXMAmjaSnmjMIXwPtV1Ow02R6M2oaWhspnW0NfG1Ig8xJHSwnESSImQSdOmd6XPLaGgMy9-lBvHrB9lpni1T46K",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "ドンキホーテファミリー",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 189,
+    "name": "黒ひげ海賊団／操舵手\"チャンピオン\"ジーザス・バージェス",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/G0G_SPNpnEoqVF3CzAY5lfmLvi9JbfZhuurWAIHyFb95pKkHTWeh6YMlhFTZ5vhzpQ1_hQ0a8X9ZiU2s4CFv2SaSIep-CEt-b-jMeXcroa7OBA",
+    "tags": [
+      "アタッカー",
+      "グランドライン",
+      "黒ひげ海賊団"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 190,
+    "name": "白ひげ海賊団／5番隊隊長ビスタ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/k5yi3_kSlyOtnKABdettwGtgztdPXmutOWf2dC9cyg_uoFBJbY8vVEZ3VHRD6rvCFqXoNXhO6pyz9_tdlDpbBcHREtedWbGQ7_cVUsXme0ipbQ",
+    "tags": [
+      "ゲッター",
+      "白ひげ海賊団",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 191,
+    "name": "ビッグ・マム海賊団／船員シャーロット・オーブン",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/yEPSmYsQ3x6HL92CcgIw-SiUsg8v2XqbR_qmpdPYN2PRNnCdA03a8dZsXp8ZfXPq_wq2n0DTFrls6-FhKCaUiduBXrEqImbfm2JMsAWbppMK",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 192,
+    "name": "海軍本部／大将青雉クザン",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/gy7WncBbMO8nGVbficGVFU-ZJ6bgDmCkxa7P8AJ7BPNiPE2TehOhfFY9Ey4ON9TiiAhgMWm0G5WvU6lHA0nE8uRfaZDNNzuN4nfRvH7z9njfRQ",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "自然系能力者",
+      "能力者",
+      "グランドライン",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 193,
+    "name": "ワノ国ホネ吉",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kDWI-fTuk9SHymXOTmqCMTSurzA14hRwLmQ_Untr2LuBxichaaTxEpLGomsWh1nAGLUCbzsOO3VR7v5gL4Er5iBDwV3uKGBiHaXI_ELDt7IM3g",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 194,
+    "name": "死の外科医トラファルガー・ロー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/GtHAdKT6RPJnXOXuuXgH2vikGNFk0mcphAdKB9wPc7t5OXULvyR6qd4O0mNypmkkpXC-sOqYJzEAIue--V5lAw-WtNqrhSuMjuFxlROgBtl5",
+    "tags": [
+      "ゲッター",
+      "王下七武海／元王下七武海",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 195,
+    "name": "海軍本部／大将赤犬サカズキ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/f1b8xsKvYuR8Bzd0TIP2rI3bcnc_7gT28UDfsUrqTdhEjbV0J1ZMOMb2Bew7oJcyF1OjXo06vBuYcUARsgneig4WcLHM-Bp2ROQGnqoy5feUjA",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "自然系能力者",
+      "グランドライン",
+      "海軍大将／元海軍大将"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 196,
+    "name": "STAMPEDEサボ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/UbqH8tPs65oc1rDiw_T__2fqhl6hrhhUJpZDUxqdbig0ZnC6g92NqL30ae8t6fNLQlMcSK5tjsR2QTIFSRK8-TPYCy63h8BzXYf7nsq4JgasKg",
+    "tags": [
+      "アタッカー",
+      "革命軍",
+      "自然系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 197,
+    "name": "エッグヘッド ジュエリー・ボニー",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_UStM2dNnWumgdVKB5oS2KDMZThbmx7Lkq82_oLPcBq42DNdrmAbUsuXk_a_jubv-p9GVca_QvVnpZLgjBGu4Y-NGvCYkyHICKISDROv1Zw",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 198,
+    "name": "FILM REDトニートニー・チョッパー",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wRkaE3QijVcpH0YC4jgQVUyYlVBvCYfSQCKO-6pzon6o_IaMwRSXyXMib--dRi-F8Y0smln0g_pXg_lWuPOREeYKhRueGohdW1go-MtzyeIf",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 199,
+    "name": "プロデンス王国／国王エリザベローII世",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/qTyAS3m_epUerMZjaxF_9fX5gZgdUw4lmxvv11uvMhfzG8pYMXwG-NAJygmCmDEVCkxPrZOPCLjYyTWGCy3GcIi66X9SFVvtHZSErWXEzh5W",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 200,
+    "name": "海軍本部／曹長コビー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/4S5utYy6TAJv03Bu_PKlBtlxBmXfxkHomNl6dMgx-l567OIA95j1pwoK3iSWO5ACSXNWM0OFwtDSPzeP3qM8783sxT8L6lxpKQxkkf20I84",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 201,
+    "name": "昼の王イヌアラシ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/IRomN36FX2eaUYKetXr0VsZ864cyQB3uAXE7xlgICbyVUHSf5cwo8ZG6mc7a_UmBFsvQOx4ecCKtInCEw1to3zWlcrID4ahNtoP3LsvhCv4a",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "光月家／光月家家臣",
+      "ミンク族",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 202,
+    "name": "海軍本部／少佐 ヘルメッポ",
+    "attr": "白",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Re3nswuGLjjZ4hWT-8CS9xqTP6F_qtxWvSmqgfKVVyU5e5q8bYTlYn6kMM_819U7-c0cAyfYQJzEexCqjwZNqOWSE_5sCaTC3fz0scmkdbs",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 203,
+    "name": "BW／オフィサーエージェント ミス・バレンタイン",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ayUtPr2E8NSLgktaN-jIU3zsPxmVSwCEk_HyXzIdd6vGe6A3szaeG6TzZpX-it9q6HnBBPWZ6xunfYuqGZhNkNG0wb9I61fLGRxrm3R4Ojis",
+    "tags": [
+      "ゲッター",
+      "バロックワークス／元バロックワークス",
+      "超人系能力者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 204,
+    "name": "ドレスローザの凶弾ベラミー",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Cu2Sfuz1FLKXWyw6kIaMyBvrUA1Bedl_S7pXaJfV72RNa_3WFux-eXMzkSrEAK3zv9i8wIzRAXos3LFnmL1wbBHArYGia7vUEupI0BVUcG1u",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "天竜人／元天竜人"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 205,
+    "name": "ワノ国一の美青年剣士菊之丞",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/KALZvdCCJqZsvGCyadd5uuXK1QlLkZ96ksNWFfT713CnlntTeGRFuSFDYy-rsVyxZMfqSpdegVYSP8Hd2BVBTZKqNuh3ktOkIUMaRhdlJjKpNg",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "光月家／光月家家臣"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 206,
+    "name": "光月家／家臣アシュラ童子",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/SJore3Sa5f0zhdwSSdbhXNFxZwBcSKfGqadMSklcxtYHDkGBe4B7PoaNSMKk5DjnAVf4FN19wopO1vN8jakFnSBccdZRtY93pnHNzChWPKAH",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "光月家／光月家家臣"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 207,
+    "name": "ドンキホーテ海賊団／幹部セニョール・ピンク",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/fOCgSUc_GfZyeW_-4Z04i4GNnv5-9KGmiz2HSu983LvPUTOciZZlbhvWjs7Kb_8GhHesl5OFLnmbVeyjHCxKXuDFgL9yHFD5FHPaVqCPfkA",
+    "tags": [
+      "ゲッター",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 208,
+    "name": "ドンキホーテ海賊団／幹部モネ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/gJNEbpyu9-jZQtH5pe7AdhNFZiGGEFMbn56OEw3B-o45a1lYN-NQB9k_UEOY9NJ2aNbQuETdmEfjCYWfLqdaZ6RsgCMpxYrm0Rj81zqDJqN_rg",
+    "tags": [
+      "ディフェンダー",
+      "ドンキホーテファミリー",
+      "自然系能力者",
+      "能力者",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 209,
+    "name": "黒炭家の内通者 黒炭カン十郎",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/C6TC7eHfE9qSznDQD_EGehHlYLxErdlGf9rV-K5MVtWwqomKOEBWYVAudTmpR2MQzzqYW-02pMT_u94HQPBzujsCu5G6gXwqLn6SEPrW2na_2w",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 210,
+    "name": "初めの共同作業シャーロット・プリン",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/ejMW4OVhec3sB9A60k81I06OvE_3NzzIkICBReah8fXci5yjdgS5LXFjfTK-gn52RTCy3qyXET1wNGsdKTSQ_ZesZlskhtW_wgidWyo3gdzJ",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "能力者",
+      "シャーロット家",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 211,
+    "name": "元白ひげ海賊団／16番隊隊長イゾウ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/QOMEMi2adJbo0jE04Uczzq033xM9eDERpQCiMylBlsJQnFFxunAH58YYpX1NjBeeZ6L6o8YtT3u4xmcyc24RqK5J_4-4dA5Kvc3Tqop8d8LG",
+    "tags": [
+      "アタッカー",
+      "白ひげ海賊団",
+      "光月家／光月家家臣",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 212,
+    "name": "BW／オフィサーエージェントミス・ゴールデンウィーク",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Z2p7YbjN1-Z9asQVkUD0SfeFQ6KHHQIDjBnmmvlomadKxwxze9v6zkbsZI9-TRZ_I8BOBxKzsZcm3LGCC-18x2bXwkxfHcBKIZNJvvnnrAQc",
+    "tags": [
+      "ゲッター",
+      "バロックワークス／元バロックワークス",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 213,
+    "name": "2年後／船大工フランキー",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_azUAVdsbALc2ugiKZ7F-lpBYUyQWtVErm2ovlXjKw0Lcy32CRULd6v0iHdJR2ma2JNZO1x3Ad4ygexWrb18ghMW8NPe678E_pdmbqVMYp4",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 214,
+    "name": "革命軍／参謀総長サボ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kYS4JW79ColBiyLYSktvMw4ZjZWImMG_gTVqmIyRMHm2nh5-_lOq9ME2S5pOwfuuMRV_i6vhphP4k9SzuKGf7pp3lgKuAkGkDEOmxta4uuU",
+    "tags": [
+      "ディフェンダー",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 215,
+    "name": "夜の王ネコマムシ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/v3qqVL0Ft9vpyb5brE8P6B_VMQgltUgCC7JMbz1lGWIC3RZzyOt52BkyIa-F3crGymGQAhwqug8t7LSpZ4WFObWgZzUqIWa4a7eUQXKEv4mzZQ",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "光月家／光月家家臣",
+      "ミンク族",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 216,
+    "name": "狂死郎一家／親分居眠り狂死郎",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wvhwDZKZm4NTNbEXjHr7qUwL4RV1_irUPTI1rpexUDR9UiK7YcwtUas_OPh8qJtLItlRY50BLpHkJq1hXks5NyReRiDkmyfMZ3lgIht_sSGbjg",
+    "tags": [
+      "ゲッター",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 217,
+    "name": "ODYSSEYアディオ・スエルテ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/4Xbr9yjUuDPDW--QUdPUz-J2P2E835mRmAWH8rvV2gFNUHJ0DIq4YUjd4-vni6B8pkGtcB2jJovTt6fQ7fUpPCQ9yhIIQUpsyB8NbZj3ofnm",
+    "tags": [
+      "アタッカー",
+      "新世界"
+    ],
+    "obtain_type": "配布"
+  },
+  {
+    "id": 218,
+    "name": "光月家／家臣雷ぞう",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/4x9s4_VsVC0fNhtimQwAJesVHPPhZh1lf03JTlZWKNt4PZcbkGbSPnKDzpowIVtBeKEUYvwlqOx2R2MHoafrhTp55rWm3lNgR-iuWueMkQ1r",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "光月家／光月家家臣",
+      "忍者",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 219,
+    "name": "ベテランくの一しのぶ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/RN6hZ8LCvrQOy5qhjB1czKSEczGNZuAGCKjOKoMIijPFEbpl8L55MhUp9Z_kzz1InoxS4bCE6rRb-qMjbulSwfyarx4x-vMmx99V1zgc99azMA",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "光月家／光月家家臣",
+      "忍者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 220,
+    "name": "XXX級ボクサーイデオ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wzMUu0p8F758yuO9TfTB2dqr7Z_9xqhmD7jshgFaA32UAvTSv5Y3rwu71aM3jR0AO6Z2KWFUloSplQREpdWrKVY8gYlk4hC6OOmVoAd_HM4LuA",
+    "tags": [
+      "ゲッター",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 221,
+    "name": "フライング海賊団／船長 バンダー・デッケン九世",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/EtXXwt5HC3nCcd1karIVY9L3JuKRBmv_z7KX6eAOAfR1_M8TDO9tkZe3pnZS3h-lA8qtuVBs1u0ke3E68JFqJrdjRQ05FeTMDfHl5X7IkCOb",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "船長",
+      "魚人",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 222,
+    "name": "カリブー海賊団／船長 カリブー",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/rw5xoEce-Z43Z4gACAUDExHSBriPKVuulTNhJaHtlD40xPqLm8g0Spx9clbARjQA5ZhcoxBWjtxvYrRYYxTNP7WkfdZii6N_jjk-ap1V5vM",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "自然系能力者",
+      "能力者",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 223,
+    "name": "百獣海賊団／飛び六胞ブラックマリア",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/rBE-LPxXqTctw06XTauM25E48tHQ4MmzLYs-pySQcHPPNbOi-eRDvQif3EULYdeTZHZDe2t64zwGTlvyiKilJ_Pkerpd3PRhvbHpGJyv7JQ",
+    "tags": [
+      "ディフェンダー",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 224,
+    "name": "百獣海賊団／飛び六胞ササキ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/fa8TExmpN2oDfIOdLtRoJU93UaY3yZQUJ1YaM43FN5FH4IlQKa3zjelsvtRtRDQOCm6HZYjOz4TfFnOfYmf5lYhRoWHiOhKX1XxlwJ_9_D4",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "百獣海賊団",
+      "魚人"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 225,
+    "name": "革命軍／兵士 ハック",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/4ksvTJ2pFuoXQRtRYkGgHo-qbJJjzaUEWkKg0k43H70iYkz5Ow-k6DsdS98sDikKqXA_hWNOuiJnXmtHcRkTDjY-IiZrDEaRTpWD5gePbg0",
+    "tags": [
+      "アタッカー",
+      "革命軍",
+      "魚人",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 226,
+    "name": "革命軍／幹部 イナズマ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/H5OMC59up7OMKcWJsaGMOjL3EivsSHov6IZQsXJha3QogBL8yBFJ8n154UijNq-4X8jiiIp2wlHkhBPwGEYj3pZzO-sDoWgYoMbTNSVftUM",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "革命軍",
+      "能力者",
+      "超人系能力者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 227,
+    "name": "ワノ国お玉&狛ちよ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/aEmOcpvCzdCLtVpjdqAmuRWoTmuNxtCIIuhvAol3KH4Kz-oClx2cS0XkI9wFD8le1mWfpkybhTGd7pasp_FajEgUVA0yTTOXTozKGITGQXE",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "超人系能力者",
+      "能力者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 228,
+    "name": "ホールケーキアイランドキャロット",
+    "attr": "白",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/3pYxhpRtYo57uZo02Sa8rBtZZj3Te4pACzOCEy95LOvgUlDf1P4Q0c2_W64MAzKqkGvgzZ-Z1gMpw3aAdre2JprZ7fDg026zyv9-8fyxr5k",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "ミンク族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 229,
+    "name": "空の騎士 ガン・フォール",
+    "attr": "黒",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/IB4Vuw7x-_GnXHucpFlvmfnqa09J4C1goqe-aXw0F3IfLSUCWUexJcbaY8HQMaQDAddwX5RfSNAZgsFiVHeGgPrxfLxlINCOfe8Ad5eTUhX1nw",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 230,
+    "name": "BW／オフィサーエージェント Mr.5",
+    "attr": "黒",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0ISIXP7Z5cZ3tXwXHEk1acm64Nn_qyuVEjDIXMsgycYtMfRfl65kenRNoDQmMVcLbw_-BpIb0i-Y9GpJpoTRcmZUSbB2lwuC7mP2rpmjeVg",
+    "tags": [
+      "ディフェンダー",
+      "バロックワークス／元バロックワークス",
+      "超人系能力者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 231,
+    "name": "BW／オフィサーエージェントMr.3",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/-EPKnAaCW0QgAXyi4DgyPDaqgZKb-iNYUzlLS4RYJfKprrYYjwNNnVyaxKBQ3pmHdfWZfJ5LBV-PE-tMEiLMnisrc8Q4TYTBAt5A2vxfdpnBDg",
+    "tags": [
+      "ディフェンダー",
+      "バロックワークス／元バロックワークス",
+      "超人系能力者",
+      "能力者",
+      "グランドライン",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 232,
+    "name": "王下七武海ドンキホーテ・ドフラミンゴ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WfKKRFn6bcue6s3LbA763Xqyl4My7p47hncXAApCLIr-NL9dF_V15bf83xJjrCVflW9deBy5r8TEODE-BmWtR9JoB6BUatAqck22LwpIuiL_",
+    "tags": [
+      "ゲッター",
+      "王下七武海／元王下七武海",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 233,
+    "name": "ジェルマ66ヴィンスモーク・レイジュ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/WEaxx24Zxm3nghMS23rAxYiSj3wt-0LppQNR71KESUXHIlgMi52l_0ZfokfvIGObgOYcQSBikJcU3QCmlQG6ePq3ihY1WGKgORx3lP3AFhYy",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "ジェルマ66",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 234,
+    "name": "革命軍／幹部コアラ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/27bJY89hkrvy773Avj6ErSgzGo68YrSPJ4n5v0nuDPLbszmKwJWQ42vfIWWCIm-FE6aFyj_KFtS1aQg7cbzFNzOjJdmW3HlNDaHydOtl4pj5",
+    "tags": [
+      "アタッカー",
+      "革命軍",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 235,
+    "name": "光月家／家臣河松",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FGe7em_2g3VwofzA1ZAesbJHmWHkQEsTlOsCA6AzJpRdqJRLvhOzl8E2MGChRYiuy5Q13mSQl_x06H3h-lcjSg9NfivtOqRmVXBr0Y3WEbE",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "魚人",
+      "光月家／光月家家臣"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 236,
+    "name": "魚人空手師範代 コアラ",
+    "attr": "黒",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/RB0TDOv0V_0zB_NL6q_iG-ulFQUgMBA5HGjFVKPuEj2o0gkJArgEPGl7ugOR96OWCHGiDZbEDkFyrPwHjpc8MI0cqRpTBipGrogRcRsgcFIWkQ",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "革命軍"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 237,
+    "name": "ハートの海賊団／船長トラファルガー・ロー",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/bjoEloB5hH61Ep6OONDJQXdvlVVQzm0oW3ntJZwo8uifDFtkU1K9zh-NmSceIGpjIinC5pVx4SXsTMyHUENbpbwYAnfMFTpdTC0qKb6VwNo",
+    "tags": [
+      "ゲッター",
+      "グランドライン",
+      "超人系能力者",
+      "船長",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 238,
+    "name": "ミンク族キャロット",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wkshyU783VasLvSqcVTJGQdfCRie5oDsNpcCRm_GXG9EBWLH86SWs79m80oARuqm_dzOQVbKxqaCF-_R_QREBVeCapFATZADsUhqmU-w4-BDzg",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "ミンク族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 239,
+    "name": "ビッグ・マム海賊団／船員シャーロット・プリン",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/jkkQLVRpDyoxcrq2kvOdmLEYwnRFwNwiOTHohn0pMQb4abVMTtTwKn4ZF4atu-x9osYdrVozGo4PAwVijvN4IQSFEwapikkDCQMrQG0pBSse",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "シャーロット家",
+      "遠距離通常攻撃",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 240,
+    "name": "水着ナミ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/_HuoudilHiouECy85Wa9bLMrouGZy8ai5ujp8xNHapZbi1e9CEtHFIkeQDotgvGa3F2YLF8f0YlLOY3_yGNUj7Nj5Z9spZts6bUjmBUVntY",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 241,
+    "name": "ワノ国トラファルガー・ロー",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/GRYt89k-8-BGkkD6LDkdMUGeofBrpTJVjMRn6sn5j6l9HF5SBb_Qxg_WBfUp4pZ84dZECE-Mgyt7MDdpmfmHlpmB_umBo5oNha9KLikv21ws",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 242,
+    "name": "海軍本部／少将ヒナ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/HoWwtn_veFXa-CWio-Yifk8HZGdS2skBjkZpNqEO1RisPWC-RL5-_CGnxV47QoLl8fEqm9Ygm8rcJf4a54yucLCSJ9f_DTyA4xmXQmUsI30",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "海軍"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 243,
+    "name": "ドンキホーテ海賊団／使用人兼殺し屋ベビー5",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/RZVcSS5HCrQ7qCNd-AIeH4sOXvd6q2HIL5kKWOnMney8vHF8E8fq55thA_eaZQweq17z-w_9u9-8lw1jBCYznY1IN0PDe6LxV7QUI1x1rD6f",
+    "tags": [
+      "ディフェンダー",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 244,
+    "name": "2年後／戦闘員ロロノア・ゾロ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/-luztXkD-d8D-iKetyJ0YT2fEq9dnM_DMRRXQVJ0quc6CHmprvPuBCvI31Xa8AWL-PWcsf4ImsJ6UPCyUS2-pkiSUSeQQ8Eythb_FXX6DY4f",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 245,
+    "name": "ワノ国おナミ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/1dSON_J7jxHfwnMNnAaXhdK32380gLVMmZqmQr0JkF5NIKD1hXoI8QKuU8DXAlmAJhGx79WbJXrSRXwjslbA_vw9oj8VXexdlEmFz8HOU9dB",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 246,
+    "name": "王下七武海バーソロミュー・くま",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0Ial70-TBNUvwC5ZDfGtMYlZ9acQoAH-2hTF1xJqSVJ73mKX3TuA6vKBk67vitPTBIAgi3WgckYTKiqVvCQn7dbTMzJqICR2f1xgrXQO2MkK",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "超人系能力者",
+      "能力者",
+      "王下七武海／元王下七武海",
+      "遠距離通常攻撃",
+      "革命軍",
+      "王族／元王族"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 247,
+    "name": "キッド海賊団／船長ユースタス・キッド",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/NxK5fDYQUmq_KFpFk2wYHEbPvtNzCWOTCHPHBpU6-dQxpyv7opUl99tJSlaR3IarbLcjhnNBZ75_BpWVtafUAyzoGpmXAqS2s7kzDNPqA-nk",
+    "tags": [
+      "アタッカー",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン",
+      "最悪の世代"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 248,
+    "name": "狙撃の王様そげキング",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/gzdgYj6lTxGWWQr11XuDF4NHclxJqLLO0G1h_Js4NFX_CCvaI-0_32EYpLresWAHAPY1X1wyKaVjvlx7n4GQYUPkj1ogtNFUAackT5zpi_iC",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "グランドライン",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "コーラ"
+  },
+  {
+    "id": 249,
+    "name": "インペルダウン／囚人クロコダイル",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/5kzeVkGWzMC4XOLNdEc6AYwKtnLv9sboA_RjWroGBjfqlvLH3Dyt3ZKAR2WSuM6KhqkxQlVrrti_8i11-XPoAvoKcfSLwkkIzquj8HLLl3GQ",
+    "tags": [
+      "ディフェンダー",
+      "自然系能力者",
+      "グランドライン",
+      "バロックワークス／元バロックワークス",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "コーラ"
+  },
+  {
+    "id": 250,
+    "name": "バルトクラブ／船長バルトロメオ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/zfaP6T2Poh7EXP9pobHEfIYwy3itaOlNfzQCoU3eXCL-dChXWCx0NnYu4KHHqa9RtySjJ51EJsvU-thB1CO7nD6MUk9aUCO_VW7ALjK8SP5mPQ",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 251,
+    "name": "オンエア海賊団／船長スクラッチメン・アプー",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/IygW76acDyCp5NRy8Jv95OOGxPXVsOmWIg9JyNhwuy7Yo2svpUZd2UDuWt6XXovhxaB-r3DGgqmgLb-t3a84Syd8eHBFE4a3H6Csy3N5Ti8",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "超人系能力者",
+      "船長",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 252,
+    "name": "海軍潜入ポートガス・D・エース",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/wnK_-7rWacVJzRJeW3KCDrO28mO6F8fTbU_VnYNkMdeKQDFmfvVFxJnJwxPR5NEXBAAf_vopyj0NjIEsAnfV7MApZbYkmoYfcp2mnieyiz7P",
+    "tags": [
+      "アタッカー",
+      "グランドライン",
+      "自然系能力者",
+      "白ひげ海賊団"
+    ],
+    "obtain_type": "コーラ"
+  },
+  {
+    "id": 253,
+    "name": "ドンキホーテファミリー／幹部コラソン",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/sIA7MyysdtlUhN-whU_-lxwokr-2f7tQRR4KqaBypvgo4TItI65b2Nf3DtuOTaRk-7MHwC3WDRbI3Kq--mlShDeBhmd0WvhGrkel9_lLOXk",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "ドンキホーテファミリー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "天竜人／元天竜人"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 254,
+    "name": "2年後／コック サンジ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/6_q-uOfHZ1uzEN8xYAcQAPdJpbXvntpUS4ddcVijdMIYJlxXcGyks85atB9ZcXWoeKFAgDMQ4CjUJJIyp0awySt2_tMoEJStmmc3b7jBvOk",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 255,
+    "name": "囚われの花嫁ナミ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/bqcAK0I4ysDJ6xjpcDMEKDxBkjwQjcKMGxMIcfxud5dTDs86jIRT9eDRhi_kv7WUfTr9rKsNwl4dlx85z1D-j9dv5lKjdpqQmyn1l8NTxToX",
+    "tags": [
+      "アタッカー",
+      "グランドライン",
+      "麦わらの一味"
+    ],
+    "obtain_type": "コーラ"
+  },
+  {
+    "id": 256,
+    "name": "王下七武海バギー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/2-vKbyIsdisE_loY2O8zZF0KIoTncpPgj9Ngmco0apW0VPqyuuNoNgOt-IbgMjN99sq89bTEHLMOgNv61N_whXRCsT0BaOfEgkZPrsyn3Fg",
+    "tags": [
+      "アタッカー",
+      "王下七武海／元王下七武海",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "バギーズデリバリー",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 257,
+    "name": "ゴムゴムの暴風雨モンキー・D・ルフィ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/bc3lCj2Zt07c2dKlu5wGINIoHoDEM0EfpqbBzRtptWpGx0-9m8S6-PmiMYEyuDfw639IKZBTtVB92NxFAX-qJ_u8DE2d6IxS20-yHuMLevO8",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "超人系能力者",
+      "船長",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 258,
+    "name": "パンクハザードスモーカー(シャンブルズ)",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/8cd7jw9OKBchH4_GGtTorXQRJocagjwtj_1MpYpnDOESI9da7yDFrVA39aCRlqiYb7dylFPnKD1VscWvRFfC5IpHbmoZp1X0cdWDSNAQkYWf",
+    "tags": [
+      "アタッカー",
+      "海軍",
+      "新世界",
+      "シャンブルズ"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 259,
+    "name": "2年後／船長モンキー・D・ルフィ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/LF4PZshlAnKsdFZNyNL8HQtnB3XUAsTKVt8AvIp0Cu42PT7zMXoS15qhZdTbjETwpciDHGDQzMj5bBBKGcIuVCs9oimPlh9YM36USZ_N8Us",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 260,
+    "name": "CP9ロブ・ルッチ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/PXL1-NngaLEYst-lietm0h3KZ8vaO2YUvVZlYBkNw_N3tHCvUWinzSWx6NlFMvM6NNlV8oKYr-TdBnQ7ewDzCE_fPyb3vENigneCdSAz2u2eQg",
+    "tags": [
+      "アタッカー",
+      "動物系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 261,
+    "name": "破戒僧海賊団／船長\"怪僧\"ウルージ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/aDSsmOQgUXFnA7zrBd-pksVYdMhz-u2djXY7A4kEUudVjXRCvxO_4rPi_DsR8S8VrLxLbIrKgLZszcGRUm_ZMS0MvCfz8hXlbifH4b7CVmM",
+    "tags": [
+      "ディフェンダー",
+      "船長",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 262,
+    "name": "王下七武海クロコダイル",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/tZ5WwmnqnQJbepbM8T_5tq1L9Ks2_aR4-pt1LPMx0Mgy2nWkT5OWrhhV3_UgrA6E3KLCZRsQLyDUe90hj1_peGUBk_9k2JvccAxuKkTwXHuI",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "バロックワークス／元バロックワークス",
+      "自然系能力者",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 263,
+    "name": "ホールケーキアイランドサンジ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/PoANYaP8fkAzk1fO1deJLCCuMWOI129D7tLouqF54wb-fgpt2nzrjP3hqC3w-B8knN0qk19n3yw3qZrQS4MxeXVsXZwQTZ2vzM-_nFXKRXG5",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 264,
+    "name": "2年後／考古学者ニコ・ロビン",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Kr38srs3T6fsQR4hHng4Y1T3McKDevFGfnyfFcFYTVaEmpKnxzIwgh76KWTjI0SqWYNRtQzt2SapXGNSLefXNoHRdHEsV-c_vagrgSuuXPYo",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "バロックワークス／元バロックワークス",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 265,
+    "name": "美しき海賊団／船長キャベンディッシュ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/bLmsyihU6LGB-oXOjeTwsVgwvupCaIvNmkHtvy0Gn2nzsaN2YntQN7vT-tS7twkVdw-8Kk4iQFkF84FI4gcprBpy9gOymjNXykRxGKnI0W1D",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "船長",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 266,
+    "name": "ゴーストプリンセスペローナ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/doQAcXzG1g988onLf3b2FrXxKNQOa4h-5GxcUsSXoMvZoBdJgsspTuhICWyUNR1X3Hd32y0FZ2nP9_gr7yZVt9DYdtVYq6NX-Q7mJIj8oqug",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "能力者",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 267,
+    "name": "ワノ国ゾロ十郎",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/AUCDWFPpEZNHeiWM7rdg5Jzk4aS9OpoHQD6z2N3ZvxW3KJgzD4YbZkjtWL0GBfII9mjvzb1ta66hPVVtMiNJlxmQuIyXAj1Sirt--2J1fcXJ",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 268,
+    "name": "王下七武海ボア・ハンコック",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/5Nkw69Y428hAW29n1TRwvIif3eNhtItVLpdGAlkdxX1QiL9VZQwDBshILRNPdnDrSQmR9WE2q0U7C7RIGpmuej-1Y_dmByHAwbgRiuejc6iF",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "船長",
+      "グランドライン",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 269,
+    "name": "元世界政府／科学班員シーザー・クラウン",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/OUW8FlNm8DbeqpIjmWS_nrzQiSmPlT-Vnlf_XrILNV8hLS5qLMlJO6AzDamTJf8W2tsBOAPX1ynE9LT8qehBLhYj88rqjFlaMLc_PHtrz5c",
+    "tags": [
+      "ディフェンダー",
+      "自然系能力者",
+      "能力者",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 270,
+    "name": "神エネル",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/NUEgWYv9fOaXHu6O2H6IavJCxSIlOPB_6Df3xhNaMtwLLuo5aqcm0hkGmFeJFcn8F_sTNTsLd2tUw17oo0mKqCnjd035wsXm0aKaR0RptCE",
+    "tags": [
+      "アタッカー",
+      "自然系能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 271,
+    "name": "2年後／音楽家ブルック",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/a9JIVhbMU4_ZQ6v6pDCabOEf_H-xB9vxJbEiwgdlp0djZYjY53rUq61EbSqiJKnbqU_8z_iWr35Ge9krb69dHQjRKAktRVqHeS40tn1Ku3fm5w",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "超人系能力者",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 272,
+    "name": "BW／オフィサーエージェントMr.2・ボン・クレー",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/3JKHwQi9doUvsikpWO4IQkVJ1qbR-utUnheFl6UzGWqJu0xSM4NiT4zjIjAVXEPfRrCiOWpGplLAtHumagH7k601SVEgN_hLsNGbBZDiTGU",
+    "tags": [
+      "アタッカー",
+      "バロックワークス／元バロックワークス",
+      "超人系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 273,
+    "name": "CP9カク",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0KZoeijmUInx4uMX29_cbXBovNaV5qiuQzSn-X1ofdwJ3FZGHPSag92vP5KMzGJ2GLDa26jWFW16eCyqcekfEldKpq23ViplylttiMRlQrK4",
+    "tags": [
+      "ゲッター",
+      "動物系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 274,
+    "name": "2年後／航海士ナミ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/lfgyovkdIA9flEn7KebR3d8r7qjYM3Ewlm89oi8UJkqbjGMgAp3h5wYz2cWL43udnixnzMbNMb4mlFm1qgJ4gmPEVp_ygVqDD3CpDwsoi__x",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 275,
+    "name": "王下七武海ジュラキュール・ミホーク",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/hri9Ht7_nEcE2LpE6LF1nFVuWsXSP-YqdIEpVdmdLGdFqDLMUSCh2L2xadRO_7vCrKedGjeSMkyXhiCtccQwxbBobwpXyMLZc7tGEwXhcdkH",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "王下七武海／元王下七武海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 276,
+    "name": "2年後／狙撃手ウソップ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/U2pnNdVhyuVKUZxBonZa0Y08PaG-RIYw9vPRRPshudT6dWqcVPXGcMbIYOpovjxVHvm68qrDdFegB9KyFsSOqlEyfcxIPKXxyHEYNUO1lnE",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 277,
+    "name": "ドラム王国／元国王ワポル",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/Eml41D5pe0q-AIlHjqT9n4VnoVpsQePsPP7hpTCe_6xqHylxIptdRDDjhP5M5bOuGC9ljyLeKSaDxkw568rMtSwBcBZRzuTbRCcd_6V55DIWoQ",
+    "tags": [
+      "ディフェンダー",
+      "超人系能力者",
+      "船長",
+      "グランドライン",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 278,
+    "name": "BW／副社長ミス・オールサンデー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/hooDwNS_AdN1ua2SpA3wJ05H5S6dQI9AztTS0tcCa9L1TBJkE5PSD6e_XmvCUF0VekFNvWXbWN6cuSaHC0b0XqrUeyoOqXWsMg8DXEr8o2J0bA",
+    "tags": [
+      "ゲッター",
+      "バロックワークス／元バロックワークス",
+      "超人系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 279,
+    "name": "スリラーバーク海賊団／四怪人ペローナ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/BpeCRMuIUGCPvy7GA93P1L9L0uoNGLYvaYTvQSUuX-fjT24eoSIuxGWMeT3KVPa3XFHPjbNwktIU7GnQd3Ddb8c2Q7IjDCHUjsK0WyoiTP9KKA",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 280,
+    "name": "孔雀スラッシャーネフェルタリ・ビビ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/SLKuQYcnsWdIF8mYS15_YsbWFXb2fNTbQd1EV5ZxnYA3bRGae5xaEHQ0OJzGgxrXEkrpf9urULDmZSOLndyslJZHuaQGrpakECK4peG-NRDN",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "グランドライン",
+      "バロックワークス／元バロックワークス",
+      "アラバスタ王国",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 281,
+    "name": "アーロン一味／船長アーロン",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/0fCllhDH-ewR5LGUm2y2EBxZf4H0u8jHu10h7JhUe1muvayNva8ewzEZGjEq5pN2Btgw_0mKGfxOsOx9JJwPLv7K4cfeNjV9TIPlZBfHs-o2AA",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "船長",
+      "魚人"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 282,
+    "name": "腕力強化トニートニー・チョッパー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/6JaMKcNet-EhlRxZU4aQOfxhmnl9Sz45IvDsQ55ldznj3HbAHAt2MjAx849ZmnfsvrQ-76ffczRS43dbdVRwwYyUpH-ISnlOvd25oTzPB4HW",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 283,
+    "name": "白ひげ海賊団／ニ番隊隊長ポートガス・D・エース",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/EB6HhDDcoQQE736JcbiKqoQHjHPwYloP_3Yprqjh7RIRwPyywTZp8v1U-oZo4pD3Kj_MZxJYD1H1EmW29giWBHP70F4NVK1bl_1w6_OEADEl",
+    "tags": [
+      "アタッカー",
+      "自然系能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "フェス限"
+  },
+  {
+    "id": 284,
+    "name": "ハッピーホリデーニコ・ロビン",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/pM1iSlymC3-G7npxc-IHrcKwhZasu4gxKtyywjhr3ENi9T0iDYPdYxP-YgFcfCYXYEwbVlLkh0KeF61OydH2fnQOxgrCIob1To-0MyfWq2Er3Q",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "超人系能力者",
+      "バロックワークス／元バロックワークス",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 285,
+    "name": "赤髪海賊団／狙撃手ヤソップ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/FrmG96LOcr6vHzU2mdel68iU8Zt7xV_Kp_zwMDwfev5E4yG5PV-6jB88UklOUY5CvtTeq_7fYblyhVrnXm4BvrJAOBYq5v-gjCPKWUznNtRM0A",
+    "tags": [
+      "ゲッター",
+      "東の海",
+      "赤髪海賊団",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 286,
+    "name": "海軍本部／大佐スモーカー",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/KfVxEw3ASPc1USKygmS52vC3OSu5iJYrCdGQdJsHUO9USTjdAZhwE6fxE99V8XOxs-Z4i7WZ-SR14Ocym5YH1r0LECcQ4e3tzSKABtkarWk",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "自然系能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 287,
+    "name": "ハッピーホリデー トニートニー・チョッパー",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/U73urnZqckF1TzRn_qWsXWRRZs_PJSu7mxEaEbXPN7DCU44ZSOalA_cPf2QEEvJo2Ep8c8P-ZbwcTyHUAKJYWDNjQC8H9vGPZLINZGgdN-Q",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 288,
+    "name": "2年後／船医トニートニー・チョッパー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/QeoTbN3lDWtCimN1IxqR3O8uMUA1u6sXv5v0HirVx5hv5DWrBKQ21jeNrNeRkQVYdAMnGL7UCbBzKEiIPsITlg4pb60NsZMlZUMT7RVE2dA",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "新世界",
+      "動物系能力者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 289,
+    "name": "頂上戦争モンキー・D・ルフィ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/vpCKkx-Pm0qPmIORtvcSJOmK5Z0ERKndRZflmJj8UHj16opOaaQXpCuQHKiIlKsGH8Iob63n7cVJd6a2DnWKpCQDrIRmAoTyf5YzYfZLhPLYow",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン",
+      "最悪の世代"
+    ],
+    "obtain_type": "配布"
+  },
+  {
+    "id": 290,
+    "name": "百八煩悩鳳ロロノア・ゾロ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/00TG3r1DeFQ1g3__gYN2TkWY5bFpLWNYELIHpJqqFwGXtTjRQGuDDfH797KMIeCwActDUD42e2Gq51uZbKlDTXpvgf5rywgL-e3fUXWXpPfp",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "グランドライン",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 291,
+    "name": "シロップ村の少女カヤ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/rOaxSRXKkVuGkjyiXZFgujkKaw0d4y6KIpNYSSCeOf45XrSXeFy9Moz6tqdL3lg0Vo_xk8KwUYgABvTM9tvv5q_18TqwgZlJNIbKLmrqc4vD",
+    "tags": [
+      "ディフェンダー",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 292,
+    "name": "赤髪海賊団／大頭シャンクス",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/PELtE1XEB_vHpGh98x4MR52X9EH8-ACbjRAx0ygjsxKzrqQMM2-D8l3Iycooco8dYOPIsIc_pn7p_FSrLwQX7ntF9hgEqnnavXcIJMMbwaSa",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "赤髪海賊団",
+      "船長",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 293,
+    "name": "海軍本部／中将モンキー・D・ガープ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/POFd13JT56ZjsIH6sdQYWvL6kBdrw7j5sLuGDUtvEY3kmnqTkgTgCRZA9LSGEl16OTU64_FbIVkB2V8frcNKmzSvXFYdvvsPm3CsCKAhvFv0",
+    "tags": [
+      "ディフェンダー",
+      "海軍",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 294,
+    "name": "伝説の侍リューマ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/c72Mw92aTAP7ltrjBTY6riScLJToRNqNMOsNNXM5DhBqyEHVMEUjAIgb3UYjVtqFa8ypMCYU6ZrTTm6igRZL5Jx2iVBQXkIX0pCGzV_kXP1pjA",
+    "tags": [
+      "アタッカー",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 295,
+    "name": "ハッピーホリデー フランキー",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/J6UIL_5o71bxG-MpkBi0hM797fFSc9G_MEeI25vOLGmcCWCYKYkh7HKf0uOguCWUvlMYI0qu54PS4hPju7rEnNWj60SQ0Rh64REuAP2VSD2urA",
+    "tags": [
+      "アタッカー",
+      "新世界",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 296,
+    "name": "ワノ国バジル・ホーキンス",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/6tEC4cmkBnSy6T7pQDtZPYYOOLwj_GXRUp6L_vHL6uwS2XvUHGBjJeYvPAHzjefHt6EaTOxt6Ish1XCSLOmDOpwNmubrpoYxxtmYGLBYLek",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "最悪の世代",
+      "百獣海賊団"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 297,
+    "name": "無敗の女レベッカ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/JsQKKe946M32Vg9KHEXYHa38YJXC0WL1HbhKtq3kJY0MgidS0WDcbUIpUzn-XsCpDGFal7VkzTcwJlcldCQdMo3cfaeZbkG8yD1VsxgH4e4",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 298,
+    "name": "ファイアタンク海賊団／頭目カポネ・ベッジ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/t9l_VMjtoLeBh9rNDXX73lnYwWNRTWfzPXc-YCn2mDkYBi8RF7KsuSkTwdVwYG0vyCG25I3IhsekbbTes_yi28CjUvJJVjoY7tL7aTsC9OFI",
+    "tags": [
+      "ディフェンダー",
+      "新世界",
+      "超人系能力者",
+      "船長",
+      "最悪の世代",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 299,
+    "name": "森の番人ガイモン",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/vfbF-dIUaEflUDaVNcmtQs9mgCbLQOUA5JsX6AJ6aoWhxr_efYACSe4RzV-LcTzKjwHytNlCxFDip1Ygsg19nR1MGpVKscBq-lPTGQepNmTr",
+    "tags": [
+      "ディフェンダー",
+      "東の海"
+    ],
+    "obtain_type": "配布"
+  },
+  {
+    "id": 300,
+    "name": "一刀流「居合」獅子歌歌ロロノア・ゾロ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/sXXS6H7C35Ai2iEiW10OEOLVKTBV3W7-Cfhw5_jEgRbHW1iAY99kkDVihNqtaw5zK4ShPnxu9aaIYkss0nspy5NoXqXuDNUMqvBMPGfUVfY",
+    "tags": [
+      "アタッカー",
+      "グランドライン",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 301,
+    "name": "ベラミー海賊団／船長ベラミー",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/KTnahXfOVS-Y6kJiX84sR6_QxSwGwZAh3s738rEtrOHErXtDeUgcb4KzXVKh4RDfqq5dZblTJwWd1GSt1xdItx1j-Q8HEFIhi8KCOYtXs66n",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "超人系能力者",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 302,
+    "name": "キッド海賊団／戦闘員キラー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/7qhGhHXF1rSNKIVUQAT-MctzNhCmo-fosa86uADwPpOl3VbnOb3cguFcHWLL9hZT2Tex7uDyRFRZ5oonV9g-UIwhg5y8AQLGKk0eU7Ub5Vk6",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 303,
+    "name": "ボニー海賊団／船長ジュエリー・ボニー",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/OPui2ufmGoRrLxdTdaeN60UBKqa2qTadXhsI-JGz2tnaQRkXV_YNBCAFCiK8aL7OXT8N0j2XImD4J07rFR4LWGthHr3s5es5bcLQiYXm5d9a",
+    "tags": [
+      "ゲッター",
+      "グランドライン",
+      "超人系能力者",
+      "船長",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 304,
+    "name": "FILM REDモンキー・D・ルフィ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/HPtJqpmBL7vh254MJi_qH8zkr_c9VHAQ6y1gdM04rnniigC74GGC-hRa8tYaXg92fZHNDDGSgw2tl2F1fHQuBqYpxFE5M0n6r0E9myGIKeSy",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 305,
+    "name": "シャンドラの戦士ワイパー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/3mBRdicgESJlonJUl__9okc4xA6zSViFx8Nv8iMpWUp0KSf7Kwax1qKjmc3OsyH9PKYtxA-dkrH9N28Rnr2FSs8swQFrmNT7rUXTJEq1hCs_LQ",
+    "tags": [
+      "ゲッター",
+      "グランドライン",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 306,
+    "name": "ニセ麦わらの一味／船長 デマロ・ブラック",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/-TtlEW-gZT4iRSbTDSiWHZIjtt6bJjkeURM7ZwTdKYA-P2vRFsLwVYNWdwULhYcGbT_u97fzUPYyL0YATH602NoET91X85SM1QvmoBKlnefU",
+    "tags": [
+      "ディフェンダー",
+      "船長",
+      "新世界",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "配布"
+  },
+  {
+    "id": 307,
+    "name": "武闘派アニマル クンフージュゴン",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/38S9-LKapUFKZq4QynLdsfHKTN-Tpc7AzSZXAfAc13cr4p2Qa4L6awuQFc91x8-FGm0PlSwxcmQmtIyV3LPsj-IAtnECIDAYxNsD-4Z9WGEkJw",
+    "tags": [
+      "アタッカー",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 308,
+    "name": "STAMPEDEモンキー・D・ルフィ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/J60_a9_5FtKQLRltaWZfxDDa7jfboMbIZy5U5f4b0yqJT3bSoC8LxUL19GPHY3VsEZvce83VhmAP-zUEPOS4GFxKTdUlLwdtUvuyH-aplu3R",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "新世界",
+      "最悪の世代"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 309,
+    "name": "アラバスタ王国／王女ネフェルタリ・ビビ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/tGT1GmTSZPTugPTk6VW-RLzSTOJ5EX0KZvjB9ghZxt9doMdVDduVBo4YjkoFXsvCXLuy0mMOSJbP6aw20etxkOy-uwORzoYV5HcbTEpiVBVckA",
+    "tags": [
+      "ゲッター",
+      "グランドライン",
+      "アラバスタ王国",
+      "バロックワークス／元バロックワークス",
+      "王族／元王族"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 310,
+    "name": "海軍GL第5支部／大佐たしぎ",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/NIn8kRJHFx_sbVkgEDqHEZVcRFk-oXpp6BMbhYwcrV-naHJhAjqCJEgKJvu5xKhjjPzFLvUuyrLXDbB5s54h21ATnUiQcVVk-1lPIxUrFU8",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 311,
+    "name": "ワノ国チョパえもん",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/Y_UJczJo4tH94LKK5THUj1ReSCcCzSyZmU_0DoJohHIUCIKReY5P5uOeA3xl9sI7HRoCJIFsidG8sJZ6hsziXPCQ7Z26BREjgft0-HZJqEc",
+    "tags": [
+      "ゲッター",
+      "新世界",
+      "動物系能力者",
+      "麦わらの一味",
+      "忍者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 312,
+    "name": "天竜人 チャルロス聖",
+    "attr": "白",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/7dPWLAMyGL4YBdMt62gCI_qf_sQYTIGAvFRyKPq426FXUTtQpBsJ-nY56nqzIDe9nEUB08btusdq6imscS9whskHOAaBMoObfzBJ6D6WFzk",
+    "tags": [
+      "ディフェンダー",
+      "グランドライン",
+      "遠距離通常攻撃",
+      "天竜人／元天竜人"
+    ],
+    "obtain_type": "配布"
+  },
+  {
+    "id": 313,
+    "name": "海軍大佐モーガン",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/yGm6BM3yBaXk83y4hgLTI8vvbiPDb4KL8yieosToZZqmj7VJE-yz5hfA_rFiq9yXgdm9b4gxxCm5lWCm95-wdgMGRVEE-GdZ2TuqTddt3pHvTA",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "海軍"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 314,
+    "name": "賞金稼ぎジョニー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/_FsVXwHcLNCiSsNxzUF60gJuJK0kLL3yalxjL_3qyzWbr0zMtY7tTAlNf4dgReXdaNzX7l4Nsq2Ym_3FEyskksX5KPT8YDiM79Cv6H63TB93",
+    "tags": [
+      "ゲッター",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 315,
+    "name": "山賊／棟梁ヒグマ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/9ocyG0IQqS2uLBAGEJO-f3Qz8gx8oKiMwRafsE7RpnOLGghCc2vHNoI3l26w0nw4YaWn0_RAUqduBKHxb2c6H40xr5ge4PCpAfSta845I1Qh",
+    "tags": [
+      "アタッカー",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 316,
+    "name": "賞金稼ぎヨサク",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/8P5MMyjaZ8ZOrlcmCTXqaNkpfs5Josqjjf5cIuu7qnJz6cTmscmqh3OH1ARPqlzVMLJj6mXVCQYLmw_BprJ1CH0Xoi0QSjGn_oG4XpssaAod",
+    "tags": [
+      "ゲッター",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 317,
+    "name": "3000万ベリーの賞金首モンキー・D・ルフィ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 4,
+    "icon": "https://lh3.googleusercontent.com/kBTGi9_Em1u2kWrvuixNnrNWfAx9MXYznunLFxSYf7y2XVic8-N_qHVTmeIWSOrLLwZYWxhmBNpEcmPlZa0RjtUBnPD2PHjpwXmB1_NSayxypw",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 318,
+    "name": "バギー海賊団／参謀長カバジ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/aNXktHEhFZd6UM0exx3jMcxOkvmvkPQ0ENPF_e3Uq3Z4Nbgqz_sh18Kpt0rZkdJMOIG78VLBObhxeYW7kN3uxrD9bVDdcKR_kCVx_p67z60",
+    "tags": [
+      "ゲッター",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 319,
+    "name": "雑用コビー",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/mx2FVwqvh-nboFmZa7iPfwjIzEMmbr_rrRF5pZPVZTYCX_86d23fFZU4JNRi8vKvBNNidECVxfdmuqAzBoOcl-U9fpMQ0JC1UxHBEShV7QJl",
+    "tags": [
+      "ディフェンダー",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 320,
+    "name": "七光りヘルメッポ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/HFdAMalFBOxwFLDVd1VxG7u_BMwSkZYPryQTwq_VS0POPAGGO6iUW8jvM4NwxLxv_azs0MJ-O6XvzVjEXFghow7Gi3n3rhtWp_aRJi5tlJ0e",
+    "tags": [
+      "ゲッター",
+      "東の海",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 321,
+    "name": "麦わらの一味／戦闘員ロロノア・ゾロ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/EOWbwTuO0ocl9bY9ODeamVdbjojyNR0G71xnZZhUmC6yidjFYeEUuPdYO0TgEmjDtWLWomTqNbKD4hBbq5PWlZgLg9TFYNrFewMpnPyqHIsg",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 322,
+    "name": "麦わらの一味／船長モンキー・D・ルフィ",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/mX6Rsg-LHbZf87MI7y5zICdzcI6lshpVowObHpU2Tpa3S5C6Rg3iPIkQ3zzq85pIltxG5_MEwmNGJnMkIxQHxWjZPW6Qy_LYpuvWfVfQTVu9tg",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "麦わらの一味",
+      "超人系能力者",
+      "船長",
+      "能力者"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 323,
+    "name": "麦わらの一味／狙撃手ウソップ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/t0tK8epjMceSA2cZr9ZfpExieMAfLnwe5qd92t4BQP727aKVjN5kYMxofX-arPW77xyWJbWBnolGZGdRiE_bhtglYns2hPhdu3LXerLA6a79",
+    "tags": [
+      "ゲッター",
+      "東の海",
+      "麦わらの一味",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 324,
+    "name": "仔牛肉ショット サンジ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/1GWQtedo1xpMOCvLwnZ8_Ugwb9SKoltYfQgaNXKKHSex5oeaaHcuXJ7y2IYsNqm-UC55H-cymrBS8h9cGcY4PlIz0i9ugH5DmIfLQh3ZeCEC",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 325,
+    "name": "バギー海賊団／船長バギー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/AodgQkz0E3GbdkL_eZ9tqPZzSszmxM8ar671O9otkFu0elGPZrGgJpPFpCbJ4GfIP2t9vJGBwloHYnH8vdnfLeC4-kYi6glR2qSI5Hw-BExm",
+    "tags": [
+      "ゲッター",
+      "東の海",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "ロジャー海賊団／元ロジャー海賊団"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 326,
+    "name": "クリーク海賊艦隊／提督ドン・クリーク",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/if4VpE7NMnM1oK0w_FEi0LlcWG5o9h8XQGcB2SGMGaH6SujaRco3TkJBlUpmwmD_isRx-2ycCiD9EG_jyX951ABXKLxvbM3nfAeU7L7EI7Nu",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 327,
+    "name": "アーロン一味／幹部はっちゃん",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/l5V1tUb1QOmy_T1UvXJ_hjRyDfBdKcVhyR9hX0AJzY0xHE9vrH_NHyj0Yz9t_zeGfCiv9KFW5LMmJX6Jyewvo4fYHoGqsZwbhSzTxW2Eh-8",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "魚人"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 328,
+    "name": "バラティエ／料理長ゼフ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/FxWAw_KrIT8JAcpCQqVZADODLTw-uAgDZoDCMg_-CguYMvFaMKoRXOH3xsS2C6WZM3qoMCpTtwXmHNhFX_RRf8QIUN1FyznPkhfyDd7N6a0",
+    "tags": [
+      "ディフェンダー",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 329,
+    "name": "クリーク海賊艦隊／戦闘総隊長ギン",
+    "attr": "赤",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/30bYvXzxVslMvA6sbrK7A0L53Ishrbfo-yrKt_5lzOPpMS3tIPzNuybDZYh_IDDo7_p5QMRjTEe9qWn4eRklAtGVmdPkOxw-u9g17jTh-Qc",
+    "tags": [
+      "アタッカー",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 330,
+    "name": "アーロン一味／幹部クロオビ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/WGhhm4uWfHSk1YKfz9IU07dzOg-HjDMUt_KG-xWIcv5YBEdxVglCl5m3M_Rnf-HT67Jc96WmHjgYxgSvYaXrSG3rX7SvGymZqN5txyytrRpBsg",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "魚人"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 331,
+    "name": "5tハンマー ウソップ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/WKbm7ijXgpeM4tFvezuDhB7SvPDyqQRHmyNX8hYl-S0kDJoDIP2xSt0OaE-d3aFVsSjHzwOd9UG1Sz10tev44WVjmQE_MjCzEV0WEFV-OgI",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 332,
+    "name": "スベスベの実アルビダ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/4RUrCdsuMmWTEMQ3CyQNRVMQHAhf1-rseOHcNX6EFb_dfBMN17CPWa5O2BeXE84YnyznBMBRt9Iviv5r368LNmMMD5P2c1OQTshssT61iY4sDg",
+    "tags": [
+      "ゲッター",
+      "超人系能力者",
+      "船長",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 333,
+    "name": "麦わらの一味／船大工フランキー",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/6jKH8oUKV6-eWgH1dCzxmM54EmePVc_7Rn4h67WR4Yh1Toc7Qox9wi-XkhVrJrMlqACShZ44DIhPbyOE995RAw6giDlgYh39pMmgH5HytEvB",
+    "tags": [
+      "ディフェンダー",
+      "麦わらの一味",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 334,
+    "name": "麦わらの一味／考古学者ニコ・ロビン",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/LlH4Tq9ssGh5V2yyWnI2AfGpa9MTko4FwsPWlBlgyYzDvOy9PBHfAWHF3Ff54X72NEEU5n-HGhLamX9ag1BVCQkSvpNeB094c1zFLgjUCB-b",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "バロックワークス／元バロックワークス",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 335,
+    "name": "麦わらの一味／音楽家ブルック",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/PM9Xwf4_JhevUFtk0htTdnUVVpx6rBwbCND9H9Ak7gcVr676ZZgvjAUk14aNJ78biYCNSPitKL2qBUveK-4d6LvA3IO1MY1ZMaVHer0bk0scMQ",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "超人系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 336,
+    "name": "麦わらの一味／コック サンジ",
+    "attr": "青",
+    "style": "アタッカー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/r4rP64hTLrblw8uy9wGUpbTG3JrMeESPSXsuC5U5HcG8-s6vxVxD5540GsdfEjsn5SsyIq18jV0p3EhPUMofAevTj8fTG3Sq1UZRKSQtGi5Zpw",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 337,
+    "name": "BW／フロンティアエージェント ミス・ウェンズデー",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/7tpQ1sjb5p-QYkkVAog3nd4IIt9lQ1kzlK44WSU3IQG4oewtHaD33TullspDCFm1ILRC4tjpSxg6nd5aFerqXo1SryTaSGm-BFFoEBHSeEWn",
+    "tags": [
+      "ゲッター",
+      "バロックワークス／元バロックワークス",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 338,
+    "name": "海軍本部／曹長たしぎ",
+    "attr": "青",
+    "style": "ゲッター",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/ekA4HLHMwy-BtvKaHkZtPTS4Kw2WyH5BHHGmcH9pyljcAZjLuqH_8Pnzd3aSKDLQKGKsDApEsE_kXm18d7lOHh7GWr-lnNUYmWtOPgKZKIZ2",
+    "tags": [
+      "ゲッター",
+      "海軍",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 339,
+    "name": "アーロン一味／幹部チュウ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/K4XqXcXorXA5GqYFuQlEzygge2Akm-xVul9QM5_yEUQPQb60UUut2iXQvhvOvssbYbUVgjOBSHhyv3v-UUhtuMGgOtoAM5oHk1qMl8tfkXQ",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "魚人",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 340,
+    "name": "クロネコ海賊団／元船長キャプテン・クロ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/PJp_S_FAq7hm1OQ1KwQqUUX-5ky-FGmvtbKL9xaolBHcSfuAAYzbTrS30IqL06DDciJusXgDWziBqhAtaWSVXlrSD7kC0q4vi3ZszU6NCzDb",
+    "tags": [
+      "アタッカー",
+      "東の海",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 341,
+    "name": "天候棒ナミ",
+    "attr": "緑",
+    "style": "アタッカー",
+    "rarity": 3,
+    "icon": "https://lh3.googleusercontent.com/v5SkL3QmVS2e6Uuyu5IkmQMB-1UAOE7yflz3Klqx6kK9pNVVqaXEkMnoP66ktDhkhInA4rRw2wBruDWRwyaAyvOTd0_la0NEHAg6oCGMeSjUZQ",
+    "tags": [
+      "アタッカー",
+      "麦わらの一味",
+      "グランドライン",
+      "遠距離通常攻撃"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 342,
+    "name": "アルビダ海賊団／船長アルビダ",
+    "attr": "緑",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/0pQ-o8Y3GBkcxsdmQp6_Lb7fPo46dVCT7yL7WbJbiaECcmt0x8Q-vutg3P0OLMIz38kXPLFpi_Lvg72HnEC6dSYiCa8a39Am6A_TsxbubNlY",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 343,
+    "name": "クロネコ海賊団／船長ジャンゴ",
+    "attr": "赤",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/aA9xGaoD8YHoeNhvRpMHEE-80LYy0kk0TZFLROcns1c-kCakOAuxHUmxXYZZLcl7EqNnnlZbnZ_KdmpB74tmtbgjEE7QYlVVVZocKsinb254",
+    "tags": [
+      "ディフェンダー",
+      "東の海",
+      "船長"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 344,
+    "name": "麦わらの一味／船医トニートニー・チョッパー",
+    "attr": "赤",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/dgtOhtYw2EzB9xwZYTblXWosT_5qku1v5BSEJ0AGWE14-LxtPD5zbq_Kk0pOZWd3bytM4oyROC0fpHt-VjzyD3wexik_XDFrt0oBRH0ohRNx",
+    "tags": [
+      "ゲッター",
+      "麦わらの一味",
+      "動物系能力者",
+      "能力者",
+      "グランドライン"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 345,
+    "name": "クロネコ海賊団／船の番人ブチ",
+    "attr": "青",
+    "style": "ディフェンダー",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/hKBnjD-QAp7ASNUAzgV7x7EyMaW495ZMvz1KJRuNJ_siOlzxo_ETwWjCpx_6WQPVQzFyFdI0uE-NmliqH6oD5Bs4IPqLl2rEcV-p3bBnUCRHgQ",
+    "tags": [
+      "ディフェンダー",
+      "東の海"
+    ],
+    "obtain_type": "恒常"
+  },
+  {
+    "id": 346,
+    "name": "麦わらの一味／航海士ナミ",
+    "attr": "緑",
+    "style": "ゲッター",
+    "rarity": 2,
+    "icon": "https://lh3.googleusercontent.com/filGypF0rRma3IdtUfkLFeu0SQJ7-OcTTgP9wbN99H9MWs4FghLwTdNimWg3snSSG6eHF42XWhRHoqDhLDeIaplvMgbPhtq3muQOFSV5UqMLjQ",
+    "tags": [
+      "ゲッター",
+      "東の海",
+      "麦わらの一味"
+    ],
+    "obtain_type": "恒常"
+  }
+]
